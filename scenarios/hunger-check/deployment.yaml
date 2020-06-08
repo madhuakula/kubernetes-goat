@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hunger-check-deployment
+spec:
+  selector:
+    matchLabels:
+      app: hunger-check
+  template:
+    metadata:
+      labels:
+        app: hunger-check
+    spec:
+      containers:
+      - name: hunger-check
+        image: madhuakula/k8s-goat-hunger-check
+        # resources:
+        #   limits:
+        #     memory: "1000Gi"
+        #   requests:
+        #     memory: "1000Gi"
+        # command: ["stress-ng"]
+        # args: ["--vm", "1", "--vm-bytes", "500M", "--vm-hang", "1", "-v"]
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hunger-check-service
+spec:
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 8080
+  selector:
+    app: hunger-check

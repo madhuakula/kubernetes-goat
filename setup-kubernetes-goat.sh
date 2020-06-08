@@ -1,0 +1,52 @@
+#!/bin/bash
+# Author: Madhu Akula
+# This program has been created as part of Kuberentes Goat
+# Kuberentes Goat setup and manage vulnerable infrastrcuture 
+
+# Checking kubectl setup
+kubectl version --short > /dev/null 2>&1 
+if [ $? -eq 0 ];
+then
+    echo "kubectl setup looks good."
+else 
+    echo "Please check kubectl setup."
+    exit;
+fi
+
+# Checking helm2 setup
+helm2 --help > /dev/null 2>&1
+if [ $? -eq 0 ];
+then
+    echo "helm2 setup looks good."
+else
+    echo "Please check helm2 setup."
+    exit;
+fi
+
+# helm2 setup
+echo "setting up helm2 rbac account and initialise tiller"
+kubectl apply -f scenarios/helm2-rbac/setup.yaml
+helm2 init --service-account tiller
+
+# wait for tiller service to ready
+echo "waiting for helm2 tiller service to be active."
+sleep 30
+
+# deploying helm chart to verify the setup
+echo "deploying helm chart metadata-db scenario"
+helm2 install --name metadata-db scenarios/metadata-db/
+
+# setup the scenarios/configurations
+echo 'deploying the vulnerable scenarios manifests'
+kubectl apply -f scenarios/batch-check/job.yaml
+kubectl apply -f scenarios/build-code/deployment.yaml
+kubectl apply -f scenarios/cache-store/deployment.yaml
+kubectl apply -f scenarios/health-check/deployment.yaml
+kubectl apply -f scenarios/hunger-check/deployment.yaml
+kubectl apply -f scenarios/internal-proxy/deployment.yaml
+kubectl apply -f scenarios/kubernetes-goat-home/deployment.yaml
+kubectl apply -f scenarios/poor-registry/deployment.yaml
+kubectl apply -f scenarios/system-monitor/deployment.yaml
+
+echo 'Successfully deployed Kubernetes Goat. Have fun learning Kubernetes Security!'
+echo 'Now run the bash access-kubernetes-goat.sh to access the Kubernetes Goat environment.'

