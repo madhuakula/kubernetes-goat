@@ -32,7 +32,7 @@ export POD_NAME=$(kubectl get pods --namespace default -l "app=system-monitor" -
 kubectl port-forward $POD_NAME 1233:8080 > /dev/null 2>&1 & 
 
 # Exposing Kubernetes Goat Home
-export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=kubernetes-goat-home" -o jsonpath="{.items[0].metadata.name}")
+export POD_NAME=$(kubectl get pods --namespace default -l "app=kubernetes-goat-home" -o jsonpath="{.items[0].metadata.name}")
 kubectl port-forward $POD_NAME 1234:80 > /dev/null 2>&1 & 
 
 # Exposing Attacking private registry Scenario
