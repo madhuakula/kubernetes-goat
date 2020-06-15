@@ -9,11 +9,9 @@ The Kubernetes Goat designed to be intentionally vulnerable cluster environment 
 
 **Refer to [https://madhuakula.com/kubernetes-goat](https://madhuakula.com/kubernetes-goat) for the guide.** 
 
-<center>
-
-![Kubernetes Goat Home](./kubernetes-goat-logo.png)
-
-</center>
+<p align="center">
+  <img width="300" height="300" src="./kubernetes-goat-logo.png" alt="Kubernetes-Goat logo">
+</p>
 
 ## ⚙️ Setting up Kubernetes Goat
 
