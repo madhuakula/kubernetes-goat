@@ -19,7 +19,7 @@ if [ $? -eq 0 ];
 then
     echo "helm2 setup looks good."
 else
-    echo "Error: Could not find helm2, please check helm2 setup.
+    echo "Error: Could not find helm2, please check helm2 setup."
     exit;
 fi
 
