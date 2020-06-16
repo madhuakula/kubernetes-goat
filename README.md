@@ -65,3 +65,9 @@ bash access-kubernetes-goat.sh
 > Kubernetes Goat creates intentionally vulnerable resources into your cluster. DO NOT deploy Kubernetes Goat in a production environment or alongside any sensitive cluster resources.
 
 > Kubernetes Goat comes with absolutely no warranties whatsoever. By using Kubernetes Goat, you take full responsibility for any and all outcomes that result.
+
+## ✨ Contributors
+
+Thanks goes to these wonderful people 🎉
+
+<table><tr><td align="center"><a href="https://github.com/madhuakula"><img alt="madhuakula" src="https://avatars1.githubusercontent.com/u/6764192?v=4" width="117" /><br />madhuakula</a></td><td align="center"><a href="https://github.com/wurstbrot"><img alt="wurstbrot" src="https://avatars2.githubusercontent.com/u/955192?v=4" width="117" /><br />wurstbrot</a></td><td align="center"><a href="https://github.com/podjackel"><img alt="podjackel" src="https://avatars3.githubusercontent.com/u/5067183?v=4" width="117" /><br />podjackel</a></td></tr></table>
