@@ -9,7 +9,7 @@ if [ $? -eq 0 ];
 then
     echo "kubectl setup looks good."
 else 
-    echo "Please check kubectl setup."
+    echo "Error: Could not find kubectl or an other error happend, please check kubectl setup."
     exit;
 fi
 
@@ -19,7 +19,7 @@ if [ $? -eq 0 ];
 then
     echo "helm2 setup looks good."
 else
-    echo "Please check helm2 setup."
+    echo "Error: Could not find helm2, please check helm2 setup.
     exit;
 fi
 
