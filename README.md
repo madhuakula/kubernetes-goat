@@ -3,6 +3,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e5399be3-9c47-4557-b237-9e6c89f6cada/deploy-status)](https://app.netlify.com/sites/kubernetes-goat/deploys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/madhuakula/kubernetes-goat/blob/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/madhuakula/kubernetes-goat.svg)](https://github.com/madhuakula/kubernetes-goat/releases/latest)
+[![Github Stars](https://img.shields.io/github/stars/madhuakula/kubernetes-goat)](https://github.com/madhuakula/kubernetes-goat/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/madhuakula/kubernetes-goat/pulls)
 [![Twitter](https://img.shields.io/twitter/url?url=https://github.com/madhuakula/kubernetes-goat)](https://twitter.com/intent/tweet/?text=Kubernetes%20Goat,%20an%20intentionally%20vulnerable%20by%20design%20training%20platform%20to%20learn%20%23Kubernetes%20Security%20by%20%40madhuakula.%20Check%20it%20out%20&url=https://github.com/madhuakula/kubernetes-goat)
 
