@@ -49,7 +49,7 @@ bash access-kubernetes-goat.sh
 3. SSRF in K8S world
 4. Container escape to access host system
 5. Docker CIS Benchmarks analysis
-6. Kubernertes CIS Benchmarks analysis
+6. Kubernetes CIS Benchmarks analysis
 7. Attacking private registry
 8. NodePort exposed services
 9. Helm v2 tiller to PwN the cluster
