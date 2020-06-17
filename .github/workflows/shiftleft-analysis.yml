@@ -1,0 +1,26 @@
+# This workflow integrates ShiftLeft Scan with GitHub's code scanning feature
+# ShiftLeft Scan is a free open-source security tool for modern DevOps teams
+# Visit https://slscan.io/en/latest/integrations/github-actions/ for help
+name: ShiftLeft Scan
+
+# This section configures the trigger for the workflow. Feel free to customize depending on your convention
+on:
+  push:    
+
+jobs:
+  Scan-Build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Perform ShiftLeft Scan
+      uses: ShiftLeftSecurity/scan-action@master
+      env:
+        WORKSPACE: ""
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        output: reports
+    - name: Upload scan reports
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        name: shiftleft-scan-reports
+        path: reports
