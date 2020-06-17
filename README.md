@@ -15,6 +15,12 @@ The Kubernetes Goat designed to be intentionally vulnerable cluster environment 
   <img width="300" height="300" src="./kubernetes-goat-logo.png" alt="Kubernetes-Goat logo">
 </p>
 
+## 🎲 Just click and Play in browser for free using Katacoda Playground - [Try now]((https://katacoda.com/madhuakula/scenarios/kubernetes-goat))
+
+[![Katacoda Playground Kubernetes Goat](./kubernetes-goat-katacoda.png)](https://katacoda.com/madhuakula/scenarios/kubernetes-goat)
+
+[https://katacoda.com/madhuakula/scenarios/kubernetes-goat](https://katacoda.com/madhuakula/scenarios/kubernetes-goat)
+
 ## ⚙️ Setting up Kubernetes Goat
 
 * Before we setup the Kubernetes Goat, ensure that you have created and admin access to the Kubernetes cluster
