@@ -6,6 +6,14 @@ Ensure you have `kubectl` and `docker` binary installed in your host system to g
 
 ## Access the Kubernetes Goat environment resources
 
+* Ensure the pods are in running state before running the access script
+
+```bash
+kubectl get pods
+```
+
+![all pods running in kubectl get pods](images/all-pods-running.png)
+
 * Run the following scrip to access the environment
 
 ```bash

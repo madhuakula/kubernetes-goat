@@ -30,7 +30,7 @@ helm2 init --service-account tiller
 
 # wait for tiller service to ready
 echo "waiting for helm2 tiller service to be active."
-sleep 30
+sleep 50
 
 # deploying helm chart to verify the setup
 echo "deploying helm chart metadata-db scenario"
@@ -49,4 +49,5 @@ kubectl apply -f scenarios/poor-registry/deployment.yaml
 kubectl apply -f scenarios/system-monitor/deployment.yaml
 
 echo 'Successfully deployed Kubernetes Goat. Have fun learning Kubernetes Security!'
+echo 'Ensure pods are in running status before running access-kubernetes-goat.sh script'
 echo 'Now run the bash access-kubernetes-goat.sh to access the Kubernetes Goat environment.'
