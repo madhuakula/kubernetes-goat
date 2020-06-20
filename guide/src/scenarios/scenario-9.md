@@ -42,7 +42,7 @@ kubectl get secrets -n kube-system
 * Now we can create our own helm chart to give permission to default service account full cluster admin access, as by default the current pod deployed in default namespace which has default service account
 
 ```bash
-helm --host tiller-deploy.kube-system:44134 install /pwnchart
+helm --host tiller-deploy.kube-system:44134 install --name pwnchart /pwnchart
 ```
 
 ![Scenario 9 deploy chart](images/sc-9-5.png)

@@ -21,6 +21,7 @@
   - [Gaining environment information](scenarios/scenario-12.md)
   - [DoS the memory/cpu resources](scenarios/scenario-13.md)
   - [Hacker Container preview](scenarios/scenario-14.md)
+- [Tear down Kubernetes Goat](teardown.md)
 - [Security Scanning Reports](reports/readme.md)
   - [Checkov](reports/checkov.md)
 - [Getting Involved](getting-involved/readme.md)
