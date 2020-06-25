@@ -9,7 +9,7 @@
 
 The Kubernetes Goat designed to be intentionally vulnerable cluster environment to learn and practice Kubernetes security.
 
-**Refer to [https://madhuakula.com/kubernetes-goat](https://madhuakula.com/kubernetes-goat) for the guide.** 
+**Refer to [https://madhuakula.com/kubernetes-goat](https://madhuakula.com/kubernetes-goat) for the guide.**
 
 <p align="center">
   <img width="300" height="300" src="./kubernetes-goat-logo.png" alt="Kubernetes-Goat logo">
@@ -65,6 +65,14 @@ bash access-kubernetes-goat.sh
 12. Gaining environment information
 13. DoS the memory/cpu resources
 14. Hacker Container preview
+
+![Kubernetes Goat Home](./kubernetes-goat-home.png)
+
+## ❤️ Showcase
+
+* Featured in the official Kubernetes Podcast at [https://kubernetespodcast.com/episode/109-kubermatic](https://kubernetespodcast.com/episode/109-kubermatic/)
+* Featured in tl;dr sec [https://tldrsec.com/blog/tldr-sec-039](https://tldrsec.com/blog/tldr-sec-039/)
+* Featured in CloudSecList [https://cloudseclist.com/issues/issue-42](https://cloudseclist.com/issues/issue-42/)
 
 ## ⚠️ Disclaimer
 

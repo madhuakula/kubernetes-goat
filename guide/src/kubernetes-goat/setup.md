@@ -4,6 +4,12 @@ This document explains the steps to setup the Kubernetes Goat in your Kubernetes
 
 > Please do not setup Kuberenetes Goat in your production workloads, as this is designed to be intentionally vulnerable.
 
+## Free online Kubernetes Goat playground
+
+[![Kubernetes playground by Katacoda](images/kubernetes-goat-katacoda.png)](https://katacoda.com/madhuakula/scenarios/kubernetes-goat)
+
+**[https://katacoda.com/madhuakula/scenarios/kubernetes-goat](https://katacoda.com/madhuakula/scenarios/kubernetes-goat)**
+
 ## Pre-requisites
 
 * Ensure you have admin access to the Kubernetes cluster
