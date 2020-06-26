@@ -15,6 +15,12 @@ The Kubernetes Goat designed to be intentionally vulnerable cluster environment 
   <img width="300" height="300" src="./kubernetes-goat-logo.png" alt="Kubernetes-Goat logo">
 </p>
 
+## Recent Kubernetes Goat Presentation & Video at OWASP Bay Area Meetup
+
+[![Introducing Kubernetes Goat - OWASP Bay Area Meetup](https://img.youtube.com/vi/DQllxpb46Yw/0.jpg)](https://youtu.be/DQllxpb46Yw)
+
+[https://youtu.be/DQllxpb46Yw](https://youtu.be/DQllxpb46Yw)
+
 ## 🎲 Just click and Play in browser for free using Katacoda Playground - [Try now]((https://katacoda.com/madhuakula/scenarios/kubernetes-goat))
 
 [![Katacoda Playground Kubernetes Goat](./kubernetes-goat-katacoda.png)](https://katacoda.com/madhuakula/scenarios/kubernetes-goat)
@@ -70,6 +76,7 @@ bash access-kubernetes-goat.sh
 
 ## ❤️ Showcase
 
+* Presented at OWASP Bay Area Meetup at [https://youtu.be/DQllxpb46Yw](https://youtu.be/DQllxpb46Yw)
 * Featured in the official Kubernetes Podcast at [https://kubernetespodcast.com/episode/109-kubermatic](https://kubernetespodcast.com/episode/109-kubermatic/)
 * Featured in tl;dr sec [https://tldrsec.com/blog/tldr-sec-039](https://tldrsec.com/blog/tldr-sec-039/)
 * Featured in CloudSecList [https://cloudseclist.com/issues/issue-42](https://cloudseclist.com/issues/issue-42/)
