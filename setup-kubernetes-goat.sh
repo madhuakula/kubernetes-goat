@@ -3,6 +3,11 @@
 # This program has been created as part of Kuberentes Goat
 # Kuberentes Goat setup and manage vulnerable infrastrcuture 
 
+
+#Starting minikube
+echo "Starting minikube..."
+minikube start
+sleep 25
 # Checking kubectl setup
 kubectl version --short > /dev/null 2>&1 
 if [ $? -eq 0 ];
