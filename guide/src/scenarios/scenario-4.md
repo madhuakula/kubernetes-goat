@@ -1,8 +1,8 @@
-# Container escape to access host system
+# Container escape to access the host system
 
 ## Scenario Information
 
-Most of the monitoring, tracing and debugging software require to run with extra privileges and capabilities. Here in this scenario, we will see a pod with extra capabilities and privileges including HostPath allows us to gain access to host system and provide Node level configuration to gain complete cluster compromise.
+Most of the monitoring, tracing, and debugging software requires to run with extra privileges and capabilities. Here in this scenario, we will see a pod with extra capabilities and privileges including HostPath allows us to gain access to the host system and provide Node level configuration to gain complete cluster compromise.
 
 * To get started with the scenario, navigate to [http://127.0.0.1:1233](http://127.0.0.1:1233)
 
@@ -10,7 +10,7 @@ Most of the monitoring, tracing and debugging software require to run with extra
 
 ## Scenario Solution
 
-After performing the analysis, we identified that this container has complete privileges of host system and allowed privilege escalation. As well as `/host-system` is mounted from the host system.
+After performing the analysis, we identified that this container has complete privileges of the host system and allowed privilege escalation. As well as `/host-system` is mounted from the host system.
 
 ```bash
 ls /
@@ -38,7 +38,7 @@ cat /var/lib/kubelet/kubeconfig
 
 > Download the kubectl locally to use this config and perform operations
 
-* Using the kubelet configuration to perform Kubernetes cluster wide resources
+* Using the kubelet configuration to perform Kubernetes cluster-wide resources
 
 ```bash
 kubectl --kubeconfig /var/lib/kubelet/kubeconfig get all -n kube-system

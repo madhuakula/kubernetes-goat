@@ -1,8 +1,8 @@
 # Kubernetes Cluster Setup
 
-Before we setup the Kubernetes Goat, we need to have working Kubernetes cluster admin access.
+Before we set up the Kubernetes Goat, we need to have a working Kubernetes cluster admin access.
 
-There are many ways you can run the Kubernetes Cluster. Some of them includes running in
+There are many ways you can run the Kubernetes Cluster. Some of them include running in
 
 * Cloud provider Kubernetes service (like GKE, EKS, AKS, DO, etc.)
 * Locally provisioned cluster

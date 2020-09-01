@@ -2,9 +2,9 @@
 
 ## Scenario Information
 
-By default Kubernetes uses flat networking schema, which means any pod/service with in the cluster can talk to other. The namespaces with in the cluster doesn't have any network security restrictions by default. Anyone in the any namespace can talk to other namespace. We heard that Kubernetes-Goat loves cache. Let's see if we gain access to other namespaces
+By default, Kubernetes uses a flat networking schema, which means any pod/service within the cluster can talk to other. The namespaces within the cluster don't have any network security restrictions by default. Anyone in the namespace can talk to other namespaces. We heard that Kubernetes-Goat loves cache. Let's see if we gain access to other namespaces
 
-* To get started with the scenario, let's run our awesome `hacker-container` in default namespace
+* To get started with the scenario, let's run our awesome `hacker-container` in the default namespace
 
 ```bash
 kubectl run -it hacker-container --image=madhuakula/hacker-container -- sh
@@ -39,13 +39,13 @@ zmap -p 6379 10.0.0.0/8 -o results.csv
 
 ```bash
 redis-cli -h 10.12.0.2
-KEYS * 
+KEYS *
 GET SECRETSTUFF
 ```
 
 ![Scenario 11 redis access](images/sc-11-5.png)
 
-> There are many other services and resources exposed with in the cluster like ElasticSearch, Mongo, etc. So if your recon skill is good then you got gold mine here.
+> There are many other services and resources exposed within the cluster like ElasticSearch, Mongo, etc. So if your recon skill is good then you got a gold mine here.
 
 ## Miscellaneous
 

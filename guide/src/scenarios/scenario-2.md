@@ -1,8 +1,8 @@
-# DIND(docker-in-docker) exploitation
+# DIND (docker-in-docker) exploitation
 
 ## Scenario Information
 
-Most of the CI/CD and pipeline system which use Docker and build containers for you with in the pipeline use something called DIND (docker-in-docker). Here in this scenario, we try to exploit and gain access to host system.
+Most of the CI/CD and pipeline systems that use Docker and build containers for you within the pipeline use something called DIND (docker-in-docker). Here in this scenario, we try to exploit and gain access to the host system.
 
 * To get started with the scenario, navigate to [http://127.0.0.1:1231](http://127.0.0.1:1231) and username is `admin` and password `kubernetesgoat`
 
@@ -44,7 +44,7 @@ mount
 
 ![Scenario 2 extract binary](images/sc-2-6.png)
 
-* Access he host system by running the following docker commands with `docker.sock`
+* Access the host system by running the following docker commands with `docker.sock`
 
 ```bash
 ;/tmp/docker/docker -H unix:///custom/docker/docker.sock ps

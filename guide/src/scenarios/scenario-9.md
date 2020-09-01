@@ -5,7 +5,7 @@
 Helm is a package manager for Kubernetes. It's like `apt-get` for ubuntu. In this scenario, we will see the older version of helm (version 2), tiller service RBAC default setup to gain access to the completed cluster.
 
 * To get started with the scenario, run the following command
-  
+
 ```bash
 kubectl run --rm --restart=Never -it --image=madhuakula/k8s-goat-helm-tiller -- bash
 ```
@@ -39,7 +39,7 @@ kubectl get secrets -n kube-system
 
 ![Scenario 9 before secrets](images/sc-9-4.png)
 
-* Now we can create our own helm chart to give permission to default service account full cluster admin access, as by default the current pod deployed in default namespace which has default service account
+* Now we can create our own helm chart to give permissions to default service account full cluster admin access, as by default the current pod deployed in default namespace which has the default service account
 
 ```bash
 helm --host tiller-deploy.kube-system:44134 install --name pwnchart /pwnchart
@@ -55,7 +55,7 @@ kubectl get secrets -n kube-system
 
 ![Scenario 9 deploy chart](images/sc-9-6.png)
 
-> This scenario varies how the tiller deployment has been performed, sometimes admins deploy tiller to specific namespace with specific privilege. Also from Helm version 3 there is no tiller service to mitigate such vulnerabilities
+> This scenario varies how the tiller deployment has been performed, sometimes admins deploy tiller to a specific namespace with specific privilege. Also from Helm version 3, there is no tiller service to mitigate such vulnerabilities
 
 ## Miscellaneous
 

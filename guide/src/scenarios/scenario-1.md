@@ -1,8 +1,8 @@
-# Sensitive keys in code bases
+# Sensitive keys in codebases
 
 ## Scenario Information
 
-Developers tend to commit sensitive information to version control systems. As we are moving towards CI/CD and GitOps systems, we tend to forgot identifying sensitive information in code and commits. Let's see if we can find something cool here!
+Developers tend to commit sensitive information to version control systems. As we are moving towards CI/CD and GitOps systems, we tend to forgot to identify sensitive information in code and commits. Let's see if we can find something cool here!
 
 * To get started with the scenario, navigate to [http://127.0.0.1:1230](http://127.0.0.1:1230)
 
@@ -12,11 +12,11 @@ Developers tend to commit sensitive information to version control systems. As w
 
 ### Method 1
 
-After reading the scenario description and application information. We have performed some discovery and analysis, then identified that it has `.git` folder exposed with in the application.
+After reading the scenario description and application information. We have performed some discovery and analysis, then identified that it has `.git` folder exposed within the application.
 
 ![Scenario 1 Git folder found](images/sc-1-2.png)
 
-* Clone the git repository locally by running the following command. Ensure you have setup [git-dumper](https://github.com/arthaud/git-dumper) locally before running the below command
+* Clone the git repository locally by running the following command. Ensure you have set up [git-dumper](https://github.com/arthaud/git-dumper) locally before running the below command
 
 ```bash
 python3 git-dumper.py http://localhost:1230/.git k8s-goat-git
@@ -33,7 +33,7 @@ git log
 
 ![Scenario 1 Git log history](images/sc-1-4.png)
 
-* Checkout to old commit to specific version
+* Checkout an old commit for a specific version
 
 ```bash
 git checkout 128029d89797957957b2a7198d8d159b239b34eb
@@ -45,7 +45,7 @@ cat .env
 
 ### Method 2
 
-Sometimes, we ideally have access to the pods or containers access and we can also perform analysis from with in the container as well.
+Sometimes, we ideally have access to the pods or containers access and we can also perform analysis from within the container as well.
 
 ```bash
 export POD_NAME=$(kubectl get pods --namespace default -l "app=build-code" -o jsonpath="{.items[0].metadata.name}")

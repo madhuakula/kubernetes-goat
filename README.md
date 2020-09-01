@@ -7,7 +7,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/madhuakula/kubernetes-goat/pulls)
 [![Twitter](https://img.shields.io/twitter/url?url=https://github.com/madhuakula/kubernetes-goat)](https://twitter.com/intent/tweet/?text=Kubernetes%20Goat,%20an%20intentionally%20vulnerable%20by%20design%20training%20platform%20to%20learn%20%23Kubernetes%20Security%20by%20%40madhuakula.%20Check%20it%20out%20&url=https://github.com/madhuakula/kubernetes-goat)
 
-The Kubernetes Goat designed to be intentionally vulnerable cluster environment to learn and practice Kubernetes security.
+The Kubernetes Goat is designed to be an intentionally vulnerable cluster environment to learn and practice Kubernetes security.
 
 **Refer to [https://madhuakula.com/kubernetes-goat](https://madhuakula.com/kubernetes-goat) for the guide.**
 
@@ -21,7 +21,7 @@ The Kubernetes Goat designed to be intentionally vulnerable cluster environment 
 
 [https://youtu.be/DQllxpb46Yw](https://youtu.be/DQllxpb46Yw)
 
-## 🎲 Just click and Play in browser for free using Katacoda Playground - [Try now]((https://katacoda.com/madhuakula/scenarios/kubernetes-goat))
+## 🎲 Just click and Play in the browser for free using Katacoda Playground - [Try now]((https://katacoda.com/madhuakula/scenarios/kubernetes-goat))
 
 [![Katacoda Playground Kubernetes Goat](./kubernetes-goat-katacoda.png)](https://katacoda.com/madhuakula/scenarios/kubernetes-goat)
 
@@ -29,13 +29,13 @@ The Kubernetes Goat designed to be intentionally vulnerable cluster environment 
 
 ## ⚙️ Setting up Kubernetes Goat
 
-* Before we setup the Kubernetes Goat, ensure that you have created and admin access to the Kubernetes cluster
+* Before we set up the Kubernetes Goat, ensure that you have created and have admin access to the Kubernetes cluster
 
 ```bash
 kubectl version --short
 ```
 
-* Setup the helm version 2 in path as `helm2`. Refer to helm [releases](https://github.com/helm/helm/releases) for more information about setup
+* Set up the helm version 2 in your path as `helm2`. Refer to helm [releases](https://github.com/helm/helm/releases) for more information about setup
 
 ```bash
 helm2 --help
@@ -57,8 +57,8 @@ bash access-kubernetes-goat.sh
 
 ## 🏁 Scenarios
 
-1. Sensitive keys in code bases
-2. DIND(docker-in-docker) exploitation
+1. Sensitive keys in codebases
+2. DIND (docker-in-docker) exploitation
 3. SSRF in K8S world
 4. Container escape to access host system
 5. Docker CIS Benchmarks analysis
@@ -69,7 +69,7 @@ bash access-kubernetes-goat.sh
 10. Analysing crypto miner container
 11. Kubernetes Namespaces bypass
 12. Gaining environment information
-13. DoS the memory/cpu resources
+13. DoS the memory/CPU resources
 14. Hacker Container preview
 
 ![Kubernetes Goat Home](./kubernetes-goat-home.png)
@@ -86,7 +86,7 @@ bash access-kubernetes-goat.sh
 
 > Kubernetes Goat creates intentionally vulnerable resources into your cluster. DO NOT deploy Kubernetes Goat in a production environment or alongside any sensitive cluster resources.
 
-> Kubernetes Goat comes with absolutely no warranties whatsoever. By using Kubernetes Goat, you take full responsibility for any and all outcomes that result.
+> Kubernetes Goat comes with absolutely no warranties whatsoever. By using Kubernetes Goat, you take full responsibility for all outcomes that result.
 
 ## ✨ Contributors
 

@@ -2,7 +2,7 @@
 
 ## Scenario Information
 
-Container registry is the place where all the container images gets pushed. Most of the time each organization have their own private registry. Also sometimes it ends up misconfigured, public/open. On the other hand, developers assumes that it's internal private registry only and end up storing all the sensitive information inside the container images. Let's see what we can find here.
+A container registry is a place where all the container images get pushed. Most of the time each organization has its own private registry. Also sometimes it ends up misconfigured, public/open. On the other hand, developers assume that their internal private registry only and end up storing all the sensitive information inside the container images. Let's see what we can find here.
 
 * To get started with the scenario, navigate to [http://127.0.0.1:1235](http://127.0.0.1:1235)
 
@@ -10,11 +10,11 @@ Container registry is the place where all the container images gets pushed. Most
 
 ## Scenario Solution
 
-> As this is intentionally vulnerable design, we directly provided the endpoint. In real-world you have to do some recon.
+> As this is an intentionally vulnerable design, we directly provided the endpoint. In the real-world you have to do some recon.
 
 * Based on the scenario and information, we identified that it's possible docker container private registry
 
-* After reading some docs and googling, here is the simple API endpoint queries for the container registry
+* After reading some docs and googling, here are the simple API endpoint queries for the container registry
 
 ```bash
 curl http://127.0.0.1:1235/v2/
@@ -38,7 +38,7 @@ curl http://127.0.0.1:1235/v2/madhuakula/k8s-goat-users-repo/manifests/latest
 
 ![Scenario 7 api key info](images/sc-7-4.png)
 
-> This can be taken little further by using `docker` client to download the images locally and analyzing. Also in some case you can even push the image to registry based on the permissions and privileges
+> This can be taken a little further by using the `docker` client to download the images locally and analysing. Also in some cases you can even push the image to the registry based on the permissions and privileges
 
 ## Miscellaneous
 

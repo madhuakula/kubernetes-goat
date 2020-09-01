@@ -2,7 +2,7 @@
 
 ## Scenario Information
 
-Each environment in the Kubernetes will have lot of information to share. Some of the key things includes, secrets, apikeys, configs, services, many other. So let's go ahead and find the vault key!
+Each environment in Kubernetes will have a lot of information to share. Some of the key things include secrets, api keys, configs, services, and a lot more. So let's go ahead and find the vault key!
 
 * To get started with the scenario, navigate to [http://127.0.0.1:1233](http://127.0.0.1:1233)
 
@@ -10,7 +10,7 @@ Each environment in the Kubernetes will have lot of information to share. Some o
 
 ## Scenario Solution
 
-* Go ahead and explore the system as generic linux system
+* Go ahead and explore the system as a generic linux system
 
 ```bash
 cat /proc/self/cgroup
@@ -21,7 +21,7 @@ ls -la /home/
 
 ![Scenario 12 explore](images/sc-12-2.png)
 
-* Getting the environment variables, including kubernetes secrets mounted `K8S_GOAT_VAULT_KEY=k8s-goat-cd2da27224591da2b48ef83826a8a6c` and service names, ports, etc.
+* Getting the environment variables, including Kubernetes secrets mounted `K8S_GOAT_VAULT_KEY=k8s-goat-cd2da27224591da2b48ef83826a8a6c` and service names, ports, etc.
 
 ```bash
 printenv
