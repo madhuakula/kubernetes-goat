@@ -15,11 +15,16 @@ The Kubernetes Goat is designed to be an intentionally vulnerable cluster enviro
   <img width="300" height="300" src="./kubernetes-goat-logo.png" alt="Kubernetes-Goat logo">
 </p>
 
-## Recent Kubernetes Goat Presentation & Video at OWASP Bay Area Meetup
+## Recent Kubernetes Goat Presentations
+
+**OWASP Bay Area Meetup**
 
 [![Introducing Kubernetes Goat - OWASP Bay Area Meetup](https://img.youtube.com/vi/DQllxpb46Yw/0.jpg)](https://youtu.be/DQllxpb46Yw)
 
-[https://youtu.be/DQllxpb46Yw](https://youtu.be/DQllxpb46Yw)
+**DEFCON Red Team Village**
+
+[![Kubernetes Goat - DEFCON Red Team Village](https://img.youtube.com/vi/aEaSZJRbnTo/0.jpg)](https://youtu.be/aEaSZJRbnTo)
+
 
 ## 🎲 Just click and Play in the browser for free using Katacoda Playground - [Try now]((https://katacoda.com/madhuakula/scenarios/kubernetes-goat))
 
@@ -77,6 +82,7 @@ bash access-kubernetes-goat.sh
 ## ❤️ Showcase
 
 * Presented at OWASP Bay Area Meetup at [https://youtu.be/DQllxpb46Yw](https://youtu.be/DQllxpb46Yw)
+* Presented at DEF CON RED Team Vilalge [https://youtu.be/aEaSZJRbnTo](https://youtu.be/aEaSZJRbnTo)
 * Presented at OWASP San Diego at [https://www.meetup.com/Open-Web-Application-Security-Project-San-Diego-OWASP-SD/events/hmbbkrybckbvb/](https://www.meetup.com/Open-Web-Application-Security-Project-San-Diego-OWASP-SD/events/hmbbkrybckbvb/)
 * Featured in the official Kubernetes Podcast at [https://kubernetespodcast.com/episode/109-kubermatic](https://kubernetespodcast.com/episode/109-kubermatic/)
 * Featured in tl;dr sec [https://tldrsec.com/blog/tldr-sec-039](https://tldrsec.com/blog/tldr-sec-039/)
