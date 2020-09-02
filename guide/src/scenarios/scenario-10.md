@@ -2,7 +2,7 @@
 
 ## Scenario Information
 
-Crypto mining has became popular with these modern infrastructure. Especially environments like Kubernetes is easy target as you might not event look what exactly the container image built upon and what it is doing with proactive monitoring. Here in this scenario, we will analyse and identify the crypto miner.
+Crypto mining has become popular with modern infrastructure. Especially environments like Kubernetes are an easy target as you might not even look at what exactly the container image builds upon and what it is doing with proactive monitoring. Here in this scenario, we will analyse and identify the crypto miner.
 
 * To get started, identify all the resources/images in the Kubernetes cluster. Including Jobs.
 
@@ -14,7 +14,7 @@ kubectl get jobs
 
 ## Scenario Solution
 
-> Identify the all resources with in Kubernetes cluster. If possible get into details of each container image available in all the nodes with in the cluster as well
+> Identify all resources within a Kubernetes cluster. If possible get into details of each container image available in all the nodes within the cluster as well
 
 * Once we have identified the job we ran in the Kubernetes cluster, got the pod information by running following command
 

@@ -1,8 +1,8 @@
-# Google Kubernets Engine(GKE) Setup
+# Google Kubernetes Engine(GKE) Setup
 
 * Navigate to your Google cloud console [https://console.cloud.google.com](https://console.cloud.google.com/)
 
-* Choose the project you want to setup the Kubernetes Cluster in Google Cloud
+* Choose the project you want to set up the Kubernetes Cluster in Google Cloud
 
 * Then open the Google Cloud Shell. Click on the top right terminal icon
 
@@ -11,7 +11,7 @@
 ## Creating new GKE cluster
 
 ```bash
-# Importing requried environment varibales
+# Importing required environment variables
 export KUBERNETESGOATCLUSTERNAME="kubernetes-goat"
 export KUBERNETESGOATREGION="us-central1"
 export KUBERNETESGOATCLUSTERVERSION="1.16.8-gke.15"
@@ -24,7 +24,7 @@ gcloud beta container --project "$KUBERNETESGOATPROJECTNAME" clusters create "$K
 gcloud container clusters get-credentials $KUBERNETESGOATCLUSTERNAME --zone $KUBERNETESGOATREGION-a --project $KUBERNETESGOATPROJECTNAME
 ```
 
-* Check the kubernetes cluster access by running `kubectl version --short`
+* Check the Kubernetes cluster access by running `kubectl version --short`
 
 ![](images/kubectl-version-check.jpg)
 
@@ -32,4 +32,4 @@ gcloud container clusters get-credentials $KUBERNETESGOATCLUSTERNAME --zone $KUB
 
 * When you start the new project or creating Kubernetes cluster first time in GKE, it might take a while to enable the API. So you might see below error/message information.
 
-> Kubernetes Engine API is being enabled. This may take a minute or more. Learn more 
+> Kubernetes Engine API is being enabled. This may take a minute or more. Learn more

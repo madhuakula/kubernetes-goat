@@ -1,8 +1,8 @@
 # Scenarios
 
-Welcome to Kubernetes Goat Scenarios. This is the home for exploring your Kubernetes Goat scenarios, discovery, exploitation,attacks, endpoints, etc.
+Welcome to Kubernetes Goat Scenarios. This is the home for exploring your Kubernetes Goat scenarios, discovery, exploitation, attacks, endpoints, etc.
 
-Ensure you have `kubectl` and `docker` binary installed in your host system to get maximum out of this training platform. Follow the each scenario by clicking on the each scenario.
+Ensure you have `kubectl` and `docker` binary installed in your host system to get maximum out of this training platform. Follow each scenario by clicking on the scenario.
 
 ## Access the Kubernetes Goat environment resources
 
@@ -14,7 +14,7 @@ kubectl get pods
 
 ![all pods running in kubectl get pods](images/all-pods-running.png)
 
-* Run the following scrip to access the environment
+* Run the following script to access the environment
 
 ```bash
 bash access-kubernetes-goat.sh
@@ -31,7 +31,7 @@ bash access-kubernetes-goat.sh
 ## List of Scenarios
 
 1. [Sensitive keys in code bases](scenario-1.md)
-2. [DIND(docker-in-docker) exploitation](scenario-2.md)
+2. [DIND (docker-in-docker) exploitation](scenario-2.md)
 3. [SSRF in K8S world](scenario-3.md)
 4. [Container escape to access host system](scenario-4.md)
 5. [Docker CIS Benchmarks analysis](scenario-5.md)

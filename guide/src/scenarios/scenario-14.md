@@ -2,7 +2,7 @@
 
 ## Scenario Information
 
-This scenario, is just an exploration of the common security utilities inside the Kubernetes Cluster environment. I think by this time you might have already used hacker-container multiple times.
+This scenario is just an exploration of the common security utilities inside the Kubernetes Cluster environment. I think by this time you might have already used hacker-container multiple times.
 
 * To get started with this scenario. Run the hacker container using the below command
 
@@ -16,7 +16,7 @@ kubectl run -it hacker-container --image=madhuakula/hacker-container -- sh
 
 Hacker Container is a utility with the list of useful tools/commands while hacking Kubernetes Clusters. So there is not limit to your exploration with Kubernetes environments. Here we will see some of the most useful and powerful utilities
 
-* Container introspection utility to get overview of the system capabilities, etc.
+* Container introspection utility to get an overview of the system capabilities, etc.
 
 ```bash
 amicontained

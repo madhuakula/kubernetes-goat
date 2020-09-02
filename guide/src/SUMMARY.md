@@ -8,7 +8,7 @@
 - [Kubernetes Goat Setup](kubernetes-goat/setup.md)
 - [Scenarios](scenarios/readme.md)
   - [Sensitive keys in code bases](scenarios/scenario-1.md)
-  - [DIND(docker-in-docker) exploitation](scenarios/scenario-2.md)
+  - [DIND (docker-in-docker) exploitation](scenarios/scenario-2.md)
   - [SSRF in K8S world](scenarios/scenario-3.md)
   - [Container escape to access host system](scenarios/scenario-4.md)
   - [Docker CIS Benchmarks analysis](scenarios/scenario-5.md)
