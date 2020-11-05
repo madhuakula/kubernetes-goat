@@ -25,6 +25,9 @@ The Kubernetes Goat is designed to be an intentionally vulnerable cluster enviro
 
 [![Kubernetes Goat - DEFCON Red Team Village](https://img.youtube.com/vi/aEaSZJRbnTo/0.jpg)](https://youtu.be/aEaSZJRbnTo)
 
+**EkoParty 2020 - DevSecOps**
+
+[![Kubernetes Goat - EkoParty 2020 DevSecOps](https://img.youtube.com/vi/XqwbVU-gtng/0.jpg)](https://youtu.be/XqwbVU-gtng)
 
 ## 🎲 Just click and Play in the browser for free using Katacoda Playground - [Try now]((https://katacoda.com/madhuakula/scenarios/kubernetes-goat))
 
@@ -87,6 +90,10 @@ bash access-kubernetes-goat.sh
 * Featured in the official Kubernetes Podcast at [https://kubernetespodcast.com/episode/109-kubermatic](https://kubernetespodcast.com/episode/109-kubermatic/)
 * Featured in tl;dr sec [https://tldrsec.com/blog/tldr-sec-039](https://tldrsec.com/blog/tldr-sec-039/)
 * Featured in CloudSecList [https://cloudseclist.com/issues/issue-42](https://cloudseclist.com/issues/issue-42/)
+* Presented at EkoParty 2020 DevSecOps [https://youtu.be/XqwbVU-gtng](https://youtu.be/XqwbVU-gtng)
+* Presented at c0c0cn 2020 [https://india.c0c0n.org/2020/speakers#madhu_akula](https://india.c0c0n.org/2020/speakers#madhu_akula)
+* Featured in Info Ck YouTube channel [https://youtu.be/5ojho4L6Xfo](https://youtu.be/5ojho4L6Xfo)
+* Presented in Cloud Native Indonesia Meetup [https://youtu.be/pf5jOGWoWU0](https://youtu.be/pf5jOGWoWU0)
 
 ## ⚠️ Disclaimer
 
