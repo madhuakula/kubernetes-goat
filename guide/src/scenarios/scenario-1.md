@@ -42,6 +42,8 @@ cat .env
 ```
 
 ![Scenario 1 Gain access to flag](images/sc-1-5.png)
+![Scenario 1 Gain access to flag](images/sc-1-6.png)
+![Scenario 1 Gain access to flag](images/sc-1-7.png)
 
 ### Method 2
 
