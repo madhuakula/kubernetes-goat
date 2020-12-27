@@ -1,0 +1,12 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: ingress-bad
+spec:
+  rules:
+  - host: acmecorp.com
+    http:
+      paths:
+      - backend:
+          serviceName: nginx
+          servicePort: 80
