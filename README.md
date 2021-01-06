@@ -12,9 +12,7 @@ The Kubernetes Goat is designed to be an intentionally vulnerable cluster enviro
 
 **Refer to [https://madhuakula.com/kubernetes-goat](https://madhuakula.com/kubernetes-goat) for the guide.**
 
-<p align="center">
-  <img width="300" height="300" src="./kubernetes-goat-logo.png" alt="Kubernetes-Goat logo">
-</p>
+![Kubernetes Goat Home](./kubernetes-goat-home.png)
 
 ## Recent Kubernetes Goat Presentations
 
@@ -64,6 +62,12 @@ bash setup-kubernetes-goat.sh
 bash access-kubernetes-goat.sh
 ```
 
+* Then navigate to [http://127.0.0.1:1234](http://127.0.0.1:1234)
+
+### Kubernetes Goat - KIND setup
+
+* If you want to setup Kuberntes Goat using KIND, refer to [kind-setup](kind-setup/README.md)
+
 ## 🏁 Scenarios
 
 1. Sensitive keys in codebases
@@ -80,8 +84,6 @@ bash access-kubernetes-goat.sh
 12. Gaining environment information
 13. DoS the memory/CPU resources
 14. Hacker Container preview
-
-![Kubernetes Goat Home](./kubernetes-goat-home.png)
 
 ## ❤️ Showcase
 
@@ -106,4 +108,4 @@ bash access-kubernetes-goat.sh
 
 Thanks goes to these wonderful people 🎉
 
-<table><tr><td align="center"><a href="https://github.com/madhuakula"><img alt="madhuakula" src="https://avatars1.githubusercontent.com/u/6764192?v=4" width="117" /><br />madhuakula</a></td><td align="center"><a href="https://github.com/NF997"><img alt="NF997" src="https://avatars2.githubusercontent.com/u/23374308?v=4" width="117" /><br />NF997</a></td><td align="center"><a href="https://github.com/wurstbrot"><img alt="wurstbrot" src="https://avatars2.githubusercontent.com/u/955192?v=4" width="117" /><br />wurstbrot</a></td><td align="center"><a href="https://github.com/podjackel"><img alt="podjackel" src="https://avatars3.githubusercontent.com/u/5067183?v=4" width="117" /><br />podjackel</a></td></tr></table>
+<table><tr><td align="center"><a href="https://github.com/madhuakula"><img alt="madhuakula" src="https://avatars1.githubusercontent.com/u/6764192?v=4" width="100" /><br />madhuakula</a></td><td align="center"><a href="https://github.com/macagr"><img alt="macagr" src="https://avatars3.githubusercontent.com/u/2797772?v=4" width="100" /><br />macagr</a></td><td align="center"><a href="https://github.com/NF997"><img alt="NF997" src="https://avatars2.githubusercontent.com/u/23374308?v=4" width="100" /><br />NF997</a></td><td align="center"><a href="https://github.com/wurstbrot"><img alt="wurstbrot" src="https://avatars2.githubusercontent.com/u/955192?v=4" width="100" /><br />wurstbrot</a></td><td align="center"><a href="https://github.com/podjackel"><img alt="podjackel" src="https://avatars3.githubusercontent.com/u/5067183?v=4" width="100" /><br />podjackel</a></td></tr></table>
