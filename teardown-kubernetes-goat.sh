@@ -3,6 +3,9 @@
 # This program has been created as part of Kuberentes Goat
 # Teardown Kuberentes Goat setup
 
+# Setup working dir
+cd "${0%/*}"
+
 # Removing the helm-tiller cluster role/binding
 kubectl delete clusterrole all-your-base
 kubectl delete clusterrolebindings belong-to-us
