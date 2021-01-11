@@ -66,11 +66,11 @@ bash access-kubernetes-goat.sh
 
 ### Kubernetes Goat - KIND setup
 
-* If you want to setup Kuberntes Goat using KIND, refer to [kind-setup](kind-setup/README.md)
+* If you want to setup Kubernetes Goat using KIND, refer to [kind-setup](kind-setup/README.md)
 
 ## 🏁 Scenarios
 
-1. Sensitive keys in codebases
+1. Sensitive keys in code-bases
 2. DIND (docker-in-docker) exploitation
 3. SSRF in K8S world
 4. Container escape to access host system
@@ -88,7 +88,7 @@ bash access-kubernetes-goat.sh
 ## ❤️ Showcase
 
 * Presented at OWASP Bay Area Meetup at [https://youtu.be/DQllxpb46Yw](https://youtu.be/DQllxpb46Yw)
-* Presented at DEF CON RED Team Vilalge [https://youtu.be/aEaSZJRbnTo](https://youtu.be/aEaSZJRbnTo)
+* Presented at DEF CON RED Team Village [https://youtu.be/aEaSZJRbnTo](https://youtu.be/aEaSZJRbnTo)
 * Presented at OWASP San Diego at [https://www.meetup.com/Open-Web-Application-Security-Project-San-Diego-OWASP-SD/events/hmbbkrybckbvb/](https://www.meetup.com/Open-Web-Application-Security-Project-San-Diego-OWASP-SD/events/hmbbkrybckbvb/)
 * Featured in the official Kubernetes Podcast at [https://kubernetespodcast.com/episode/109-kubermatic](https://kubernetespodcast.com/episode/109-kubermatic/)
 * Featured in tl;dr sec [https://tldrsec.com/blog/tldr-sec-039](https://tldrsec.com/blog/tldr-sec-039/)
