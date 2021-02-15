@@ -30,7 +30,7 @@ spec:
         - name: docker-sock-volume
           hostPath:
             path: /var/run/docker.sock
-            type: File
+            type: Socket
 ---
 apiVersion: v1
 kind: Service
