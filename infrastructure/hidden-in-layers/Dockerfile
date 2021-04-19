@@ -1,7 +1,10 @@
-FROM alpine
+FROM alpine:latest
 
-MAINTAINER "Rewanth Cool" INFO="Kubernetes Goat"
+LABEL MAINTAINER "Madhu Akula" INFO="Kubernetes Goat"
 
-ADD ./secret.txt /root/secret.txt
-RUN cat /root/secret.txt && rm -rf /root/secret.txt
-CMD sleep 10d
+ADD secret.txt /root/secret.txt
+
+RUN echo "Contributed by Rewanth Cool" >> /root/contribution.txt \
+    && rm -rf /root/secret.txt
+
+CMD ["sh", "-c", "tail -f /dev/null"]
