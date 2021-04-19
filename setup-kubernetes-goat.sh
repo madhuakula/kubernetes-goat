@@ -50,6 +50,7 @@ kubectl apply -f scenarios/internal-proxy/deployment.yaml
 kubectl apply -f scenarios/kubernetes-goat-home/deployment.yaml
 kubectl apply -f scenarios/poor-registry/deployment.yaml
 kubectl apply -f scenarios/system-monitor/deployment.yaml
+kubectl apply -f scenarios/hidden-in-layers/deployment.yaml
 
 echo 'Successfully deployed Kubernetes Goat. Have fun learning Kubernetes Security!'
 echo 'Ensure pods are in running status before running access-kubernetes-goat.sh script'
