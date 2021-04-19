@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hidden-in-layers
+spec:
+  selector:
+    matchLabels:
+      app: hidden-in-layers
+  template:
+    metadata:
+      labels:
+        app: hidden-in-layers
+    spec:
+      containers:
+      - name: hidden-in-layers
+        image: rewanthcool/hidden-in-layers

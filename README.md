@@ -84,6 +84,7 @@ bash access-kubernetes-goat.sh
 12. Gaining environment information
 13. DoS the memory/CPU resources
 14. Hacker Container preview
+15. Hidden in layers
 
 ## ❤️ Showcase
 
