@@ -24,5 +24,6 @@
   - [Hidden in layers](scenarios/scenario-15.md)
 - [Tear down Kubernetes Goat](teardown.md)
 - [Security Scanning Reports](reports/readme.md)
+  - [KICS](reports/kics.md)
   - [Checkov](reports/checkov.md)
 - [Getting Involved](getting-involved/readme.md)

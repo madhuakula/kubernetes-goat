@@ -1,4 +1,4 @@
-# checkov report for Kubernetes Goat
+# Checkov report for Kubernetes Goat
 
 To identify all of the 232 kubernetes configuration issues run [checkov](https://github.com/bridgecrewio/checkov) by Bridgecrew
 
