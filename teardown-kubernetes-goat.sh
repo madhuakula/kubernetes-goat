@@ -3,9 +3,6 @@
 # This program has been created as part of Kuberentes Goat
 # Teardown Kuberentes Goat setup
 
-# Setup working dir
-cd "${0%/*}"
-
 # Removing the helm-tiller cluster role/binding
 kubectl delete clusterrole all-your-base
 kubectl delete clusterrolebindings belong-to-us
@@ -28,5 +25,7 @@ kubectl delete -f scenarios/internal-proxy/deployment.yaml
 kubectl delete -f scenarios/kubernetes-goat-home/deployment.yaml
 kubectl delete -f scenarios/poor-registry/deployment.yaml
 kubectl delete -f scenarios/system-monitor/deployment.yaml
+kubectl delete -f scenarios/hidden-in-layers/deployment.yaml
+
 
 echo "The Kubernetes Goat scenarios has been removed. Ensure clean up what you installed and used, It's better to delete the cluster."

@@ -3,9 +3,6 @@
 # This program has been created as part of Kuberentes Goat
 # Kuberentes Goat setup and manage vulnerable infrastrcuture 
 
-# Setup working dir
-cd "${0%/*}"
-
 # Checking kubectl setup
 kubectl version --short > /dev/null 2>&1 
 if [ $? -eq 0 ];

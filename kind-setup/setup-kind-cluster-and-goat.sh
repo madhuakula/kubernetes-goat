@@ -1,9 +1,6 @@
 #!/bin/bash
 # Author: Mauricio Cano
-# This file has been created to contribute to the development of the Kubernetes GOAT
-
-# Setup working dir
-cd "${0%/*}"
+# This file has been created to contribute to the development of the Kubernetes Goat
 
 # Check that kind is installed
 kind version > /dev/null 2>&1 
