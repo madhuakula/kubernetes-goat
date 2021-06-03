@@ -22,6 +22,7 @@
   - [DoS the memory/cpu resources](scenarios/scenario-13.md)
   - [Hacker Container preview](scenarios/scenario-14.md)
   - [Hidden in layers](scenarios/scenario-15.md)
+  - [RBAC Least Privileges Misconfiguration](scenarios/scenario-16.md)
 - [Tear down Kubernetes Goat](teardown.md)
 - [Security Scanning Reports](reports/readme.md)
   - [KICS](reports/kics.md)

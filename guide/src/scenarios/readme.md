@@ -45,3 +45,4 @@ bash access-kubernetes-goat.sh
 13. [DoS the memory/cpu resources](scenario-13.md)
 14. [Hacker Container preview](scenario-14.md)
 15. [Hidden in layers](scenario-15.md)
+16. [RBAC Least Privileges Misconfiguration](scenario-16.md)

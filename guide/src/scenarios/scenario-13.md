@@ -22,7 +22,7 @@ stress-ng --vm 2 --vm-bytes 2G --timeout 30s
 * You can see the difference between while running `stress-ng` and after
 
 ```bash
-kubectl top pod hunger-check-deployment-xxxxxxxxxx-xxxxx
+kubectl --namespace big-monolith top pod hunger-check-deployment-xxxxxxxxxx-xxxxx
 ```
 
 ![Scenario 13 kubectl top](images/sc-13-3.png)

@@ -136,6 +136,11 @@
                                 class="block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4 cursor-pointer">
                                 Hidden in layers</div>
                         </li>
+                        <li>
+                            <div id="scenario-16"
+                                class="block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4 cursor-pointer">
+                                RBAC Least Privileges Misconfiguration</div>
+                        </li>
                     </ul>
                 </div>
 
@@ -454,6 +459,22 @@
                             <span
                                 class="flex rounded-full k8s-blue-bg uppercase px-2 py-1 text-xs font-bold mr-3">Scenario</span>
                             <span class="font-semibold mr-2 text-left flex-auto text-black">kubectl get jobs
+                            </span>
+                        </div>
+                    </div>
+                    <div class="scenario-16-content hidden">
+                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 text-center">RBAC Least Privileges Misconfiguration</h1>
+                        <p class="mb-8 leading-relaxed">
+                            We commonly see in real-world where developers and devops teams tend to provide extra privileges than required. This happens attackers gaining more control and privieges than they intended to be. In this scenario you can leverage the serviceaccount binded to the pod to provide <b>webhookapikey</b> access, but using this attacker can gain control over other secrets and resources. Gain access to the <b>vaultapikey</b> secret flag.
+                        </p>
+                        <br>
+                        <div class="border-b-4 py-4 lg:px-4 p-2 bg-white items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
+                            role="alert">
+                            <span
+                                class="flex rounded-full k8s-blue-bg uppercase px-2 py-1 text-xs font-bold mr-3">Scenario</span>
+                            <span class="font-semibold mr-2 text-left flex-auto text-black">To get started with the
+                                scenario, navigate to <a href="http://127.0.0.1:1236" rel="noopener noreferrer"
+                                    target="_blank">http://127.0.0.1:1236</a>
                             </span>
                         </div>
                     </div>

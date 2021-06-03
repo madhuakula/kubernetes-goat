@@ -39,9 +39,9 @@ kubectl port-forward $POD_NAME --address 0.0.0.0 1234:80 > /dev/null 2>&1 &
 export POD_NAME=$(kubectl get pods --namespace default -l "app=poor-registry" -o jsonpath="{.items[0].metadata.name}")
 kubectl port-forward $POD_NAME --address 0.0.0.0 1235:5000 > /dev/null 2>&1 &
 
-# Exposing Attacking private registry Scenario
-export POD_NAME=$(kubectl get pods --namespace default -l "app=hunger-check" -o jsonpath="{.items[0].metadata.name}")
-kubectl port-forward $POD_NAME --address 0.0.0.0 1236:8080 > /dev/null 2>&1 &
+# Exposing DoS resources Scenario
+export POD_NAME=$(kubectl get pods --namespace big-monolith -l "app=hunger-check" -o jsonpath="{.items[0].metadata.name}")
+kubectl --namespace big-monolith port-forward $POD_NAME --address 0.0.0.0 1236:8080 > /dev/null 2>&1 &
 
 
 echo "Visit http://127.0.0.1:1234 to get started with your Kuberenetes Goat hacking!"
