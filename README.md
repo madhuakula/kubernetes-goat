@@ -99,6 +99,11 @@ bash access-kubernetes-goat.sh
 13. DoS the memory/CPU resources
 14. Hacker Container preview
 15. Hidden in layers
+16. RBAC Least Privileges Misconfiguration
+17. KubeAudit - Audit Kubernetes Clusters
+18. Sysdig Falco - Runtime Security Monitoring & Detection
+19. Popeye - A Kubernetes Cluster Sanitizer
+20. Secure network boundaries using NSP
 
 ## ❤️ Showcase
 

@@ -26,6 +26,10 @@
 14. [Hacker Container preview](scenarios/scenario-14.md)
 15. [Hidden in layers](scenarios/scenario-15.md)
 16. [RBAC Least Privileges Misconfiguration](scenarios/scenario-16.md)
+17. [KubeAudit - Audit Kubernetes Clusters](scenarios/scenario-17.md)
+18. [Sysdig Falco - Runtime Security Monitoring & Detection](scenarios/scenario-18.md)
+19. [Popeye - A Kubernetes Cluster Sanitizer](scenarios/scenario-19.md)
+20. [Secure network boundaries using NSP](scenarios/scenario-20.md)
 
 ## Kubernetes Goat Architecture
 

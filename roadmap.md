@@ -10,6 +10,6 @@ This document contains the upcoming roadmap for the Kubernetes Goat
 - [ ] Ingress resources bypass
 - [ ] Cluster misconfigurations/settings vulnerabilities
 - [x] KIND setup
-- [ ] Defense scenarios/fixes
-- [ ] Adding more security reports for k8s resources
+- [x] Defense scenarios/fixes
+- [x] Adding more security reports for k8s resources
 - [ ] Many other...

@@ -46,3 +46,7 @@ bash access-kubernetes-goat.sh
 14. [Hacker Container preview](scenario-14.md)
 15. [Hidden in layers](scenario-15.md)
 16. [RBAC Least Privileges Misconfiguration](scenario-16.md)
+17. [KubeAudit - Audit Kubernetes Clusters](scenario-17.md)
+18. [Sysdig Falco - Runtime Security Monitoring & Detection](scenario-18.md)
+19. [Popeye - A Kubernetes Cluster Sanitizer](scenario-19.md)
+20. [Secure network boundaries using NSP](scenario-20.md)

@@ -141,6 +141,26 @@
                                 class="block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4 cursor-pointer">
                                 RBAC Least Privileges Misconfiguration</div>
                         </li>
+                        <li>
+                            <div id="scenario-17"
+                                class="block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4 cursor-pointer">
+                                KubeAudit - Audit Kubernetes Clusters</div>
+                        </li>
+                        <li>
+                            <div id="scenario-18"
+                                class="block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4 cursor-pointer">
+                                Sysdig Falco - Runtime Security Monitoring & Detection</div>
+                        </li>
+                        <li>
+                            <div id="scenario-19"
+                                class="block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4 cursor-pointer">
+                                Popeye - A Kubernetes Cluster Sanitizer</div>
+                        </li>
+                        <li>
+                            <div id="scenario-20"
+                                class="block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4 cursor-pointer">
+                                Secure network boundaries using NSP</div>
+                        </li>
                     </ul>
                 </div>
 
@@ -446,9 +466,13 @@
                         </div>
                     </div>
                     <div class="scenario-15-content hidden">
-                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 text-center">Hidden in layers</h1>
+                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 text-center">Hidden in
+                            layers</h1>
                         <p class="mb-8 leading-relaxed">
-                            Sensitive information disclosure is one of the most common vulnerability existing in the wild. Mishandling of passwords, private keys, tokens, etc in containerization world is easy. Here in this scenario, we will analyze and identify one of such mishandled bad practice that leads to sensitive information disclosure.
+                            Sensitive information disclosure is one of the most common vulnerability existing in the
+                            wild. Mishandling of passwords, private keys, tokens, etc in containerization world is easy.
+                            Here in this scenario, we will analyze and identify one of such mishandled bad practice that
+                            leads to sensitive information disclosure.
                         </p>
                         To get started, identify all the resources/images in the Kubernetes cluster. Including
                         Kubernetes Jobs
@@ -463,9 +487,14 @@
                         </div>
                     </div>
                     <div class="scenario-16-content hidden">
-                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 text-center">RBAC Least Privileges Misconfiguration</h1>
+                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 text-center">RBAC
+                            Least Privileges Misconfiguration</h1>
                         <p class="mb-8 leading-relaxed">
-                            We commonly see in real-world where developers and devops teams tend to provide extra privileges than required. This happens attackers gaining more control and privieges than they intended to be. In this scenario you can leverage the serviceaccount binded to the pod to provide <b>webhookapikey</b> access, but using this attacker can gain control over other secrets and resources. Gain access to the <b>vaultapikey</b> secret flag.
+                            We commonly see in real-world where developers and devops teams tend to provide extra
+                            privileges than required. This happens attackers gaining more control and privieges than
+                            they intended to be. In this scenario you can leverage the serviceaccount binded to the pod
+                            to provide <b>webhookapikey</b> access, but using this attacker can gain control over other
+                            secrets and resources. Gain access to the <b>vaultapikey</b> secret flag.
                         </p>
                         <br>
                         <div class="border-b-4 py-4 lg:px-4 p-2 bg-white items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
@@ -475,6 +504,90 @@
                             <span class="font-semibold mr-2 text-left flex-auto text-black">To get started with the
                                 scenario, navigate to <a href="http://127.0.0.1:1236" rel="noopener noreferrer"
                                     target="_blank">http://127.0.0.1:1236</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="scenario-17-content hidden">
+                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 text-center">KubeAudit
+                            - Audit Kubernetes Clusters</h1>
+                        <p class="mb-8 leading-relaxed">
+                            This scenario is mainly to perform the audit of Kubernetes Cluster for various different
+                            security concerns.
+                        </p>
+                        To get started with this scenario you can run the following command to start the
+                        hacker-container with cluster administrator privileges (as tiller service account already has
+                        that)
+                        <br>
+                        <div class="border-b-4 py-4 lg:px-4 p-2 bg-white items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
+                            role="alert">
+                            <span
+                                class="flex rounded-full k8s-blue-bg uppercase px-2 py-1 text-xs font-bold mr-3">Scenario</span>
+                            <span class="font-semibold mr-2 text-left flex-auto text-black">kubectl run -n kube-system
+                                --serviceaccount=tiller --rm --restart=Never -it --image=madhuakula/hacker-container --
+                                bash
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="scenario-18-content hidden">
+                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 text-center">Sysdig
+                            Falco - Runtime Security Monitoring & Detection</h1>
+                        <p class="mb-8 leading-relaxed">
+                            This scenario is deploy runtime security monitoring & detection for containers and
+                            kubernetes resources.
+                        </p>
+                        To get started with this scenario you can deploy the below helm chart with version 3
+                        <br>
+                        <div class="border-b-4 py-4 lg:px-4 p-2 bg-white items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
+                            role="alert">
+                            <span
+                                class="flex rounded-full k8s-blue-bg uppercase px-2 py-1 text-xs font-bold mr-3">Scenario</span>
+                            <span class="font-semibold mr-2 text-left flex-auto text-black">helm repo add falcosecurity
+                                https://falcosecurity.github.io/charts<br><br>
+                                helm repo update<br><br>
+                                helm install falco falcosecurity/falco<br>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="scenario-19-content hidden">
+                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 text-center">Popeye -
+                            A Kubernetes Cluster Sanitizer</h1>
+                        <p class="mb-8 leading-relaxed">
+                            This scenario is mainly to perform the review of Kubernetes Cluster by scanning the live
+                            Kubernetes cluster and reports potential issues with deployed resources and configurations.
+                        </p>
+                        To get started with this scenario you can run the following command to start the
+                        hacker-container with cluster administrator privileges (as tiller service account already has
+                        that)
+                        <br>
+                        <div class="border-b-4 py-4 lg:px-4 p-2 bg-white items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
+                            role="alert">
+                            <span
+                                class="flex rounded-full k8s-blue-bg uppercase px-2 py-1 text-xs font-bold mr-3">Scenario</span>
+                            <span class="font-semibold mr-2 text-left flex-auto text-black">kubectl run -n kube-system
+                                --serviceaccount=tiller --rm --restart=Never -it --image=madhuakula/hacker-container --
+                                bash
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="scenario-20-content hidden">
+                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 text-center">Secure
+                            network boundaries using NSP</h1>
+                        <p class="mb-8 leading-relaxed">
+                            This scenario is deploy a simple network security policy for kubernetes resources to create
+                            security boundaries.
+                        </p>
+                        To get started with this scenario ensure you must be using a networking solution which supports
+                        <b>NetworkPolicy</b>
+                        <br>
+                        <div class="border-b-4 py-4 lg:px-4 p-2 bg-white items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
+                            role="alert">
+                            <span
+                                class="flex rounded-full k8s-blue-bg uppercase px-2 py-1 text-xs font-bold mr-3">Scenario</span>
+                            <span class="font-semibold mr-2 text-left flex-auto text-black">To get started with the
+                                scenario, refer to the Guide.
                             </span>
                         </div>
                     </div>
