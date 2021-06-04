@@ -12,7 +12,7 @@ The Kubernetes Goat is designed to be an intentionally vulnerable cluster enviro
 
 **Refer to [https://madhuakula.com/kubernetes-goat](https://madhuakula.com/kubernetes-goat) for the guide.**
 
-![Kubernetes Goat Home](./kubernetes-goat-home.png)
+[![Kubernetes Goat Home](./kubernetes-goat-home.png)](https://madhuakula.com/kubernetes-goat)
 
 ## Upcoming Training's and Sessions
 
@@ -21,12 +21,6 @@ The Kubernetes Goat is designed to be an intentionally vulnerable cluster enviro
 ["A Practical Approach to Breaking & Pwning Kubernetes Clusters"](https://rebrand.ly/bhusa21) is a commercial training with completely hands-on approach by [Madhu Akula](https://madhuakula.com) at upcoming [Black Hat USA 2021](https://rebrand.ly/bhusa21) to learn more about Kubernets Security.
 
 [![Black Hat USA 2021 Training](./images/madhuakula-blackhat-usa-2021-kubernetes-security.png)](https://rebrand.ly/bhusa21)
-
-**SANS CloudSecNext Summit 2021**
-
-"Kubernetes Goat - Interactive Kubernetes Security Learning Playground" at upcoming  [SANS CloudSecNext Summit 2021](https://www.sans.org/event/cloudsecnext-summit-2021/summit-agenda) to learn more about Kubernets Goat.
-
-[![SANS CloudSecNext Summit 2021](./images/madhuakula-sans-cloudsecnext-summit-2021.jpeg)](https://www.sans.org/event/cloudsecnext-summit-2021/summit-agenda)
 
 ## Recent Kubernetes Goat Presentations
 
@@ -37,10 +31,6 @@ The Kubernetes Goat is designed to be an intentionally vulnerable cluster enviro
 **DEFCON Red Team Village**
 
 [![Kubernetes Goat - DEFCON Red Team Village](https://img.youtube.com/vi/aEaSZJRbnTo/0.jpg)](https://youtu.be/aEaSZJRbnTo)
-
-**EkoParty 2020 - DevSecOps**
-
-[![Kubernetes Goat - EkoParty 2020 DevSecOps](https://img.youtube.com/vi/XqwbVU-gtng/0.jpg)](https://youtu.be/XqwbVU-gtng)
 
 ## 🎲 Just click and Play in the browser for free using Katacoda Playground - [Try now]((https://katacoda.com/madhuakula/scenarios/kubernetes-goat))
 
@@ -117,6 +107,8 @@ bash access-kubernetes-goat.sh
 * Presented at c0c0cn 2020 [https://india.c0c0n.org/2020/speakers#madhu_akula](https://india.c0c0n.org/2020/speakers#madhu_akula)
 * Featured in Info Ck YouTube channel [https://youtu.be/5ojho4L6Xfo](https://youtu.be/5ojho4L6Xfo)
 * Presented in Cloud Native Indonesia Meetup [https://youtu.be/pf5jOGWoWU0](https://youtu.be/pf5jOGWoWU0)
+* Presented in [USENIX LISA 2021 Closing Note](https://www.usenix.org/conference/lisa21/presentation/closing)
+* Presented in SANS CloudSecNext Summit 2021
 
 ## ⚠️ Disclaimer
 
