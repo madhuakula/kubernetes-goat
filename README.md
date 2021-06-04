@@ -14,7 +14,7 @@ The Kubernetes Goat is designed to be an intentionally vulnerable cluster enviro
 
 [![Kubernetes Goat Home](./kubernetes-goat-home.png)](https://madhuakula.com/kubernetes-goat)
 
-## Upcoming Training's and Sessions
+## 📅 Upcoming Training's and Sessions
 
 **Black Hat USA 2021**
 
@@ -116,7 +116,11 @@ bash access-kubernetes-goat.sh
 
 > Kubernetes Goat comes with absolutely no warranties whatsoever. By using Kubernetes Goat, you take full responsibility for all outcomes that result.
 
-## ✨ Contributors
+## License
+
+[MIT](https://github.com/madhuakula/kubernetes-goat/blob/master/LICENSE)
+
+## ✨ Acknowledgements
 
 Thanks goes to these wonderful people 🎉
 
