@@ -13,28 +13,28 @@ else
     exit;
 fi
 
-# Checking helm2 setup
-helm2 --help > /dev/null 2>&1
+# Checking helm setup
+helm --help > /dev/null 2>&1
 if [ $? -eq 0 ];
 then
-    echo "helm2 setup looks good."
+    echo "helm setup looks good."
 else
-    echo "Error: Could not find helm2, please check helm2 setup."
+    echo "Error: Could not find helm, please check helm setup."
     exit;
 fi
 
-# helm2 setup
-echo "setting up helm2 rbac account and initialise tiller"
-kubectl apply -f scenarios/helm2-rbac/setup.yaml
-helm2 init --service-account tiller
+# helm setup
+echo "setting up helm rbac account and initialise tiller"
+kubectl apply -f scenarios/helm-rbac/setup.yaml
+helm init --service-account tiller
 
 # wait for tiller service to ready
-echo "waiting for helm2 tiller service to be active."
+echo "waiting for helm tiller service to be active."
 sleep 50
 
 # deploying helm chart to verify the setup
 echo "deploying helm chart metadata-db scenario"
-helm2 install --name metadata-db scenarios/metadata-db/
+helm install --name metadata-db scenarios/metadata-db/
 
 # setup the scenarios/configurations
 echo 'deploying the vulnerable scenarios manifests'
