@@ -24,16 +24,18 @@ printenv
 
 ![Scenario 11 recon](images/sc-11-2.png)
 
-* Based on the analysis/understanding about the system. We can run the internal scan for the entire cluster range using `zamp`
+* Based on the analysis/understanding about the system. We can run the internal scan for the entire cluster range using `zamp` on port 6379 (the default port of Redis)
 
 ```bash
 zmap -p 6379 10.0.0.0/8 -o results.csv
 ```
 
+Note: to run `zmap` on 10.0.0.0/8 you may need adjust the blacklist (/etc/zmap/blacklist.conf)
+
 ![Scenario 11 zmap](images/sc-11-3.png)
 ![Scenario 11 output ips](images/sc-11-4.png)
 
-> There is also another way to access the services/pods in the Kubernetes. For example `servicename.namespace`
+> There is also another way to access the services/pods in the Kubernetes. For example using the [DNS](https://kubernetes.io/docs/concepts/services-networking/service/#dns) `cache-store-service.secure-middleware` (servicename.namespace).
 
 * Let's access the `redis` using the `reds-cli` client
 
