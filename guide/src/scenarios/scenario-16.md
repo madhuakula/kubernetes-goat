@@ -35,7 +35,7 @@ export APISERVER=https://${KUBERNETES_SERVICE_HOST}
 export SERVICEACCOUNT=/var/run/secrets/kubernetes.io/serviceaccount
 ```
 
-* To read the pods namespace and set that as a variable
+* To read the pods namespace and set that as a variable. The namespace should be `big-monolith`, if it is `default` you need to update Kubernetes-goat to the lastest version ([more info](https://github.com/madhuakula/kubernetes-goat/commit/d068966ae481df55caed818c7cfc14867c1e42a1))
 
 ```bash
 export NAMESPACE=$(cat ${SERVICEACCOUNT}/namespace)
