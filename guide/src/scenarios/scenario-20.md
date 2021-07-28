@@ -37,19 +37,19 @@ Use Cases:
 
 * Run a nginx Pod with labels `app=web` and expose it at port 80
 
-```bash
-kubectl run --generator=run-pod/v1 web --image=nginx --labels app=web --expose --port 80
+``` bash
+kubectl run --image=nginx web --labels app=web --expose --port 80
 ```
 
 * Run a temporary Pod and make a request to `web` Service
 
 ```bash
-kubectl run --generator=run-pod/v1 --rm -i -t --image=alpine test-$RANDOM -- sh
+kubectl run --rm -i -t --image=alpine test-$RANDOM -- sh
 ```
 
 ```bash
+wget -qO- http://web
 # You will see the below output
-# wget -qO- http://web
 #    <!DOCTYPE html>
 #    <html>
 #    <head>
@@ -79,13 +79,13 @@ kubectl apply -f web-deny-all.yaml
 * Run a test container again, and try to query `web`
 
 ```bash
-kubectl run --generator=run-pod/v1 --rm -i -t --image=alpine test-$RANDOM -- sh
+kubectl run --rm -i -t --image=alpine test-$RANDOM -- sh
 ```
 
 ```bash
-# You will see below error now
-# wget -qO- --timeout=2 http://web
-# wget: download timed out
+wget -qO- --timeout=2 http://web
+# You will see the below output
+#   wget: download timed out
 ```
 
 * Traffic dropped
