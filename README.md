@@ -16,11 +16,13 @@ The Kubernetes Goat is designed to be an intentionally vulnerable cluster enviro
 
 ## 📅 Upcoming Training's and Sessions
 
-**Black Hat USA 2021**
+**DEFCON DEMO Labs**
 
-["A Practical Approach to Breaking & Pwning Kubernetes Clusters"](https://rebrand.ly/bhusa21) is a commercial training with completely hands-on approach by [Madhu Akula](https://madhuakula.com) at upcoming [Black Hat USA 2021](https://rebrand.ly/bhusa21) to learn more about Kubernets Security.
+* [https://forum.defcon.org/node/237237](https://forum.defcon.org/node/237237)
 
-[![Black Hat USA 2021 Training](./images/madhuakula-blackhat-usa-2021-kubernetes-security.png)](https://rebrand.ly/bhusa21)
+**Cloud Village - DEFCON**
+
+* [https://cloud-village.org/#talks?collapseMadhuAkula](https://cloud-village.org/#talks?collapseMadhuAkula)
 
 ## Recent Kubernetes Goat Presentations
 

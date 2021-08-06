@@ -6,6 +6,8 @@ This scenario is deploy runtime security monitoring & detection for containers a
 
 * To get started with this scenario you can deploy the below helm chart with version 3
 
+> NOTE: Make sure you run the follwing deployment using Helm with v3.
+
 ```bash
 helm repo add falcosecurity https://falcosecurity.github.io/charts
 helm repo update
