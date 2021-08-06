@@ -14,6 +14,12 @@ The Kubernetes Goat is designed to be an intentionally vulnerable cluster enviro
 
 [![Kubernetes Goat Home](./kubernetes-goat-home.png)](https://madhuakula.com/kubernetes-goat)
 
+## Show us some ❤️
+
+Please feel free to send us a [PR](https://github.com/madhuakula/kubernetes-goat/blob/master/guide/src/getting-involved/i-use-this-project.md) and show some ❤️
+
+[![I use this project](images/i-use-this-project.png)](https://github.com/madhuakula/kubernetes-goat/blob/master/guide/src/getting-involved/i-use-this-project.md)
+
 ## 📅 Upcoming Training's and Sessions
 
 **DEFCON DEMO Labs**
