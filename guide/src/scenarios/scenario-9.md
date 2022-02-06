@@ -1,4 +1,6 @@
-# Helm v2 tiller to PwN the cluster
+# Helm v2 tiller to PwN the cluster - [Deprecated]
+
+***This scenario has been deprecated and read-only documentation available to learn :)***
 
 ## Scenario Information
 

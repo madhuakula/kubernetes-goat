@@ -8,8 +8,8 @@ kubectl delete clusterrole all-your-base
 kubectl delete clusterrolebindings belong-to-us
 
 # Removing metadata db chart
-helm2 delete metadata-db --purge
-helm2 delete pwnchart --purge
+helm delete metadata-db --no-hooks
+# helm2 delete pwnchart --purge
 
 # Remove tiller deployment
 kubectl delete deployments -n kube-system tiller-deploy

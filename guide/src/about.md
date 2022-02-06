@@ -18,7 +18,7 @@
 6. [Kubernetes CIS Benchmarks analysis](scenarios/scenario-6.md)
 7. [Attacking private registry](scenarios/scenario-7.md)
 8. [NodePort exposed services](scenarios/scenario-8.md)
-9. [Helm v2 tiller to PwN the cluster](scenarios/scenario-9.md)
+9. [Helm v2 tiller to PwN the cluster - [Deprecated]](scenarios/scenario-9.md)
 10. [Analysing crypto miner container](scenarios/scenario-10.md)
 11. [Kubernetes Namespaces bypass](scenarios/scenario-11.md)
 12. [Gaining environment information](scenarios/scenario-12.md)

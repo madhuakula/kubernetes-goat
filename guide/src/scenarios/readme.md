@@ -38,7 +38,7 @@ bash access-kubernetes-goat.sh
 6. [Kubernetes CIS Benchmarks analysis](scenario-6.md)
 7. [Attacking private registry](scenario-7.md)
 8. [NodePort exposed services](scenario-8.md)
-9. [Helm v2 tiller to PwN the cluster](scenario-9.md)
+9. [Helm v2 tiller to PwN the cluster - [Deprecated]](scenario-9.md)
 10. [Analysing crypto miner container](scenario-10.md)
 11. [Kubernetes Namespaces bypass](scenario-11.md)
 12. [Gaining environment information](scenario-12.md)

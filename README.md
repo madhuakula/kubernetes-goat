@@ -5,7 +5,7 @@
 [![GitHub release](https://img.shields.io/github/release/madhuakula/kubernetes-goat.svg)](https://github.com/madhuakula/kubernetes-goat/releases/latest)
 [![Github Stars](https://img.shields.io/github/stars/madhuakula/kubernetes-goat)](https://github.com/madhuakula/kubernetes-goat/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/madhuakula/kubernetes-goat/pulls)
-[![Docker Pulls Kubernetes Goat](https://img.shields.io/docker/pulls/madhuakula/k8s-goat-home?logo=docker)](https://hub.docker.com/r/madhuakula/k8s-goat-home)
+[![Docker Pulls Kubernetes Goat](https://img.shields.io/docker/pulls/madhuakula/k8s-goat-system-monitor?logo=docker)](https://hub.docker.com/r/madhuakula/k8s-goat-system-monitor)
 [![Twitter](https://img.shields.io/twitter/url?url=https://github.com/madhuakula/kubernetes-goat)](https://twitter.com/intent/tweet/?text=Kubernetes%20Goat,%20an%20intentionally%20vulnerable%20by%20design%20training%20platform%20to%20learn%20%23Kubernetes%20Security%20by%20%40madhuakula.%20Check%20it%20out%20&url=https://github.com/madhuakula/kubernetes-goat)
 
 The Kubernetes Goat is designed to be an intentionally vulnerable cluster environment to learn and practice Kubernetes security.
@@ -14,21 +14,13 @@ The Kubernetes Goat is designed to be an intentionally vulnerable cluster enviro
 
 [![Kubernetes Goat Home](./kubernetes-goat-home.png)](https://madhuakula.com/kubernetes-goat)
 
-## Show us some ❤️
-
-Please feel free to send us a [PR](https://github.com/madhuakula/kubernetes-goat/blob/master/guide/src/getting-involved/i-use-this-project.md) and show some ❤️
-
-[![I use this project](images/i-use-this-project.png)](https://github.com/madhuakula/kubernetes-goat/blob/master/guide/src/getting-involved/i-use-this-project.md)
-
 ## 📅 Upcoming Training's and Sessions
 
-**DEFCON DEMO Labs**
+* [Nullcon Berlin 2022 - Hacking and Securing Kubernetes Clusters](https://nullcon.net/berlin-2022/training/hacking-and-securing-kubernetes-clusters/)
 
-* [https://forum.defcon.org/node/237237](https://forum.defcon.org/node/237237)
+* [BlackHat Asia 2022 - A Practical Approach to Breaking & Pwning Kubernetes Clusters](https://www.blackhat.com/asia-22/training/schedule/index.html#a-practical-approach-to-breaking--pwning-kubernetes-clusters-25190
+)
 
-**Cloud Village - DEFCON**
-
-* [https://cloud-village.org/#talks?collapseMadhuAkula](https://cloud-village.org/#talks?collapseMadhuAkula)
 
 ## Recent Kubernetes Goat Presentations
 
@@ -54,10 +46,10 @@ Please feel free to send us a [PR](https://github.com/madhuakula/kubernetes-goat
 kubectl version --short
 ```
 
-* Set up the helm version 2 in your path as `helm2`. Refer to helm [releases](https://github.com/helm/helm/releases) for more information about setup
+* Set up the helm version 3 in your path as `helm`. Refer to helm [releases](https://github.com/helm/helm/releases) for more information about setup
 
 ```bash
-helm2 --help
+helm version --short
 ```
 
 * Then finally setup Kubernetes Goat by running the following command
@@ -90,7 +82,7 @@ bash access-kubernetes-goat.sh
 6. Kubernetes CIS Benchmarks analysis
 7. Attacking private registry
 8. NodePort exposed services
-9. Helm v2 tiller to PwN the cluster
+9. Helm v2 tiller to PwN the cluster - [Deprecated]
 10. Analysing crypto miner container
 11. Kubernetes Namespaces bypass
 12. Gaining environment information
@@ -123,6 +115,12 @@ bash access-kubernetes-goat.sh
 > Kubernetes Goat creates intentionally vulnerable resources into your cluster. DO NOT deploy Kubernetes Goat in a production environment or alongside any sensitive cluster resources.
 
 > Kubernetes Goat comes with absolutely no warranties whatsoever. By using Kubernetes Goat, you take full responsibility for all outcomes that result.
+
+## Show us some ❤️
+
+Please feel free to send us a [PR](https://github.com/madhuakula/kubernetes-goat/blob/master/guide/src/getting-involved/i-use-this-project.md) and show some ❤️
+
+[![I use this project](images/i-use-this-project.png)](https://github.com/madhuakula/kubernetes-goat/blob/master/guide/src/getting-involved/i-use-this-project.md)
 
 ## License
 
