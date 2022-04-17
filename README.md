@@ -1,26 +1,42 @@
-# Kubernetes Goat
+<p align="center">
+  <a href="https://madhuakula.com/kubernetes-goat">
+    <img alt="Kubernetes Goat" src="kubernetes-goat-logo.png" width="100" />
+  </a>
+</p>
+<h1 align="center">
+  Kubernetes Goat
+</h1>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e5399be3-9c47-4557-b237-9e6c89f6cada/deploy-status)](https://app.netlify.com/sites/kubernetes-goat/deploys)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/madhuakula/kubernetes-goat/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/madhuakula/kubernetes-goat.svg)](https://github.com/madhuakula/kubernetes-goat/releases/latest)
-[![Github Stars](https://img.shields.io/github/stars/madhuakula/kubernetes-goat)](https://github.com/madhuakula/kubernetes-goat/stargazers)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/madhuakula/kubernetes-goat/pulls)
-[![Docker Pulls Kubernetes Goat](https://img.shields.io/docker/pulls/madhuakula/k8s-goat-system-monitor?logo=docker)](https://hub.docker.com/r/madhuakula/k8s-goat-system-monitor)
-[![Twitter](https://img.shields.io/twitter/url?url=https://github.com/madhuakula/kubernetes-goat)](https://twitter.com/intent/tweet/?text=Kubernetes%20Goat,%20an%20intentionally%20vulnerable%20by%20design%20training%20platform%20to%20learn%20%23Kubernetes%20Security%20by%20%40madhuakula.%20Check%20it%20out%20&url=https://github.com/madhuakula/kubernetes-goat)
-
+<p align="center">
 The Kubernetes Goat is designed to be an intentionally vulnerable cluster environment to learn and practice Kubernetes security.
+<p align="center">Refer to <a href="https://madhuakula.com/kubernetes-goat">https://madhuakula.com/kubernetes-goat</a> for the guide.</p>
+</p>
 
-**Refer to [https://madhuakula.com/kubernetes-goat](https://madhuakula.com/kubernetes-goat) for the guide.**
+<p align="center">
+    <a href="https://app.netlify.com/sites/kubernetes-goat/deploys">
+        <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/e5399be3-9c47-4557-b237-9e6c89f6cada/deploy-status" />
+    </a>    
+    <a href="https://github.com/madhuakula/kubernetes-goat/blob/master/LICENSE">
+        <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" />
+    </a>    
+    <a href="https://github.com/madhuakula/kubernetes-goat/releases/latest">
+        <img alt="GitHub release" src="https://img.shields.io/github/release/madhuakula/kubernetes-goat.svg" />
+    </a>    
+    <a href="https://github.com/madhuakula/kubernetes-goat/stargazers">
+        <img alt="Github Stars" src="https://img.shields.io/github/stars/madhuakula/kubernetes-goat" />
+    </a>    
+    <a href="https://github.com/madhuakula/kubernetes-goat/pulls">
+        <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
+    </a>    
+    <a href="https://hub.docker.com/r/madhuakula/k8s-goat-system-monitor">
+        <img alt="Docker Pulls Kubernetes Goat" src="https://img.shields.io/docker/pulls/madhuakula/k8s-goat-system-monitor?logo=docker" />
+    </a>    
+    <a href="https://twitter.com/intent/tweet/?text=Kubernetes%20Goat,%20an%20intentionally%20vulnerable%20by%20design%20training%20platform%20to%20learn%20%23Kubernetes%20Security%20by%20%40madhuakula.%20Check%20it%20out%20&url=https://github.com/madhuakula/kubernetes-goat">
+        <img alt="Twitter" src="https://img.shields.io/twitter/url?url=https://github.com/madhuakula/kubernetes-goat" />
+    </a>    
+</p>
 
 [![Kubernetes Goat Home](./kubernetes-goat-home.png)](https://madhuakula.com/kubernetes-goat)
-
-## 📅 Upcoming Training's and Sessions
-
-* [Nullcon Berlin 2022 - Hacking and Securing Kubernetes Clusters](https://nullcon.net/berlin-2022/training/hacking-and-securing-kubernetes-clusters/)
-
-* [BlackHat Asia 2022 - A Practical Approach to Breaking & Pwning Kubernetes Clusters](https://www.blackhat.com/asia-22/training/schedule/index.html#a-practical-approach-to-breaking--pwning-kubernetes-clusters-25190
-)
-
 
 ## Recent Kubernetes Goat Presentations
 
@@ -130,4 +146,4 @@ Please feel free to send us a [PR](https://github.com/madhuakula/kubernetes-goat
 
 Thanks goes to these wonderful people 🎉
 
-<table><tr><td align="center"><a href="https://github.com/madhuakula"><img alt="madhuakula" src="https://avatars.githubusercontent.com/u/6764192?v=4" width="100" /><br />madhuakula</a></td><td align="center"><a href="https://github.com/mkcn"><img alt="mkcn" src="https://avatars.githubusercontent.com/u/7307955?v=4" width="100" /><br />mkcn</a></td><td align="center"><a href="https://github.com/macagr"><img alt="macagr" src="https://avatars.githubusercontent.com/u/2797772?v=4" width="100" /><br />macagr</a></td><td align="center"><a href="https://github.com/rewanthtammana"><img alt="rewanthtammana" src="https://avatars.githubusercontent.com/u/22347290?v=4" width="100" /><br />rewanthtammana</a></td><td align="center"><a href="https://github.com/avicoder"><img alt="avicoder" src="https://avatars.githubusercontent.com/u/2093260?v=4" width="100" /><br />avicoder</a></td><td align="center"><a href="https://github.com/NF997"><img alt="NF997" src="https://avatars.githubusercontent.com/u/23374308?v=4" width="100" /><br />NF997</a></td></tr><tr><td align="center"><a href="https://github.com/smoyer64"><img alt="smoyer64" src="https://avatars.githubusercontent.com/u/328333?v=4" width="100" /><br />smoyer64</a></td><td align="center"><a href="https://github.com/wurstbrot"><img alt="wurstbrot" src="https://avatars.githubusercontent.com/u/955192?v=4" width="100" /><br />wurstbrot</a></td><td align="center"><a href="https://github.com/podjackel"><img alt="podjackel" src="https://avatars.githubusercontent.com/u/5067183?v=4" width="100" /><br />podjackel</a></td></tr></table>
+<table><tr><td align="center"><a href="https://github.com/madhuakula"><img alt="madhuakula" src="https://avatars.githubusercontent.com/u/6764192?v=4" width="100" /><br />madhuakula</a></td><td align="center"><a href="https://github.com/mkcn"><img alt="mkcn" src="https://avatars.githubusercontent.com/u/7307955?v=4" width="100" /><br />mkcn</a></td><td align="center"><a href="https://github.com/macagr"><img alt="macagr" src="https://avatars.githubusercontent.com/u/2797772?v=4" width="100" /><br />macagr</a></td><td align="center"><a href="https://github.com/rewanthtammana"><img alt="rewanthtammana" src="https://avatars.githubusercontent.com/u/22347290?v=4" width="100" /><br />rewanthtammana</a></td><td align="center"><a href="https://github.com/avicoder"><img alt="avicoder" src="https://avatars.githubusercontent.com/u/2093260?v=4" width="100" /><br />avicoder</a></td><td align="center"><a href="https://github.com/NF997"><img alt="NF997" src="https://avatars.githubusercontent.com/u/23374308?v=4" width="100" /><br />NF997</a></td></tr><tr><td align="center"><a href="https://github.com/smoyer64"><img alt="smoyer64" src="https://avatars.githubusercontent.com/u/328333?v=4" width="100" /><br />smoyer64</a></td><td align="center"><a href="https://github.com/wurstbrot"><img alt="wurstbrot" src="https://avatars.githubusercontent.com/u/955192?v=4" width="100" /><br />wurstbrot</a></td><td align="center"><a href="https://github.com/podjackel"><img alt="podjackel" src="https://avatars.githubusercontent.com/u/5067183?v=4" width="100" /><br />podjackel</a></td><td align="center"><a href="https://github.com/ant4g0nist"><img alt="ant4g0nist" src="https://avatars.githubusercontent.com/u/3500559?v=4" width="100" /><br />ant4g0nist</a></td></tr></table>
