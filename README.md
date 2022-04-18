@@ -1,15 +1,17 @@
 <p align="center">
   <a href="https://madhuakula.com/kubernetes-goat">
-    <img alt="Kubernetes Goat" src="kubernetes-goat-logo.png" width="100" />
+    <img alt="Kubernetes Goat" src="kubernetes-goat-logo.png" width="150" />
   </a>
 </p>
 <h1 align="center">
   Kubernetes Goat
 </h1>
+<p align="center">
+    ✨ The Kubernetes Goat is designed to be an intentionally vulnerable cluster environment to learn and practice Kubernetes security.
+</p>
 
 <p align="center">
-The Kubernetes Goat is designed to be an intentionally vulnerable cluster environment to learn and practice Kubernetes security.
-<p align="center">Refer to <a href="https://madhuakula.com/kubernetes-goat">https://madhuakula.com/kubernetes-goat</a> for the guide.</p>
+    🙌 Refer to <a href="https://madhuakula.com/kubernetes-goat">https://madhuakula.com/kubernetes-goat</a> for the guide 📖
 </p>
 
 <p align="center">
@@ -29,7 +31,7 @@ The Kubernetes Goat is designed to be an intentionally vulnerable cluster enviro
         <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
     </a>    
     <a href="https://hub.docker.com/r/madhuakula/k8s-goat-system-monitor">
-        <img alt="Docker Pulls Kubernetes Goat" src="https://img.shields.io/docker/pulls/madhuakula/k8s-goat-system-monitor?logo=docker" />
+        <img alt="Docker Pulls Kubernetes Goat" src="https://img.shields.io/docker/pulls/madhuakula/k8s-goat-system-monitor" />
     </a>    
     <a href="https://twitter.com/intent/tweet/?text=Kubernetes%20Goat,%20an%20intentionally%20vulnerable%20by%20design%20training%20platform%20to%20learn%20%23Kubernetes%20Security%20by%20%40madhuakula.%20Check%20it%20out%20&url=https://github.com/madhuakula/kubernetes-goat">
         <img alt="Twitter" src="https://img.shields.io/twitter/url?url=https://github.com/madhuakula/kubernetes-goat" />
