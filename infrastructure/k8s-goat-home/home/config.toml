@@ -8,7 +8,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 
 [params]
   title = "Kubernetes Goat"
-  description = "Kubernetes Goat is designed to be intentionally vulnerable cluster environment to learn and practice Kubernetes security."
+  description = "Kubernetes Goat is designed to be an intentionally vulnerable cluster environment to learn and practice Kubernetes security."
   logo = "kubernetes-goat.png"
   copyright = "Kubernetes Goat - Madhu Akula"
   copyrighturl = "https://madhuakula.com"

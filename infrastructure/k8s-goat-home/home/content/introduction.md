@@ -6,6 +6,6 @@ notes:
 label: Guide
 ---
 
-![Kubernetes Goat](kubernetes-goat.png#center)
+![Kubernetes Goat](kubernetes-goat-banner.png#center)
 
 Welcome to Kubernetes Goat. This is the home for exploring your Kubernetes Goat scenarios, discovery, exploitation, attacks, endpoints, etc.
