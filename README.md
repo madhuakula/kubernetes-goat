@@ -92,25 +92,25 @@ bash access-kubernetes-goat.sh
 
 ## 🏁 Scenarios
 
-1. Sensitive keys in code-bases
+1. Sensitive keys in codebases
 2. DIND (docker-in-docker) exploitation
-3. SSRF in K8S world
-4. Container escape to access host system
-5. Docker CIS Benchmarks analysis
-6. Kubernetes CIS Benchmarks analysis
+3. SSRF in the Kubernetes (K8S) world
+4. Container escape to the host system
+5. Docker CIS benchmarks analysis
+6. Kubernetes CIS benchmarks analysis
 7. Attacking private registry
 8. NodePort exposed services
 9. Helm v2 tiller to PwN the cluster - [Deprecated]
-10. Analysing crypto miner container
-11. Kubernetes Namespaces bypass
+10. Analyzing crypto miner container
+11. Kubernetes namespaces bypass
 12. Gaining environment information
-13. DoS the memory/CPU resources
-14. Hacker Container preview
+13. DoS the Memory/CPU resources
+14. Hacker container preview
 15. Hidden in layers
-16. RBAC Least Privileges Misconfiguration
-17. KubeAudit - Audit Kubernetes Clusters
-18. Sysdig Falco - Runtime Security Monitoring & Detection
-19. Popeye - A Kubernetes Cluster Sanitizer
+16. RBAC least privileges misconfiguration
+17. KubeAudit - Audit Kubernetes clusters
+18. Falco - Runtime security monitoring & detection
+19. Popeye - A Kubernetes cluster sanitizer
 20. Secure network boundaries using NSP
 
 ## ❤️ Showcase

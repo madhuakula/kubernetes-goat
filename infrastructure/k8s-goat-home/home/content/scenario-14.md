@@ -1,12 +1,12 @@
 ---
 scenario: 14
-title: Hacker Container preview
+title: Hacker container preview
 notes:
     - kubectl run -it hacker-container --image=madhuakula/hacker-container -- sh
 label: Scenario
 ---
 
-# Hacker Container preview
+# Hacker container preview
 
 This scenario, is just an exploration of the common security utilities inside the Kubernetes Cluster environment. I think by this time you might have already used hacker-container multiple times.
 

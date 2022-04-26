@@ -1,12 +1,12 @@
 ---
 scenario: 17
-title: KubeAudit - Audit Kubernetes Clusters
+title: KubeAudit - Audit Kubernetes clusters
 notes:
     - kubectl run -n kube-system --serviceaccount=tiller --rm --restart=Never -it --image=madhuakula/hacker-container -- bash
 label: Scenario
 ---
 
-# KubeAudit - Audit Kubernetes Clusters
+# KubeAudit - Audit Kubernetes clusters
 
 This scenario is mainly to perform the audit of Kubernetes Cluster for various different security concerns.
 

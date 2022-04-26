@@ -1,12 +1,12 @@
 ---
 scenario: 5
-title: Docker CIS Benchmarks analysis
+title: Docker CIS benchmarks analysis
 notes:
     - kubectl apply -f scenarios/docker-bench-security/deployment.yaml
 label: Scenario
 ---
 
-# Docker CIS Benchmarks analysis
+# Docker CIS benchmarks analysis
 
 This scenario is mainly to perform the Docker CIS benchmarks analysis on top of Kubernetes nodes to identify the possible security vulnerabilities. 
 

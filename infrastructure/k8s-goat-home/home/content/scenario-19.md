@@ -1,12 +1,12 @@
 ---
 scenario: 19
-title: Popeye - A Kubernetes Cluster Sanitizer
+title: Popeye - A Kubernetes cluster sanitizer
 notes:
     - kubectl run -n kube-system --serviceaccount=tiller --rm --restart=Never -it --image=madhuakula/hacker-container -- bash
 label: Scenario
 ---
 
-# Popeye - A Kubernetes Cluster Sanitizer
+# Popeye - A Kubernetes cluster sanitizer
 
 This scenario is mainly to perform the review of Kubernetes Cluster by scanning the live Kubernetes cluster and reports potential issues with deployed resources and configurations.
 

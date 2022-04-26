@@ -1,13 +1,13 @@
 ---
 scenario: 6
-title: Kubernetes CIS Benchmarks analysis
+title: Kubernetes CIS benchmarks analysis
 notes:
     - kubectl apply -f scenarios/kube-bench-security/node-job.yaml
     - kubectl apply -f scenarios/kube-bench-security/master-job.yaml
 label: Scenario
 ---
 
-# Kubernetes CIS Benchmarks analysis
+# Kubernetes CIS benchmarks analysis
 
 This scenario is mainly to perform the Kubernetes CIS benchmarks analysis on top of Kubernetes nodes to identify the possible security vulnerabilities. 
 
