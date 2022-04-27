@@ -17,4 +17,4 @@ jobs:
       uses: bridgecrewio/bridgecrew-action@master
       with:
         api-key: ${{ secrets.BC_API_KEY }}
-        directory: terraform/
+        directory: .
