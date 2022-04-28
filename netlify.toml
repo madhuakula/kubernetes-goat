@@ -1,4 +1,0 @@
-[build]
-  command = "cd guide && yarn build"
-  publish = "guide/build"
-
