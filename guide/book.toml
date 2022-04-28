@@ -1,9 +1,0 @@
-[book]
-authors = ["Madhu Akula"]
-language = "en"
-multilingual = false
-src = "src"
-title = "Kubernetes Goat"
-
-[output.html]
-google-analytics = "UA-15752161-2"
