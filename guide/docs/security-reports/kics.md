@@ -29,4 +29,4 @@ KICS stands for keeping infrastructure as code secure, it is an open source solu
 
 import IframeResizer from 'iframe-resizer-react'
 
-<IframeResizer src="/kics-report.html" style={{ width: "1px", minWidth: "100%", position: "relative" }} />
+<IframeResizer src="https://madhuakula.com/kubernetes-goat/kics-report.html" style={{ width: "1px", minWidth: "100%", position: "relative" }} />
