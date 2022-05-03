@@ -122,6 +122,7 @@ const sidebars = {
       items: [
         'security-reports/kics',
         'security-reports/checkov',
+        'security-reports/kubescape',
       ],
     },
 

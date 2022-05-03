@@ -7,11 +7,11 @@
   Kubernetes Goat
 </h1>
 <p align="center">
-    ✨ The Kubernetes Goat is designed to be an intentionally vulnerable cluster environment to learn and practice Kubernetes security.
+    ✨ The Kubernetes Goat is designed to be an intentionally vulnerable cluster environment to learn and practice Kubernetes security 🚀
 </p>
 
 <p align="center">
-    🙌 Refer to <a href="https://madhuakula.com/kubernetes-goat">https://madhuakula.com/kubernetes-goat</a> for the guide 📖
+    🙌 Refer to <b><a href="https://madhuakula.com/kubernetes-goat">https://madhuakula.com/kubernetes-goat</a></b> for the guide 📖
 </p>
 
 <p align="center">
