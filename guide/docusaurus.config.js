@@ -46,7 +46,7 @@ const config = {
     (
 
       {
-
+        image: 'img/kubernetes-goat-docs.png',
         zoom: {
           selector: '.markdown :not(em) > img',
           config: {
