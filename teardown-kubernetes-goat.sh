@@ -3,6 +3,10 @@
 # This program has been created as part of Kuberentes Goat
 # Teardown Kuberentes Goat setup
 
+# Removing the superadmin cluster role/binding
+kubectl delete clusterrolebindings superadmin
+kubectl delete serviceaccount -n kube-system superadmin
+
 # Removing the helm-tiller cluster role/binding
 kubectl delete clusterrole all-your-base
 kubectl delete clusterrolebindings belong-to-us
