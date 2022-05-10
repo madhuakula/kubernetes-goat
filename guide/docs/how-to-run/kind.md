@@ -35,10 +35,4 @@ cd kubernetes-goat/kind-setup
 bash setup-kind-cluster-and-goat.sh
 ```
 
-* Run the following script to set up and deploy the Kubernetes Goat resources into your cluster
-
-```bash
-bash ../setup-kubernetes-goat.sh
-```
-
 * Now we have the Kubernetes Goat setup up and running, refer to [Getting Started for next steps](../getting-started)
