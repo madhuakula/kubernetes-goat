@@ -148,5 +148,7 @@ Thanks go to these wonderful people 🎉
                     src="https://avatars.githubusercontent.com/u/5067183?v=4" width="100" /><br />podjackel</a></td>
         <td align="center"><a href="https://github.com/ant4g0nist"><img alt="ant4g0nist"
                     src="https://avatars.githubusercontent.com/u/3500559?v=4" width="100" /><br />ant4g0nist</a></td>
-    </tr>
+        <td align="center"><a href="https://github.com/adamhurm"><img alt="adamhurm"
+                    src="https://avatars.githubusercontent.com/u/13396996?v=4" width="100" /><br />adamhurm</a></td>
+  </tr>
 </table>
