@@ -8,8 +8,8 @@ RUN apt update && apt install stress-ng curl wget -y \
     else \
         GOTTY="gotty_linux_amd64.tar.gz"; \
     fi; \
-    wget https://github.com/yudai/gotty/releases/download/v1.0.1/$GOTTY \
-    && tar -xvzf gotty_linux_amd64.tar.gz; mv gotty /usr/local/bin/gotty
+    wget https://github.com/yudai/gotty/releases/download/v1.0.1/${GOTTY} \
+    && tar -xvzf ${GOTTY}; mv gotty /usr/local/bin/gotty
 
 EXPOSE 8080
 
