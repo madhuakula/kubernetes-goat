@@ -4,7 +4,7 @@ LABEL MAINTAINER="Madhu Akula" INFO="Kubernetes Goat"
 RUN apt-get update && apt-get install -y htop \
     libcap2-bin curl wget && \
     cd /tmp; \
-    if [ `uname -m` == "aarch64" ]; then \
+    if [ `uname -m` = "aarch64" ]; then \
         GOTTY="gotty_linux_arm.tar.gz"; \
     else \
         GOTTY="gotty_linux_amd64.tar.gz"; \
