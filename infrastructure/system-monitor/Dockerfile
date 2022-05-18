@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y htop \
     libcap2-bin curl wget && \
     cd /tmp; \
     if [ `uname -m` == "aarch64" ]; then \
-        GOTTY="gottty_linux_arm.tar.gz"; \
+        GOTTY="gotty_linux_arm.tar.gz"; \
     else \
         GOTTY="gotty_linux_amd64.tar.gz"; \
     fi; \
