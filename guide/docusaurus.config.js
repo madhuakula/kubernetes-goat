@@ -30,6 +30,7 @@ const config = {
         },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          sidebarCollapsible: true,
           // Please change this to your repo.
           editUrl: 'https://github.com/madhuakula/kubernetes-goat/edit/next/guide/',
         },
@@ -58,8 +59,6 @@ const config = {
           }
         },
         metadata: [{ name: 'keywords', content: 'Kubernetes, Security, Containers, Docker, Cloud, Cloud Native, Pentest, Hacking, Developers, DevOps, CNCF, k8s, vulnerable, Kubernetes Security, Container Security, Cloud Security, Cloud Native Security, Open Source, DevSecOps' }],
-        hideableSidebar: true,
-        autoCollapseSidebarCategories: true,
         colorMode: {
           defaultMode: 'light',
           disableSwitch: false,
