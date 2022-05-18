@@ -46,10 +46,10 @@ To start a local environment of this project, please do the following.
 git clone https://github.com/madhuakula/kubernetes-goat.git
 ```
 
-2. Navigate to the `docs` directory
+2. Navigate to the `guide` directory
 
 ```bash
-cd docs
+cd kubernetes-goat/guide
 ```
 
 3. Install dependencies
