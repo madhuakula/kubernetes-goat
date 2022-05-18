@@ -12,7 +12,7 @@ RUN apt update && apt install curl wget ca-certificates bash telnet -y; \
     else \
         ARCH="amd"; \
     fi; \
-    && curl -LO https://get.helm.sh/helm-v${HELMV2_VERSION}-linux-${ARCH}64.tar.gz \
+    curl -LO https://get.helm.sh/helm-v${HELMV2_VERSION}-linux-${ARCH}64.tar.gz \
     && tar -zxvf helm-v${HELMV2_VERSION}-linux-${ARCH}64.tar.gz \
     && curl -LO https://dl.k8s.io/v${KUBECTL_VERSION}/bin/linux/${ARCH}64/kubectl \
     && mv kubectl /usr/local/bin/kubectl \
