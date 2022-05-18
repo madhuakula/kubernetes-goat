@@ -6,8 +6,8 @@ ENV KUBECTL_VERSION=1.18.3
 
 WORKDIR /tmp/
 
-RUN apt update && apt install curl wget ca-certificates bash telnet -y && \
-    if [ `uname -m` == "aarch64" ]; then \
+RUN apt update && apt install curl wget ca-certificates bash telnet -y; \
+    if [ `uname -m` = "aarch64" ]; then \
         ARCH="arm"; \
     else \
         ARCH="amd"; \
