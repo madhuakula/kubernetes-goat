@@ -102,6 +102,7 @@ const config = {
             { to: 'https://katacoda.com/madhuakula/scenarios/kubernetes-goat', position: 'right', label: '🚀 Try' },
             { to: 'https://www.producthunt.com/posts/kubernetes-goat?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-kubernetes-goat', position: 'right', label: '🔺 Vote' },
             { to: '/docs', position: 'right', label: '📖 Docs' },
+            { to: 'https://rebrand.ly/Kubernetes-Goat/', position: 'right', label: '💬 Discord' },
             {
               to: 'https://twitter.com/intent/tweet/?text=Kubernetes%20Goat,%20an%20intentionally%20vulnerable%20by%20design%20training%20platform%20to%20learn%20%23Kubernetes%20Security%20by%20%40madhuakula.%20Check%20it%20out%20&url=https://github.com/madhuakula/kubernetes-goat', position: 'right', label: '❤️ Tweet'
             },
@@ -126,6 +127,10 @@ const config = {
             {
               label: 'Twitter',
               to: 'https://twitter.com/madhuakula',
+            },
+            {
+              label: 'Discord',
+              to: 'https://rebrand.ly/Kubernetes-Goat/',
             },
           ],
           copyright: `Copyright © ${new Date().getFullYear()
