@@ -25,10 +25,8 @@ So, here it is **Kubernetes Goat Meets Discord**. 🚀
 * 🔤 Unless otherwise specified, the default language for channels is English.
 * 🚫 Moderators will Ban, Kick, Mute for Violations.
 
-<br>
 Keep doing all the good work and hope you find this community helpful in your journey! ✨
 
-<br>
 Cheers! 🥂
 
 

@@ -34,6 +34,8 @@ Thanks goes to these wonderful people 🎉
   <tr>
         <td align="center"><a href="https://github.com/adamhurm"><img alt="adamhurm"
                     src="https://avatars.githubusercontent.com/u/13396996?v=4" width="100" /><br />adamhurm</a></td>
+        <td align="center"><a href="https://github.com/0xCardinal"><img alt="0xCardinal"
+                    src="https://avatars.githubusercontent.com/u/77858203?v=4" width="100" /><br />0xCardinal</a></td>
   </tr>
 </table>
 
