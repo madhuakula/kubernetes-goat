@@ -22,7 +22,7 @@ So, here it is **Kubernetes Goat Meets Discord**. 🚀
 * 🔞 No NSFW or obscene content. This includes text, images, or links featuring nudity, sex, hard violence, or other graphically disturbing content.
 * 😱 If you see something against the rules or something that makes you feel unsafe, let staff know. We want this server to be a welcoming space!
 * 🗄️ Try to keep discussions on-topic in channels relevant for learning purpose.
-🔤 Unless otherwise specified, the default language for channels is English.
+* 🔤 Unless otherwise specified, the default language for channels is English.
 * 🚫 Moderators will Ban, Kick, Mute for Violations.
 
 <br>
