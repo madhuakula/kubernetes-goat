@@ -99,7 +99,6 @@ const config = {
             //   'aria-label': 'Twitter',
             // },
 
-            { to: 'https://katacoda.com/madhuakula/scenarios/kubernetes-goat', position: 'right', label: '🚀 Try' },
             { to: 'https://www.producthunt.com/posts/kubernetes-goat?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-kubernetes-goat', position: 'right', label: '🔺 Vote' },
             { to: '/docs', position: 'right', label: '📖 Docs' },
             { to: 'https://rebrand.ly/Kubernetes-Goat/', position: 'right', label: '💬 Discord' },

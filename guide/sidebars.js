@@ -45,7 +45,6 @@ const sidebars = {
           "You can run Kubernetes goat using different ways in various providers and setups like AWS, GCP, Azure, K3S, etc.",
       },
       items: [
-        'how-to-run/katacoda',
         'how-to-run/kubernetes',
         'how-to-run/kind',
         'how-to-run/gcp',
