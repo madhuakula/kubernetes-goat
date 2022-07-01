@@ -41,7 +41,7 @@ Reference: [https://kubernetes.io/docs/concepts/overview/components](https://kub
 
 :::tip
 
-You can learn more about the Kubernetes and it's concepts at [https://kubernetes.io/docs/tutorials/kubernetes-basics/](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+Use the free Katacoda playgrounds if required to learn more about the Kubernetes and it's concepts at [https://kubernetes.io/docs/tutorials/kubernetes-basics/](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
 
 :::
 
