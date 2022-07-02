@@ -43,10 +43,6 @@
 
 [![Kubernetes Goat Home](./kubernetes-goat-home.png)](https://madhuakula.com/kubernetes-goat)
 
-## 🚀 Free online browser-based playground - [Try now]((https://katacoda.com/madhuakula/scenarios/kubernetes-goat))
-
-[![Katacoda Playground Kubernetes Goat](./kubernetes-goat-katacoda.png)](https://katacoda.com/madhuakula/scenarios/kubernetes-goat)
-
 ## ⚙️ Setting up Kubernetes Goat
 
 * Ensure you have admin access to the Kubernetes cluster and installed `kubectl`. Refer to the [docs for installation](https://kubernetes.io/docs/tasks/tools/install-kubectl/)

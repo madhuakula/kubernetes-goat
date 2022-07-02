@@ -8,7 +8,7 @@ Absolutely YES. This project is intended for different users and security is jus
 
 ### Is this project or platform free?
 
-Yes, it's FREE. Kubernetes Goat is an open-source project to share knowledge and learnings with the community in an interactive online way. We are using Katacoda playground (which is hosted and managed by Katacoda) but the project is managed and maintained as open-source.
+Yes, it's FREE. Kubernetes Goat is an open-source project to share knowledge and learnings with the community in an interactive online way.
 
 ### I don't know about Kubernetes, can I learn Kubernetes Security?
 

@@ -41,19 +41,6 @@ Kubernetes Goat is used for educational purposes only, do not test or apply thes
 
 This section contains a very quick and fastest way to get started. But if you want to use Kubernetes Goat with different environments like GCP GKE, AWS EKS, Fargate, Azure AKS, K3S, etc. **[Refer to the detailed documentation here](how-to-run)**
 
-### 🚀 Free Online Playground
-
-* We have created a simple single-click browser-based online Kubernetes Goat playground using Katacoda. You can try it out right from your browser within seconds for free.
-
-:::tip Free Online Playground
-
-Try it out [https://katacoda.com/madhuakula/scenarios/kubernetes-goat](https://katacoda.com/madhuakula/scenarios/kubernetes-goat)
-
-:::
-
-[![Kubernetes Goat playground by Katacoda](how-to-run/images/kubernetes-goat-katacoda.png)](https://katacoda.com/madhuakula/scenarios/kubernetes-goat)
-
-
 ### ✨ Quick Start - Kubernetes
 
 * Ensure you have admin access to the Kubernetes cluster and installed `kubectl`. Refer to the [docs for installation](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
