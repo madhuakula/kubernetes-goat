@@ -1,0 +1,36 @@
+plugins {
+    id "org.springframework.boot" version "2.6.0"
+}
+
+apply plugin: 'org.springframework.boot'
+
+repositories {
+    mavenCentral()
+}
+
+configurations {
+   testCompile
+   compileOnly
+   implementation
+}
+
+ext.log4jversion = '1.2.16'
+ext.codecVersion = '1.9'
+def commonsLoggingVersion = "1.1.2"
+
+dependencies {
+    testCompile 'junit:junit:4.0'
+    compileOnly "log4j:log4j:$log4jversion"
+    compileOnly "commons-codec:commons-codec:" + codecVersion
+    compileOnly group: 'commons-lang', name: 'commons-lang', version: '2.4'
+    compileOnly group: 'commons-logging', name: 'commons-logging', version: commonsLoggingVersion
+
+    implementation 'org.apache.httpcomponents:httpclient:4.5.4'
+    implementation('com.fasterxml.jackson.core:jackson-databind:2.12.4') {
+        force = true
+    }
+
+    implementation('commons-beanutils:commons-beanutils:1.9.0') {
+        exclude group: 'commons-collections', module: 'commons-collections'
+    }
+}
