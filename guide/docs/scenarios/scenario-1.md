@@ -57,7 +57,7 @@ If you obtain the AWS `aws_access_key_id` and `aws_secret_access_key` along with
 
 * After reading the story and understanding the application by enumeration and discovery, we can perform the discovery and analysis, then we can identify that it has a `.git` folder exposed within the application
 
-* We can navigate to `http://127.0.0.1:3000/.git/config` for verifying that it has a git configuration available
+* We can navigate to `http://127.0.0.1:1230/.git/config` for verifying that it has a git configuration available
 
 ![Scenario 1 Git folder found](images/sc-1-2.png)
 
@@ -139,7 +139,7 @@ We can find leaked credentials in git commits/history using open-source utilitie
 
 :::
 
-* It contian the `.git` folder and we can use `trufflehog` to perform the analysis by running the following command
+* It contains the `.git` folder and we can use `trufflehog` to perform the analysis by running the following command
 
 ```bash
 trufflehog .
