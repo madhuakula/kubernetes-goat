@@ -2,7 +2,7 @@
 sidebar_label: ☸️ K3S
 ---
 
-# ☸️ K3S - Legithwegith Kubernetes
+# ☸️ K3S - Lightweight Kubernetes
 
 **TBD: WORK IN PROGRESS**
 
