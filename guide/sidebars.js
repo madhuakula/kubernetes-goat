@@ -51,6 +51,7 @@ const sidebars = {
         'how-to-run/aws',
         'how-to-run/azure',
         'how-to-run/k3s',
+        'how-to-run/aws-ec2-kind-cdk',
       ],
     },
 

@@ -26,7 +26,7 @@ git clone https://github.com/madhuakula/kubernetes-goat.git
 * Navigate to the folder for setup and installation of the Kubernetes Goat using KiND
 
 ```bash
-cd kubernetes-goat/kind-setup
+cd kubernetes-goat/platforms/kind-setup
 ```
 
 * Run the following command to set up the KIND cluster

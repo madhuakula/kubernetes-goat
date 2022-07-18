@@ -26,7 +26,7 @@ fi
 kind create cluster --config kind-cluster-setup.yaml --name kubernetes-goat-cluster
 
 # Move to the root dir
-cd ..
+cd ../..
 
 # Setup GOAT exposing host Docker socket:
 sed 's/scenarios\/health-check\/deployment.yaml/scenarios\/health-check\/deployment-kind.yaml/' setup-kubernetes-goat.sh | sh
