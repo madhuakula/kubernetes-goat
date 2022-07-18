@@ -37,6 +37,8 @@ Thanks goes to these wonderful people 🎉
             src="https://avatars.githubusercontent.com/u/955192?v=4" width="100" /><br />wurstbrot</a></td>
         <td align="center"><a href="https://github.com/podjackel"><img alt="podjackel"
             src="https://avatars.githubusercontent.com/u/5067183?v=4" width="100" /><br />podjackel</a></td>
+        <td align="center"><a href="https://github.com/shivankar-madaan"><img alt="shivankar-madaan"
+            src="https://avatars.githubusercontent.com/u/23168725?v=4" width="100" /><br />shivankar-madaan</a></td>
     </tr>
 </table>
 
