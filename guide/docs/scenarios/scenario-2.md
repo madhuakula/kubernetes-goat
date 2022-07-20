@@ -39,7 +39,7 @@ If you can able to obtain container images in the host system then you have comp
 <details>
   <summary><b>✨ Do you know how to run multiple commands in Linux? </b></summary>
   <div>
-    <div>The application running here has command injection vulnerability. You can exploit this by using the <b>;</b> delimiter when passing the input 🙌</div>
+    <div>The application running here has command injection vulnerability. You can exploit this by using the <b>;</b> delimetor when passing the input 🙌</div>
   </div>
 </details>
 
@@ -53,6 +53,23 @@ If you can able to obtain container images in the host system then you have comp
 ## 🎉 Solution & Walkthrough
 
 ### 🎲 Method 1
+
+* Start by checking that DNS resolution is working for your cluster. If this doesn't work, check to see if you have a DNS service like CoreDNS running on your cluster.
+
+```bash
+www.google.com
+```
+
+:::tip
+* if you get your local domain appended, try using
+
+```bash
+www.google.com.
+```
+
+* If you have to do this, you should always add a . after a url, even in wget commands. The extra dot is required is that kubernetes has a default option of ndots:5 in /etc/resolv.conf, which is verifiable in this scenario. This means that unless a minimum of 5 dots are present, the domain is not assumed to be a FQDN.
+:::
+
 
 * By looking at the application functionality and dabbling with the input and output, we can see it has standard command injection vulnerability. Assuming it's running in a Linux container we can use the `;` delimiter to run/pass other commands
 
