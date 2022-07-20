@@ -39,7 +39,7 @@ If you can able to obtain container images in the host system then you have comp
 <details>
   <summary><b>✨ Do you know how to run multiple commands in Linux? </b></summary>
   <div>
-    <div>The application running here has command injection vulnerability. You can exploit this by using the <b>;</b> delimetor when passing the input 🙌</div>
+    <div>The application running here has command injection vulnerability. You can exploit this by using the <b>;</b> delimiter when passing the input 🙌</div>
   </div>
 </details>
 
