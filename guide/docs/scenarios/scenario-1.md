@@ -92,7 +92,7 @@ git log
 * We can see that there is a specific commit quite interesting after analyzing multiple commits. We can check out a specific commit using the following command with commit id
 
 ```bash
-git checkout 128029d89797957957b2a7198d8d159b239b34eb
+git checkout d7c173ad183c574109cd5c4c648ffe551755b576
 ```
 
 ![Scenario 1 Gain access to flag](images/sc-1-5.png)
