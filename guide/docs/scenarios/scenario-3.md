@@ -2,13 +2,13 @@
 
 ## 🙌 Overview
 
-This scenario is to showcase the popular application security vulnerability getting exploited everywhere in the cloud environments. Now we will try to see how it impacts the Kubernetes clusters, internal services, and microservices as well. This has quite a great impact in cloud native environments, one of the real-world examples include [Shopify - SSRF in Exchange leads to ROOT access in all instances](https://hackerone.com/reports/341876).
+This scenario is to showcase the popular application security vulnerability getting exploited everywhere in the cloud environments. Now we will try to see how it impacts the Kubernetes clusters, internal services, and microservices as well. This has quite a large impact in cloud native environments, one of the real-world examples include [Shopify - SSRF in Exchange leads to ROOT access in all instances](https://hackerone.com/reports/341876).
 
 ![](images/scenario-3.png)
 
 By the end of the scenario, we will understand and learn the following
 
-1. You will learn to exploit SSRF vulnerabilities in applications in cloud environments
+1. How to exploit SSRF vulnerabilities in applications in cloud environments
 2. Learn to understand the metadata query features to gain access to cloud provider data
 3. Understand and leverage Kubernetes native service discovery features and service DNS queries
 4. Gain access to internal microservices within-cluster environments
@@ -66,19 +66,19 @@ We can go ahead and access the default instance metadata service using `169.254.
 
 :::
 
-* We can start with enumeration and reconnaissance to understand what services are running in the current instance and other networks based on the available information
+* We can start with enumeration and reconnaissance to understand what services are running in the current instance and other networks based on the available information.
 
-* We can also query the current container/pod to see if any other services running by querying the different ports and addresses. Let's query the port `5000` in the same container `http://127.0.0.1:5000` with method `GET`
+* We can also query the current container/pod to see if any other services running by querying the different ports and addresses. Let's query the port `5000` in the same container `http://127.0.0.1:5000` with method `GET`.
 
 ![Scenario 3 internal port](images/sc-3-2.png)
 
-* As we can see, it's running some web service and returned the HTTP response as well. So now we have more data/information to further our attack towards more access within the Kubernetes network services
+* As we can see, it's running some web service and returned the HTTP response as well. So now we have more data/information to further our attack towards more access within the Kubernetes network services.
 
-* Now we can see that there is an internal-only exposed service within the cluster called `metadata-db`, let's a query and see if we can get any more useful information `http://metadata-db`
+* Now we can see that there is an internal-only exposed service within the cluster called `metadata-db`, let's a query and see if we can get any more useful information `http://metadata-db`.
 
 ![Scenario 3 access metadata service](images/sc-3-3.png)
 
-* After enumerating through the entire key values, finally we can see that there is a flag at `http://metadata-db/latest/secrets/kubernetes-goat` endpoint
+* After enumerating through the entire key values, finally we can see that there is a flag at `http://metadata-db/latest/secrets/kubernetes-goat` endpoint.
 
 ![Scenario 3 access flag](images/sc-3-4.png)
 
