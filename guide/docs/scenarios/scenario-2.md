@@ -2,7 +2,7 @@
 
 ## 🙌 Overview
 
-In this scenario, we will be focusing on the common and standard ways how to build systems and pipelines that leverage container sockets to create, build and run containers from underlying container runtime. This has been exploited since the early days of the container ecosystem and till today we see this misconfiguration/use cases in the real world. 
+In this scenario, we will be focusing on the common and standard ways how to build systems and pipelines that leverage container sockets to create, build and run containers from the underlying container runtime. This has been exploited since the early days of the container ecosystem and even today we see these misconfigurations/use cases in the real world. 
 
 ![Scenario 2](images/scenario-2.png)
 
