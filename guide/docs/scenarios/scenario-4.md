@@ -2,19 +2,19 @@
 
 ## 🙌 Overview
 
-This scenario is to showcase the common misconfigurations and one of the error-prone security issues in Kubernetes, container environments, and the general security world. Giving privileges not required for things always makes it worst, especially in the containers and Kubernetes world it can take this step further and beyond the container to the other systems and services based on the configuration and setup of the cluster environments and resources. In this scenario we see a privileged container escape to gain access to the host system by escaping out of the container.
+This scenario showcases the common misconfigurations and one of the error-prone security issues in Kubernetes, container environments, and the general security world. Giving privileges that are not required for things always makes security worse. This is especially true in the containers and Kubernetes world. You can also apply this scenario further and beyond the container to other systems and services based on the configuration and setup of the cluster environments and resources. In this scenario you will see a privileged container escape to gain access to the host system.
 
 ![](images/scenario-4.png)
 
-By the end of the scenario, we will understand and learn the following
+By the end of the scenario, you will understand and learn the following:
 
-1. Able to exploit container and escape out of the docker container
+1. Able to exploit the container and escape out of the docker container
 2. You will learn to test and exploit the misconfigured and privileged containers
-3. Learn common misconfigurations and possible damage due to them for the containers, Kubernetes, and clusterized environments
+3. Learn about common misconfigurations and possible damage due to them for the containers, Kubernetes, and clusterized environments
 
 ### ⚡️ The story
 
-Most of the monitoring, tracing, and debugging software requires running with extra privileges and capabilities. Here in this scenario, we will see a pod with extra capabilities and privileges including HostPath allowing us to gain access to the host system and provide Node level configuration to gain complete cluster compromise.
+Most of the monitoring, tracing, and debugging software requires extra privileges and capabilities to run. In this scenario, you will see a pod with extra capabilities and privileges including HostPath allowing you to gain access to the host system and provide Node level configuration to gain complete cluster compromise.
 
 :::info
 
@@ -24,13 +24,13 @@ To get started with the scenario, navigate to [http://127.0.0.1:1233](http://127
 
 ![Scenario 4 Welcome](images/sc-4-1.png)
 
-### 🎯 Goal
+### 🎯 Goals
 
-The goal of this scenario is to escape out of the running docker container to the host system using the available misconfigurations. Then use the host system-level access to gain other resources access and if possible even go beyond this container, node, and cluster-level access.
+The goal of this scenario is to escape out of the running docker container on the host system using the available misconfigurations. The secondary goal is to use the host system-level access to gain other resources access and if possible even go beyond this container, node, and cluster-level access.
 
 :::tip
 
-Gain access to the host system and obtain the node level kubeconfig file `/var/lib/kubelet/kubeconfig`, and query the Kubernetes nodes using the obtained configuration
+Gain access to the host system and obtain the node level kubeconfig file `/var/lib/kubelet/kubeconfig`, and query the Kubernetes nodes using the obtained configuration.
 
 :::
 
@@ -46,7 +46,7 @@ Gain access to the host system and obtain the node level kubeconfig file `/var/l
 <details>
   <summary><b>✨ Escaped container? </b></summary>
   <div>
-    <div>You can recon the system, some interesting place to obtain the node level configuration is <b>/var/lib/kubelet/kubeconfig</b> and I hope you know how to query Kubernetes API for nodes 🎉</div>
+    <div>You can recon the system, some interesting places to obtain the node level configuration are <b>/var/lib/kubelet/kubeconfig</b> and I hope you know how to query Kubernetes API for nodes? 🎉</div>
   </div>
 </details>
 
@@ -54,7 +54,7 @@ Gain access to the host system and obtain the node level kubeconfig file `/var/l
 
 ### 🎲 Method 1
 
-* After performing the analysis, we can identify that this container has complete privileges of the host system and allows privilege escalation. As well as `/host-system` is mounted from the host system
+* After performing the analysis, you can identify that this container has full privileges of the host system and allows privilege escalation. As well as `/host-system` is mounted.
 
 ```bash
 capsh --print
@@ -64,7 +64,7 @@ capsh --print
 mount
 ```
 
-* Now we can explore the mounted file system by navigating to the `/host-system` path
+* Now you can explore the mounted file system by navigating to the `/host-system` path
 
 ```bash
 ls /host-system/
@@ -72,13 +72,13 @@ ls /host-system/
 
 ![Scenario 4 host system](images/sc-4-2.png)
 
-* We can gain access to the host system privileges using `chroot`
+* You can gain access to the host system privileges using `chroot`
 
 ```bash
 chroot /host-system bash
 ```
 
-* As you can see, now we can access all the host system resources like docker containers, configurations, etc.
+* As you can see, now you can access all the host system resources like docker containers, configurations, etc.
 
 ```bash
 docker ps
@@ -86,7 +86,7 @@ docker ps
 
 ![Scenario 4 chroot host](images/sc-4-3.png)
 
-* The Kubernetes node configuration can be found at the default path, which is used by the node level kubelet to talk to the Kubernetes API Server. If we can use this configuration, we gain the same privileges as the Kubernetes node
+* The Kubernetes node configuration can be found at the default path, which is used by the node level kubelet to talk to the Kubernetes API Server. If you can use this configuration, you gain the same privileges as the Kubernetes node.
 
 ```bash
 cat /var/lib/kubelet/kubeconfig
@@ -96,7 +96,7 @@ cat /var/lib/kubelet/kubeconfig
 
 :::tip
 
-We can use the available `kubectl` command-line utility to explore other resources using the obtained configuration. Also, we can leverage a ton of other possible things by using the available utilities or downloading them as required.
+You can use the available `kubectl` command-line utility to explore other resources using the obtained configuration. Also, you can leverage lots of other potential things by using the available utilities or downloading them as required.
 
 :::
 
@@ -110,16 +110,16 @@ kubectl --kubeconfig /var/lib/kubelet/kubeconfig get all -n kube-system
 
 :::info
 
-From here we can go beyond by performing the lateral moment and post-exploitation based on the available setup, configuration, and resources
+From here you can go beyond by performing the lateral moment and a post-exploitation based on the available setup, configuration, and resources
 :::
 
-* We can able to obtain the available nodes in the Kubernetes cluster by running the following command
+* You are able to obtain the available nodes in the Kubernetes cluster by running the following command:
 
 ```bash
 kubectl --kubeconfig /var/lib/kubelet/kubeconfig get nodes
 ```
 
-* Hooray 🥳 , now we can see that it returns the cluster nodes available as we have the privilege/permissions with obtained configuration to query the Kubernetes API server
+* Hooray 🥳 , now you can see that it returns the cluster nodes available as we have the privilege/permissions with obtained configuration to query the Kubernetes API server
 
 
 ## 🔖 References
