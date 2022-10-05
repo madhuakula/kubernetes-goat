@@ -2,11 +2,11 @@
 
 ## 🙌 Overview
 
-This scenario is very useful in performing Kubernetes security audits and assessments. Here we will learn to run an open-source tool called `Popeye` for the Kubernetes cluster and use the results for the further exploitation or fixing of the misconfigurations and vulnerabilities. This is very important and mandates if you are coming from an audit and compliance background in the modern world of containers, Kubernetes, and cloud native ecosystems.
+This scenario is useful in performing Kubernetes security audits and assessments. Here you will learn how to run an open-source tool called `Popeye` for the Kubernetes cluster. You will also use the results for the further exploitation or fixing of the misconfigurations and vulnerabilities found. This is very important if you are coming from an audit and compliance background in the modern world of containers, Kubernetes, and cloud native ecosystems.
 
 ![](images/scenario-diagram-wip.png)
 
-By the end of the scenario, we will understand and learn the following
+By the end of the scenario, you will understand and learn the following:
 
 1. You will learn to perform Kubernetes audit for Kubernetes clusters
 2. Working with open source utilities to perform audits and investigations of the cluster resources
@@ -49,7 +49,7 @@ The goal of this scenario is to perform the Kubernetes security audit and obtain
 
 :::info
 
-`Popeye` is a utility that scans live Kubernetes clusters and reports potential issues with deployed resources and configurations. It sanitizes your cluster based on what's deployed and not what's sitting on the disk. Scanning your cluster, detects misconfigurations and helps you to ensure that best practices are in place, thus preventing future headaches.
+`Popeye` is a utility that scans live Kubernetes clusters and reports potential issues with deployed resources and configurations. It sanitizes your cluster based on what's deployed and not what's sitting on the disk. Scanning your cluster helps detect misconfigurations and helps you to ensure that best practices are in place, thus preventing future headaches.
 
 :::
 
@@ -94,9 +94,9 @@ kubectl run -n kube-system --serviceaccount=tiller --rm --restart=Never -it --im
 popeye
 ```
 
-![Scenario 19 popeye](images/sc-19-1.png)
+![Scenario 19 Popeye](images/sc-19-1.png)
 
-* Now based on the vulnerabilities you see from the popeye, you can proceed with further exploitation
+* Now based on the vulnerabilities you see from the Popeye, you can proceed with further exploitation
 
 * Hooray 🥳 , now we can see that it returns the all security issues/misconfigurations from the cluster
 
