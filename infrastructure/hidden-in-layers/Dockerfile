@@ -2,7 +2,7 @@ FROM alpine:latest
 
 LABEL MAINTAINER "Madhu Akula" INFO="Kubernetes Goat"
 
-ADD secret.txt /root/secret.txt
+ADD secret.txt /root/secret.text
 
 RUN echo "Contributed by Rewanth Cool" >> /root/contribution.txt \
     && rm -rf /root/secret.txt
