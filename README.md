@@ -53,6 +53,7 @@
 ```bash
 git clone https://github.com/madhuakula/kubernetes-goat.git
 cd kubernetes-goat
+chmod +x setup-kubernetes-goat.sh
 bash setup-kubernetes-goat.sh
 ```
 
