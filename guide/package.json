@@ -1,5 +1,5 @@
 {
-  "name": "guide",
+  "name": "Kubernetes Goat",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -15,8 +15,8 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "2.2.0",
-    "@docusaurus/preset-classic": "2.2.0",
+    "@docusaurus/core": "2.4.0",
+    "@docusaurus/preset-classic": "2.4.0",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
     "docusaurus-lunr-search": "^2.1.15",
