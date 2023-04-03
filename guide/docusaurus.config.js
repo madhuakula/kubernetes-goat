@@ -28,6 +28,10 @@ const config = {
           trackingID: 'UA-15752161-2',
           anonymizeIP: true,
         },
+        googleTagManager: {
+          containerId: 'G-LR19RMYHX8',
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           sidebarCollapsible: true,
