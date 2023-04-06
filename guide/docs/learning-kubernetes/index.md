@@ -60,3 +60,4 @@ Reference: [The Illustrated Children's Guide to Kubernetes Video](https://www.yo
 * [Kubernetes by Examples](https://kubernetesbyexample.com/)
 * [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
 * [CNCF Phippy and friends](https://www.cncf.io/phippy/)
+* [15 Kubernetes Best Practices Every Developer Should Know](https://spacelift.io/blog/kubernetes-best-practices)
