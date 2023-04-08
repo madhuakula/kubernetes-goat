@@ -249,7 +249,12 @@ const config = {
             {
             from: '/docs/scenarios/scenario-20',
             to: '/docs/scenarios/scenario-20/secure-kubernetes-using-network-security-policy'
-            },            
+            },  
+                        
+            {
+              from: '/docs/scenarios/scenario-21',
+              to: '/docs/scenarios/scenario-21/ebpf-runtime-security-monitoring-and-detection-in-kubernetes-cluster-using-cilium-tetragon'
+              },            
           ], 
         }
   ]

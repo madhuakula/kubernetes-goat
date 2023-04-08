@@ -99,6 +99,7 @@ bash access-kubernetes-goat.sh
 18. Falco - Runtime security monitoring & detection
 19. Popeye - A Kubernetes cluster sanitizer
 20. Secure network boundaries using NSP
+21. Cilium Tetragon - eBPF-based Security Observability and Runtime Enforcement
 
 ## 📖 Documentation Guide
 

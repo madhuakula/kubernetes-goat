@@ -105,6 +105,7 @@ Refer to the detailed documentation [here](how-to-run) if you want to use Kubern
 18. [Falco - Runtime security monitoring & detection](scenarios/scenario-18/index.md)
 19. [Popeye - A Kubernetes cluster sanitizer](scenarios/scenario-19/index.md)
 20. [Secure network boundaries using NSP](scenarios/scenario-20/index.md)
+21. [Cilium Tetragon - eBPF-based Security Observability and Runtime Enforcement](scenarios/scenario-21/index.md)
 
 ## 🔥 Audience
 
