@@ -30,7 +30,6 @@ const config = {
         },
         googleTagManager: {
           containerId: 'G-LR19RMYHX8',
-          anonymizeIP: true,
         },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
