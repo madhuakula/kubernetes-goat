@@ -1,26 +1,28 @@
 ---
-sidebar_label: ☁️ AWS EC2 KiND CDK
+sidebar_position: 7
+title: ☁️ AWS EC2 KiND CDK
+slug: kubernetes-goat-on-aws-ec2-kind-cdk
 ---
 
 # ☸️ AWS CDK - Cloud Development Kit
 
 [AWS CDK](https://aws.amazon.com/cdk) uses the familiarity and expressive power of programming languages for modeling your applications. It provides high-level components called constructs that preconfigure cloud resources with proven defaults, so you can build cloud applications with ease.
 
-### Prerequisites
+## Prerequisites
 
-* You have `python3` installed and setup locally in your system path, [refer to the docs for installation](https://www.python.org/doc/)
-* You have installed and configured the AWS CDK locally
-* Ensure you have all the required AWS permission and configuration locally
+- You have `python3` installed and setup locally in your system path, [refer to the docs for installation](https://www.python.org/doc/)
+- You have installed and configured the AWS CDK locally
+- Ensure you have all the required AWS permission and configuration locally
 
-### Setup
+## Setup
 
-* First, clone the Kubernetes Goat repository locally by running the following command
+- First, clone the Kubernetes Goat repository locally by running the following command
 
 ```bash
 git clone https://github.com/madhuakula/kubernetes-goat.git
 ```
 
-* Navigate to the folder for setup and installation of the Kubernetes Goat using KiND
+- Navigate to the folder for setup and installation of the Kubernetes Goat using KiND
 
 ```bash
 cd kubernetes-goat/platforms/aws-kind-ec2-cdk
@@ -32,19 +34,19 @@ cd kubernetes-goat/platforms/aws-kind-ec2-cdk
 python3 -m venv .venv
 ```
 
-- Activate your virtualenv in MacOS & Linux
+- Activate your `virtualenv` in MacOS & Linux
 
 ```bash
 source .venv/bin/activate
 ```
 
-- If you are a Windows platform, you would activate the virtualenv by running following command
+- If you are a Windows platform, you would activate the `virtualenv` by running following command
 
 ```
 % .venv\Scripts\activate.bat
 ```
 
-- Once the virtualenv is activated, you can install the required dependencies
+- Once the `virtualenv` is activated, you can install the required dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -94,8 +96,12 @@ sudo bash access-kubernetes-goat.sh
 
 - Now we have the Kubernetes Goat setup up and running, refer to [Getting Started for next steps](../getting-started)
 
-- To destroy the setup, run the following command in your host system (where CDK was setup initally)
+:::warning
+
+To destroy the setup, run the following command in your host system (where CDK was setup initally)
 
 ```bash
 cdk destroy
 ```
+
+:::

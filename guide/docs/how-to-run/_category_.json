@@ -1,0 +1,9 @@
+{
+    "label": "⚙️ How to Run",
+    "position": 4,
+    "link": {
+      "slug": "how-to-run",
+      "type": "generated-index",
+      "description": "You can run Kubernetes goat using different ways in various providers and setups like AWS, GCP, Azure, K3S, KIND, etc."
+    }
+  }

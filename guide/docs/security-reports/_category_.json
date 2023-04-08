@@ -1,0 +1,9 @@
+{
+    "label": "📝 Security Reports",
+    "position": 9,
+    "link": {
+      "slug": "security-reports",
+      "type": "generated-index",
+      "description": "Let's explore the security reports by scanning Kubernetes Goat Scenarios against popular tools and see what they find."
+    }
+  }

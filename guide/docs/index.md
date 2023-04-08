@@ -1,3 +1,9 @@
+---
+slug: /
+sidebar_position: 1
+title: 👋 Introduction
+---
+
 # 👋 Welcome to Kubernetes Goat
 
 [Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat) is an interactive Kubernetes security learning playground. It has intentionally vulnerable by design scenarios to showcase the common misconfigurations, real-world vulnerabilities, and security issues in Kubernetes clusters, containers, and cloud native environments.
@@ -10,16 +16,16 @@ It's tough to learn and understand Kubernetes security safely, practically, and 
 
 Below are some of the main goals of the Kubernetes Goat
 
-* Quick & Easy
-* Great Documentation
-* Knowledge Sharing
-* Scenario-Based Approach
-* High-Quality Content
-* Interactive Learning
-* Real-world Examples
-* Practical Hands-On
-* Diverse Audiences
-* Awesome Community
+- Quick & Easy
+- Great Documentation
+- Knowledge Sharing
+- Scenario-Based Approach
+- High-Quality Content
+- Interactive Learning
+- Real-world Examples
+- Practical Hands-On
+- Diverse Audiences
+- Awesome Community
 
 ## 🚨 Disclaimer
 
@@ -27,7 +33,7 @@ Here are some of the disclaimers regarding the Kubernetes Goat you should be awa
 
 :::caution
 
-Kubernetes Goat has intentionally created vulnerabilities, applications, and configurations to attack and gain access to your cluster and workloads. Please **DO NOT** run alongside your production environments and infrastructure. So we highly recommend running this in a safe and isolated environment.
+Kubernetes Goat has intentionally created vulnerabilities, applications, and configurations to attack and gain access to your cluster and workloads. Please **DO NOT*- run alongside your production environments and infrastructure. So we highly recommend running this in a safe and isolated environment.
 
 :::
 
@@ -43,9 +49,9 @@ This section contains a very quick and fastest way to get started. But if you wa
 
 ### ✨ Quick Start - Kubernetes
 
-* Ensure you have admin access to the Kubernetes cluster and installed `kubectl`. Refer to the [docs for installation](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-* Ensure you have the `helm` package manager installed. Refer to the [docs for installation](https://helm.sh/docs/intro/install)
-* To set up the Kubernetes Goat resources in your cluster, run the following commands
+- Ensure you have admin access to the Kubernetes cluster and installed `kubectl`. Refer to the [docs for installation](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+- Ensure you have the `helm` package manager installed. Refer to the [docs for installation](https://helm.sh/docs/intro/install)
+- To set up the Kubernetes Goat resources in your cluster, run the following commands
 
 ```bash
 git clone https://github.com/madhuakula/kubernetes-goat.git
@@ -53,7 +59,7 @@ cd kubernetes-goat
 bash setup-kubernetes-goat.sh
 ```
 
-* Ensure the pods are running before running the access script
+- Ensure the pods are running before running the access script
 
 ```bash
 kubectl get pods
@@ -61,48 +67,48 @@ kubectl get pods
 
 ![all pods running in kubectl get pods](scenarios/images/kubectl-get-pods.png)
 
-* Access the Kubernetes Goat by exposing the resources to the local system (port-forward) by the following command
+- Access the Kubernetes Goat by exposing the resources to the local system (port-forward) by the following command
 
 ```bash
 bash access-kubernetes-goat.sh
 ```
 
-* Then navigate to [`http://127.0.0.1:1234`](http://127.0.0.1:1234)
+- Then navigate to [`http://127.0.0.1:1234`](http://127.0.0.1:1234)
 
 :::tip
 
-Refer to the detailed documentation [here](how-to-run) if you want to use Kubernetes Goat with different environments like GCP GKE, AWS EKS, Fargate, Azure AKS, K3S, etc. 
+Refer to the detailed documentation [here](how-to-run) if you want to use Kubernetes Goat with different environments like GCP GKE, AWS EKS, Fargate, Azure AKS, K3S, etc.
 
 :::
 
 ## ☸️ Scenarios
 
-**Kubernetes Goat** has more than 20 scenarios covering attacks, defenses, best practices, tools, and others. We are keep updating and working on more and more scenarios, also please feel free to contribute and spread the word 🙌
+**Kubernetes Goat*- has more than 20 scenarios covering attacks, defenses, best practices, tools, and others. We are keep updating and working on more and more scenarios, also please feel free to contribute and spread the word 🙌
 
-1. [Sensitive keys in codebases](scenarios/scenario-1.md)
-2. [DIND (docker-in-docker) exploitation](scenarios/scenario-2.md)
-3. [SSRF in the Kubernetes (K8S) world](scenarios/scenario-3.md)
-4. [Container escape to the host system](scenarios/scenario-4.md)
-5. [Docker CIS benchmarks analysis](scenarios/scenario-5.md)
-6. [Kubernetes CIS benchmarks analysis](scenarios/scenario-6.md)
-7. [Attacking private registry](scenarios/scenario-7.md)
-8. [NodePort exposed services](scenarios/scenario-8.md)
-9. [Helm v2 tiller to PwN the cluster - [Deprecated]](scenarios/scenario-9.md)
-10. [Analyzing crypto miner container](scenarios/scenario-10.md)
-11. [Kubernetes namespaces bypass](scenarios/scenario-11.md)
-12. [Gaining environment information](scenarios/scenario-12.md)
-13. [DoS the Memory/CPU resources](scenarios/scenario-13.md)
-14. [Hacker container preview](scenarios/scenario-14.md)
-15. [Hidden in layers](scenarios/scenario-15.md)
-16. [RBAC least privileges misconfiguration](scenarios/scenario-16.md)
-17. [KubeAudit - Audit Kubernetes clusters](scenarios/scenario-17.md)
-18. [Falco - Runtime security monitoring & detection](scenarios/scenario-18.md)
-19. [Popeye - A Kubernetes cluster sanitizer](scenarios/scenario-19.md)
-20. [Secure network boundaries using NSP](scenarios/scenario-20.md)
+1. [Sensitive keys in codebases](scenarios/scenario-1/index.md)
+2. [DIND (docker-in-docker) exploitation](scenarios/scenario-2/index.md)
+3. [SSRF in the Kubernetes (K8S) world](scenarios/scenario-3/index.md)
+4. [Container escape to the host system](scenarios/scenario-4/index.md)
+5. [Docker CIS benchmarks analysis](scenarios/scenario-5/index.md)
+6. [Kubernetes CIS benchmarks analysis](scenarios/scenario-6/index.md)
+7. [Attacking private registry](scenarios/scenario-7/index.md)
+8. [NodePort exposed services](scenarios/scenario-8/index.md)
+9. [Helm v2 tiller to PwN the cluster - [Deprecated]](scenarios/scenario-9/index.md)
+10. [Analyzing crypto miner container](scenarios/scenario-10/index.md)
+11. [Kubernetes namespaces bypass](scenarios/scenario-11/index.md)
+12. [Gaining environment information](scenarios/scenario-12/index.md)
+13. [DoS the Memory/CPU resources](scenarios/scenario-13/index.md)
+14. [Hacker container preview](scenarios/scenario-14/index.md)
+15. [Hidden in layers](scenarios/scenario-15/index.md)
+16. [RBAC least privileges misconfiguration](scenarios/scenario-16/index.md)
+17. [KubeAudit - Audit Kubernetes clusters](scenarios/scenario-17/index.md)
+18. [Falco - Runtime security monitoring & detection](scenarios/scenario-18/index.md)
+19. [Popeye - A Kubernetes cluster sanitizer](scenarios/scenario-19/index.md)
+20. [Secure network boundaries using NSP](scenarios/scenario-20/index.md)
 
 ## 🔥 Audience
 
-**Kubernetes Goat** is intended for a variety of audiences and end-users. Which includes hackers, attackers, defenders, developers, architects, DevOps teams, engineers, researchers, products, vendors, and anyone interested in learning about Kubernetes Security. Below are some of the very high-level categories of audience and how this project helps them.
+**Kubernetes Goat*- is intended for a variety of audiences and end-users. Which includes hackers, attackers, defenders, developers, architects, DevOps teams, engineers, researchers, products, vendors, and anyone interested in learning about Kubernetes Security. Below are some of the very high-level categories of audience and how this project helps them.
 
 
 ### 💥 Attackers & Red Teams

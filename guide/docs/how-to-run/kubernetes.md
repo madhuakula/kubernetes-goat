@@ -1,5 +1,7 @@
 ---
-sidebar_label: ☸️ Kubernetes
+sidebar_position: 1
+title: ☸️ Kubernetes
+slug: kubernetes-goat-on-kubernetes
 ---
 
 # ☸️ Kubernetes - Standard Cluster

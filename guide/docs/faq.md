@@ -1,3 +1,10 @@
+---
+sidebar_position: 19
+sidebar_label: 🙋 FAQ
+slug: /faq
+title: 🙋 Kubernetes Goat FAQ
+---
+
 # 🙋 FAQ - Kubernetes Goat
 
 This section contains the list of frequently asked questions about Kubernetes Goat 🐐

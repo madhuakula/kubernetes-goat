@@ -1,0 +1,10 @@
+{
+    "label": "🚀 Scenarios",
+    "position": 8,
+    "link": {
+      "title": "🚀 Kubernetes Goat Scenarios",
+      "slug": "scenarios",
+      "type": "generated-index",
+      "description": "Let's explore the awesome Kubernetes Goat scenarios"
+    }
+}

@@ -1,3 +1,8 @@
+---
+sidebar_position: 8
+slug: /kubernetes-goat-cheat-sheet
+title: 📋 Cheat Sheet
+---
 # 📋 Cheat Sheet - Kubernetes Goat
 
 Below are some commonly useful commands to navigate around Kubernetes, docker, and in general Kubernetes Goat project.
