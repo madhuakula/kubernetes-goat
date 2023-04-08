@@ -144,7 +144,116 @@ const config = {
         },
       }),
 
-  plugins: [require.resolve('docusaurus-lunr-search'), require.resolve("docusaurus-plugin-image-zoom")],
+  plugins: [
+    require.resolve('docusaurus-lunr-search'),
+    require.resolve("docusaurus-plugin-image-zoom"),
+    [
+      '@docusaurus/plugin-client-redirects',
+        {
+          redirects: [
+            {
+            from: '/docs/scenarios/scenario-1',
+            to: '/docs/scenarios/scenario-1/sensitive-keys-in-codebases-in-kubernetes-containers',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-2',
+            to: '/docs/scenarios/scenario-2/docker-in-docker-exploitation-in-kubernetes-containers',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-3',
+            to: '/docs/scenarios/scenario-3/ssrf-in-the-kubernetes-world',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-4',
+            to: '/docs/scenarios/scenario-4/container-escape-to-the-host-system-in-kubernetes-containers',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-5',
+            to: '/docs/scenarios/scenario-5/docker-cis-benchmarks-in-kubernetes-containers',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-6',
+            to: '/docs/scenarios/scenario-6/kubernetes-cis-benchmarks-in-kubernetes-cluster',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-7',
+            to: '/docs/scenarios/scenario-7/attacking-private-container-registry-in-kubernetes',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-8',
+            to: '/docs/scenarios/scenario-8/misconfigured-nodeport-exposed-service-in-kubernetes',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-9',
+            to: '/docs/scenarios/scenario-9/helm-v2-tiller-to-pwn-kubernetes-cluster-takeover',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-10',
+            to: '/docs/scenarios/scenario-10/analyzing-crypto-miner-in-kubernetes-cluster-container',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-11',
+            to: '/docs/scenarios/scenario-11/kubernetes-namespaces-bypass-from-kubernetes-cluster-pod',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-12',
+            to: '/docs/scenarios/scenario-12/gain-environment-information-in-kubernetes-cluster',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-13',
+            to: '/docs/scenarios/scenario-13/denial-of-service-memory-and-cpu-resources-in-kubernetes-cluster',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-14',
+            to: '/docs/scenarios/scenario-14/hacker-container-preview-in-kubernetes-cluster',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-15',
+            to: '/docs/scenarios/scenario-15/hidden-in-container-layers-in-kubernetes-cluster',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-16',
+            to: '/docs/scenarios/scenario-16/rbac-least-privileges-misconfiguration-in-kubernetes-cluster',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-17',
+            to: '/docs/scenarios/scenario-17/auditing-the-kubernetes-cluster-using-kubeaudit',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-18',
+            to: '/docs/scenarios/scenario-18/runtime-security-monitoring-and-detection-in-kubernetes-cluster-using-falco',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-19',
+            to: '/docs/scenarios/scenario-19/kubernetes-cluster-security-audits-and-sanity-checks-using-popeye',
+            },
+            
+            {
+            from: '/docs/scenarios/scenario-20',
+            to: '/docs/scenarios/scenario-20/secure-kubernetes-using-network-security-policy'
+            },            
+          ], 
+        }
+  ]
+  ],
 };
 
 module.exports = config;
