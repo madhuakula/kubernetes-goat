@@ -22,7 +22,7 @@ spec:
     spec:
       hostPID: true
       hostIPC: true
-      hostNetwork: true
+      #hostNetwork: true
       volumes:
       - name: host-filesystem
         hostPath:
