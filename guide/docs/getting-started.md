@@ -22,7 +22,7 @@ Here we are going to expose the running pods and deployments locally using the `
 
 :::
 
-- If you have not already setup or deployed the Kuberntes Goat resources into your cluster, refer to [How to run Kubernetes Goat](how-to-run/kubernetes)
+- If you have not already setup or deployed the Kuberntes Goat resources into your cluster, refer to [How to run Kubernetes Goat](how-to-run/kubernetes-goat-on-kubernetes)
 
 - Ensure the pods are running before running the access script
 

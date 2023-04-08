@@ -37,4 +37,4 @@ cd kubernetes-goat/platforms/kind-setup
 bash setup-kind-cluster-and-goat.sh
 ```
 
-* Now we have the Kubernetes Goat setup up and running, refer to [Getting Started for next steps](../getting-started)
+* Now we have the Kubernetes Goat setup up and running, refer to [Getting Started for next steps](../getting-started.md)
