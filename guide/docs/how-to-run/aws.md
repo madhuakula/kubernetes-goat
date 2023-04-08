@@ -1,5 +1,7 @@
 ---
-sidebar_label: ☁️ AWS
+sidebar_position: 4
+title: ☁️ AWS
+slug: kubernetes-goat-on-aws-amazon-web-services
 ---
 
 # ☁️ AWS - Amazon Web Services
@@ -24,13 +26,14 @@ sidebar_label: ☁️ AWS
 * We will create a new EKS cluster `k8s-goat-cluster` with two nodes of type `t4g.medium`. You can modify the command as you need, run `eksctl create cluster --help` to see all available options.
 
 ```bash
-eksctl create cluster --name k8s-goat-cluster \
---region us-east-1 \
---node-type t4g.medium \
---nodes 2
+eksctl create cluster --name k8s-goat-cluster --region us-east-1 --node-type t4g.medium --nodes 2
 ```
 
-> eksctl will create two Cloud Formation stacks - to create the cluster and another to create node group. The command will exit, once both the Cloud Formation stacks are completed. The whole setup would take around 15–20 minutes.
+:::info
+
+`eksctl` will create two Cloud Formation stacks - to create the cluster and another to create node group. The command will exit, once both the Cloud Formation stacks are completed. The whole setup would take around 15–20 minutes.
+
+:::
 
 * Once the cluster is created, you can update your ~/.kube/config file with the following command,
 

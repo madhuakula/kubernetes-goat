@@ -1,3 +1,10 @@
+---
+sidebar_position: 7
+sidebar_label: 📖 Learning Kubernetes
+slug: /learning-kubernetes
+title: 📖 Learning Kubernetes
+---
+
 # 📖 Learning Kubernetes
 
 [**Kubernetes**](https://kubernetes.io) is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications. The open source project is hosted by the Cloud Native Computing Foundation ([CNCF](https://www.cncf.io/about)).
@@ -18,22 +25,22 @@ Below are very high-level components in Kubernetes Cluster
 
 **Control Plane Components**
 
-* API Server
-* etcd
-* Scheduler
-* Controller Manager
+- API Server
+- etcd
+- Scheduler
+- Controller Manager
 
 **Node Components**
 
-* kubelet
-* Network Proxy (kube-proxy)
-* Container runtime
+- kubelet
+- Network Proxy (kube-proxy)
+- Container runtime
 
 **Add-Ons**
 
-* DNS
-* Container Resource Monitoring
-* Cluster-level Logging
+- DNS
+- Container Resource Monitoring
+- Cluster-level Logging
 
 ![Kubernetes Overview](images/kubernetes-architecture.png)
 
@@ -55,8 +62,8 @@ Reference: [The Illustrated Children's Guide to Kubernetes Video](https://www.yo
 
 ## Resources to learn more about Kubernetes
 
-* [Kubernetes Docs](https://kubernetes.io/docs/home/)
-* [Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/)
-* [Kubernetes by Examples](https://kubernetesbyexample.com/)
-* [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
-* [CNCF Phippy and friends](https://www.cncf.io/phippy/)
+- [Kubernetes Docs](https://kubernetes.io/docs/home/)
+- [Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/)
+- [Kubernetes by Examples](https://kubernetesbyexample.com/)
+- [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
+- [CNCF Phippy and friends](https://www.cncf.io/phippy/)

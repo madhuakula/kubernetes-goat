@@ -1,3 +1,10 @@
+---
+sidebar_position: 13
+sidebar_label: 🤩 Showcase
+slug: /showcase
+title: 🎊 Kubernetes Goat Showcase
+---
+
 # 🤩 Showcase - Kubernetes Goat
 
 :::tip Show off 😎 

@@ -1,3 +1,10 @@
+---
+sidebar_position: 16
+sidebar_label: 🙏 Acknowledgements
+slug: /acknowledgments
+title: 🙏 Acknowledgements
+---
+
 # 🙏 Acknowledgements
 
 Thanks goes to these wonderful people 🎉

@@ -1,3 +1,10 @@
+---
+sidebar_position: 12
+sidebar_label: 🎊 Community
+slug: /kubernetes-goat-community
+title: 🎊 Kubernetes Goat Discord Community
+---
+
 # 🎊 Kubernetes Goat Community
 
 Hey Folks!! 👋

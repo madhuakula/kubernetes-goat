@@ -1,5 +1,7 @@
 ---
-sidebar_label: ☸️ KiND
+sidebar_position: 2
+title: ☸️ KIND
+slug: kubernetes-goat-on-kind
 ---
 
 # ☸️ KiND - Kubernetes IN Docker

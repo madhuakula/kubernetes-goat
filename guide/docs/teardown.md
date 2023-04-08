@@ -1,3 +1,9 @@
+---
+sidebar_position: 10
+sidebar_label: 🛑 Teardown
+slug: /teardown
+title: 🛑 Teardown Kubernetes Goat
+---
 # 🛑 Teardown Kubernetes Goat
 
 You can simply run the following command to tear down the entire Kubernetes Goat infrastructure. Make sure you run this command from the `kubernetes-goat` directory

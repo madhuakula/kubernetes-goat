@@ -61,9 +61,9 @@ const config = {
             }
           }
         },
-        metadata: [{ name: 'keywords', content: 'Kubernetes, Security, Containers, Docker, Cloud, Cloud Native, Pentest, Hacking, Developers, DevOps, CNCF, k8s, vulnerable, Kubernetes Security, Container Security, Cloud Security, Cloud Native Security, Open Source, DevSecOps' }],
+        metadata: [{ name: 'keywords', content: 'Kubernetes Security, Containers, Docker, Cloud, Cloud Native, Pentest, Hacking, Developers, DevOps, CNCF, k8s, vulnerable, Kubernetes, Container Security, Cloud Security, Cloud Native Security, Open Source, DevSecOps' }],
         colorMode: {
-          defaultMode: 'light',
+          defaultMode: 'dark',
           disableSwitch: false,
           respectPrefersColorScheme: false,
         },
