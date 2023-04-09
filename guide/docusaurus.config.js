@@ -254,7 +254,11 @@ const config = {
             {
               from: '/docs/scenarios/scenario-21',
               to: '/docs/scenarios/scenario-21/ebpf-runtime-security-monitoring-and-detection-in-kubernetes-cluster-using-cilium-tetragon'
-              },            
+            }, 
+            {
+              from: '/docs/scenarios/scenario-22',
+              to: '/docs/scenarios/scenario-23/securing-kubernetes-clusters-using-kyverno-policy-engine'
+            },            
           ], 
         }
   ]
