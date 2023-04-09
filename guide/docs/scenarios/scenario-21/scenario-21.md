@@ -12,7 +12,7 @@ slug: ebpf-runtime-security-monitoring-and-detection-in-kubernetes-cluster-using
 
 The containers and their infrastructure are immutable. It means it's very difficult to detect certain attacks, vulnerabilities, and detections using traditional tools and technologies. In this scenario, we will see how we can leverage the popular open-source tool like Cilium Tetragon to detect and perform runtime security monitoring using the `tracingpolicy` in action.
 
-![](../images/scenario-21.png)
+![Scenario-21 Tetragon Overview](../images/scenario-21.png)
 
 By the end of the scenario, we will understand and learn the following
 
