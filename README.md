@@ -103,7 +103,7 @@ bash access-kubernetes-goat.sh
 
 ## 📖 Documentation Guide
 
-Here is the detailed step by step guide for learning and using Kubernetes Goat 🎉: [documentation guide] (https://madhuakula.com/kubernetes-goat)
+Here is the detailed step by step guide for learning and using Kubernetes Goat 🎉: [documentation guide](https://madhuakula.com/kubernetes-goat)
 
 [![Kubernetes Goat Documentation Guide](kubernetes-goat-docs.png)](https://madhuakula.com/kubernetes-goat)
 

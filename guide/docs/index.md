@@ -33,7 +33,7 @@ Here are some of the disclaimers regarding the Kubernetes Goat you should be awa
 
 :::caution
 
-Kubernetes Goat has intentionally created vulnerabilities, applications, and configurations to attack and gain access to your cluster and workloads. Please **DO NOT*- run alongside your production environments and infrastructure. So we highly recommend running this in a safe and isolated environment.
+Kubernetes Goat has intentionally created vulnerabilities, applications, and configurations to attack and gain access to your cluster and workloads. Please **DO NOT** run alongside your production environments and infrastructure. So we highly recommend running this in a safe and isolated environment.
 
 :::
 
@@ -83,7 +83,7 @@ Refer to the detailed documentation [here](how-to-run) if you want to use Kubern
 
 ## ☸️ Scenarios
 
-**Kubernetes Goat*- has more than 20 scenarios covering attacks, defenses, best practices, tools, and others. We are keep updating and working on more and more scenarios, also please feel free to contribute and spread the word 🙌
+**Kubernetes Goat** has more than 20 scenarios covering attacks, defenses, best practices, tools, and others. We are keep updating and working on more and more scenarios, also please feel free to contribute and spread the word 🙌
 
 1. [Sensitive keys in codebases](scenarios/scenario-1/index.md)
 2. [DIND (docker-in-docker) exploitation](scenarios/scenario-2/index.md)
@@ -109,7 +109,7 @@ Refer to the detailed documentation [here](how-to-run) if you want to use Kubern
 
 ## 🔥 Audience
 
-**Kubernetes Goat*- is intended for a variety of audiences and end-users. Which includes hackers, attackers, defenders, developers, architects, DevOps teams, engineers, researchers, products, vendors, and anyone interested in learning about Kubernetes Security. Below are some of the very high-level categories of audience and how this project helps them.
+**Kubernetes Goat** is intended for a variety of audiences and end-users. Which includes hackers, attackers, defenders, developers, architects, DevOps teams, engineers, researchers, products, vendors, and anyone interested in learning about Kubernetes Security. Below are some of the very high-level categories of audience and how this project helps them.
 
 
 ### 💥 Attackers & Red Teams

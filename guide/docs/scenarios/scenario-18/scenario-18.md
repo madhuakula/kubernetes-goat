@@ -12,7 +12,7 @@ slug: runtime-security-monitoring-and-detection-in-kubernetes-cluster-using-falc
 
 The containers and their infrastructure are immutable. It means it's very difficult to detect certain attacks, vulnerabilities, and detections using traditional tools and technologies. In this scenario, we will see how we can leverage the popular open-source tool like Falco to detect and perform runtime security monitoring using the ruleset in action.
 
-![](../images/scenario-diagram-wip.png)
+![Scenario-18 Falco Overview](../images/scenario-18.png)
 
 By the end of the scenario, we will understand and learn the following
 
@@ -128,7 +128,6 @@ cat /etc/shadow
 ![Scenario 18 falco detect /etc/shadow](../images/sc-18-3.png)
 
 - Hooray 🥳 , now we can see that Falco detected this and notified
-
 
 ## 🔖 References
 
