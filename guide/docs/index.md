@@ -106,11 +106,11 @@ Refer to the detailed documentation [here](how-to-run) if you want to use Kubern
 19. [Popeye - A Kubernetes cluster sanitizer](scenarios/scenario-19/index.md)
 20. [Secure network boundaries using NSP](scenarios/scenario-20/index.md)
 21. [Cilium Tetragon - eBPF-based Security Observability and Runtime Enforcement](scenarios/scenario-21/index.md)
+22. [Securing Kubernetes Clusters using Kyverno Policy Engine](scenarios/scenario-22/index.md)
 
 ## 🔥 Audience
 
 **Kubernetes Goat** is intended for a variety of audiences and end-users. Which includes hackers, attackers, defenders, developers, architects, DevOps teams, engineers, researchers, products, vendors, and anyone interested in learning about Kubernetes Security. Below are some of the very high-level categories of audience and how this project helps them.
-
 
 ### 💥 Attackers & Red Teams
 

@@ -100,6 +100,7 @@ bash access-kubernetes-goat.sh
 19. Popeye - A Kubernetes cluster sanitizer
 20. Secure network boundaries using NSP
 21. Cilium Tetragon - eBPF-based Security Observability and Runtime Enforcement
+22. Securing Kubernetes Clusters using Kyverno Policy Engine
 
 ## 📖 Documentation Guide
 
