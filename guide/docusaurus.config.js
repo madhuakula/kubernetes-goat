@@ -257,7 +257,7 @@ const config = {
             }, 
             {
               from: '/docs/scenarios/scenario-22',
-              to: '/docs/scenarios/scenario-23/securing-kubernetes-clusters-using-kyverno-policy-engine'
+              to: '/docs/scenarios/scenario-22/securing-kubernetes-clusters-using-kyverno-policy-engine'
             },            
           ], 
         }
