@@ -1,11 +1,7 @@
 ---
 sidebar_position: 8
 sidebar_label: 🔟 OWASP Kubernetes Top 10
-<<<<<<< HEAD
 slug: /owasp-kubernetes-top-ten
-=======
-slug: /kubernetes-top-ten
->>>>>>> 122fa37a718c2e633408f6de8bca28ce1bcab66d
 title: 🔟 OWASP Kubernetes Top 10
 ---
 
@@ -30,11 +26,7 @@ The OWASP Kubernetes Top 10 is a framework designed to assist security practitio
 
 The OWASP Kubernetes Top 10 is a great resource to use in conjunction with Kubernetes Goat, as it provides a comprehensive list of the most significant security risks that may be present in a Kubernetes cluster. By applying the knowledge gained from the OWASP Kubernetes Top 10 to the Kubernetes Goat environment, users can gain hands-on experience in identifying and mitigating potential security vulnerabilities.
 
-<<<<<<< HEAD
 ## 1️⃣ K01: Insecure Workload Configurations
-=======
-## ☸️ 1️⃣ K01: Insecure Workload Configurations
->>>>>>> 122fa37a718c2e633408f6de8bca28ce1bcab66d
 
 Kubernetes manifests have configurations that impact reliability, security, and scalability of workloads. Regular auditing and remediation is important. High-impact configurations include: 
 - Application processes should not run as root
@@ -47,11 +39,7 @@ Read More - <a href="https://owasp.org/www-project-kubernetes-top-ten/2022/en/sr
 - [DIND (docker-in-docker) exploitation](scenarios/scenario-2/scenario-2.md)
 - [DoS the Memory/CPU resources](scenarios/scenario-13/scenario-13.md)
 
-<<<<<<< HEAD
 ## 2️⃣ K02: Supply Chain Vulnerabilities
-=======
-## ☸️ 2️⃣ K02: Supply Chain Vulnerabilities
->>>>>>> 122fa37a718c2e633408f6de8bca28ce1bcab66d
 
 Containers play a crucial role in the development lifecycle supply chain and come in different forms at various phases. Each container presents unique security challenges due to the hundreds of third-party components and dependencies it may rely on, making it difficult to establish trust at each stage.
 The main security challenges posed by containers include, but are not limited to, the following:
@@ -64,11 +52,7 @@ Read More - <a href="https://owasp.org/www-project-kubernetes-top-ten/2022/en/sr
 ### 🧰 Related Kubernetes Scenarios
 - [Attacking private registry](scenarios/scenario-7/scenario-7.md)
 
-<<<<<<< HEAD
 ## 3️⃣ K03: Overly Permissive RBAC
-=======
-## ☸️ 3️⃣ K03: Overly Permissive RBAC
->>>>>>> 122fa37a718c2e633408f6de8bca28ce1bcab66d
 
 Role-Based Access Control (RBAC) is the main authorization mechanism in Kubernetes, providing permissions for resources. RBAC permissions combine verbs (get, create, delete, etc.) with resources such as pods, services, and nodes. These permissions can be either namespace or cluster scoped.
 
@@ -77,11 +61,7 @@ Read More - <a href="https://owasp.org/www-project-kubernetes-top-ten/2022/en/sr
 ### 🧰 Related Kubernetes Scenarios
 - [RBAC least privileges misconfiguration](scenarios/scenario-16/scenario-16.md)
 
-<<<<<<< HEAD
 ## 4️⃣ K04: Lack of Centralized Policy Enforcement
-=======
-## ☸️ 4️⃣ K04: Lack of Centralized Policy Enforcement
->>>>>>> 122fa37a718c2e633408f6de8bca28ce1bcab66d
 
 Managing security policies across multiple Kubernetes clusters and environments can be challenging. Without a centralized location to detect, remediate, and prevent misconfigurations, clusters can be left open to compromise. To ensure a consistent security posture, policy enforcement should take place at various stages of the software delivery lifecycle.
 
@@ -92,11 +72,7 @@ Read More - <a href="https://owasp.org/www-project-kubernetes-top-ten/2022/en/sr
 ### 🧰 Related Kubernetes Scenarios
 - [Securing Kubernetes Clusters using Kyverno Policy Engine](scenarios/scenario-22/scenario-22.md)
 
-<<<<<<< HEAD
 ## 5️⃣ K05: Inadequate Logging and Monitoring
-=======
-## ☸️ 5️⃣ K05: Inadequate Logging and Monitoring
->>>>>>> 122fa37a718c2e633408f6de8bca28ce1bcab66d
 
 Kubernetes environments has the ability to create logs at different level and from all the associated components. It becomes an issue when the logs are not monitored for unusual events like failed authentication attempts, access to sensitive resources, manual deletion or modification of Kubernetes resources, etc., alerting thresholds are not set, logs are not centrally stored, or logging infrastructure is disabled.
 
@@ -106,11 +82,7 @@ Read More - <a href="https://owasp.org/www-project-kubernetes-top-ten/2022/en/sr
 - [Cilium Tetragon - eBPF-based Security Observability and Runtime Enforcement](scenarios/scenario-21/scenario-21.md)
 - [Falco - Runtime security monitoring & detection](scenarios/scenario-18/scenario-18.md)
 
-<<<<<<< HEAD
 ## 6️⃣ K06: Broken Authentication Mechanisms
-=======
-## ☸️ 6️⃣ K06: Broken Authentication Mechanisms
->>>>>>> 122fa37a718c2e633408f6de8bca28ce1bcab66d
 
 Kubernetes offers a high level of authentication flexibility, allowing it to work effectively in various environments. However, this flexibility also poses challenges when it comes to cluster and cloud security posture.
 
@@ -125,11 +97,7 @@ Read More - <a href="https://owasp.org/www-project-kubernetes-top-ten/2022/en/sr
 - TODO
 
 
-<<<<<<< HEAD
 ## 7️⃣ K07: Missing Network Segmentation Controls
-=======
-## ☸️ 7️⃣ K07: Missing Network Segmentation Controls
->>>>>>> 122fa37a718c2e633408f6de8bca28ce1bcab66d
 
 Kubernetes network traffic control is a major concern when managing multiple microservices and tenants. The flat networking structure allows workloads to communicate without restrictions, which can be exploited by attackers to probe and traverse the internal network or call private APIs.
 
@@ -140,11 +108,7 @@ Read More - <a href="https://owasp.org/www-project-kubernetes-top-ten/2022/en/sr
 - [Secure network boundaries using NSP](scenarios/scenario-20/scenario-20.md)
 
 
-<<<<<<< HEAD
 ## 8️⃣ K08: Secrets Management Failures
-=======
-## ☸️ 8️⃣ K08: Secrets Management Failures
->>>>>>> 122fa37a718c2e633408f6de8bca28ce1bcab66d
 
 Kubernetes secrets are used to store small objects and are created like any other Kubernetes object. The secrets are defined in `.yaml` manifests that encode sensitive data such as usernames and passwords. However, these values are encoded and not encrypted by default and can be easily decoded, making it risky to check secrets into version control or other systems.
 
@@ -154,11 +118,7 @@ Read More - <a href="https://owasp.org/www-project-kubernetes-top-ten/2022/en/sr
 - [Sensitive keys in codebases](scenarios/scenario-1/scenario-1.md)
 - TODO
 
-<<<<<<< HEAD
 ## 9️⃣ K09: Misconfigured Cluster Components
-=======
-## ☸️ 9️⃣ K09: Misconfigured Cluster Components
->>>>>>> 122fa37a718c2e633408f6de8bca28ce1bcab66d
 
 Misconfigurations in key components of Kubernetes can lead to a complete cluster compromise or worse. The Kubernetes control plane and nodes consist of various components that can be easily misconfigured, such as kubelet, etcd, kube-apiserver, and more.
 
@@ -168,11 +128,7 @@ Read More - <a href="https://owasp.org/www-project-kubernetes-top-ten/2022/en/sr
 - [KubeAudit - Audit Kubernetes clusters](scenarios/scenario-17/scenario-17.md)
 
 
-<<<<<<< HEAD
 ## 🔟 K10: Outdated and Vulnerable Kubernetes Components
-=======
-## ☸️ 🔟 K10: Outdated and Vulnerable Kubernetes Components
->>>>>>> 122fa37a718c2e633408f6de8bca28ce1bcab66d
 
 A Kubernetes cluster can present challenges when it comes to traditional patch and vulnerability management. Misconfigurations in popular tools such as ArgoCD, Kubernetes itself, and Istio have led to serious CVEs. 
 * ArgoCD has had parsing vulnerabilities that allow attackers to load malicious Helm Charts and access sensitive information. 
@@ -188,5 +144,4 @@ Read More - <a href="https://owasp.org/www-project-kubernetes-top-ten/2022/en/sr
 
 ## References
 - <a href="https://owasp.org/www-project-kubernetes-top-ten/" target="_blank">OWASP Kubernetes Top 10 Documentation</a>
-
 
