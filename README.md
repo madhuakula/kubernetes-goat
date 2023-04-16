@@ -43,7 +43,7 @@
 
 [![Kubernetes Goat Home](./kubernetes-goat-home.png)](https://madhuakula.com/kubernetes-goat)
 
-## ⚙️ Setting up Kubernetes Goat
+## 🧰 Setting up Kubernetes Goat
 
 * Ensure you have admin access to the Kubernetes cluster and installed `kubectl`. Refer to the [docs for installation](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
@@ -73,9 +73,7 @@ bash access-kubernetes-goat.sh
 
 * Then navigate to [`http://127.0.0.1:1234`](http://127.0.0.1:1234)
 
-
 > Refer to [https://madhuakula.com/kubernetes-goat/docs/how-to-run](https://madhuakula.com/kubernetes-goat/docs/how-to-run) for setting up Kubernetes Goat in various environments like GKE, EKS, AKS, K3S, KIND, etc.
-
 
 ## 🏆 Scenarios
 
