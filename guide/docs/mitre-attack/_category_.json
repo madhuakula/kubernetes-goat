@@ -1,0 +1,9 @@
+{
+    "label": "🛡️ MITRE",
+    "position": 8,
+    "link": {
+      "slug": "mitre",
+      "type": "generated-index",
+      "description": "Mapping the MITRE ATT&CK framework to Kubernetes Goat."
+    }
+  }

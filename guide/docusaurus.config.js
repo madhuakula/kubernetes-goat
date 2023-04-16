@@ -70,7 +70,6 @@ const config = {
         announcementBar: {
           id: 'announcementBar-1', // Increment on change
           content: `⭐️ If you like Kubernetes Goat, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/madhuakula/kubernetes-goat">GitHub</a> and share on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/intent/tweet/?text=Kubernetes%20Goat,%20an%20intentionally%20vulnerable%20by%20design%20training%20platform%20to%20learn%20%23Kubernetes%20Security%20by%20%40madhuakula.%20Check%20it%20out%20&url=https://github.com/madhuakula/kubernetes-goat">Twitter</a>`,
-
         },
 
         navbar: {
@@ -258,7 +257,7 @@ const config = {
             {
               from: '/docs/scenarios/scenario-22',
               to: '/docs/scenarios/scenario-22/securing-kubernetes-clusters-using-kyverno-policy-engine'
-            },            
+            },
           ], 
         }
   ]
