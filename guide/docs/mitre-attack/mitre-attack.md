@@ -115,9 +115,9 @@ The lateral movement tactic consists of techniques that are used by attackers to
 
 |  **🧰 Techniques** | **🐐 Kubernetes Goat Scenarios** |
 | ------------ | --------------- |
-| Access cloud resources | <a class="scenario-button" href="scenarios/scenario-3/ssrf-in-the-kubernetes-world">⎈ SSRF in the Kubernetes (K8S) world</a> |
+| Access cloud resources | <a class="scenario-button" href="/docs/scenarios/scenario-3/ssrf-in-the-kubernetes-world">⎈ SSRF in the Kubernetes (K8S) world</a> |
 | Container service account | |
-| Cluster internal networking | <a class="scenario-button" href="scenarios/scenario-11/kubernetes-namespaces-bypass-from-kubernetes-cluster-pod">⎈ Kubernetes namespaces bypass</a> |
+| Cluster internal networking | <a class="scenario-button" href="/docs/scenarios/scenario-11/kubernetes-namespaces-bypass-from-kubernetes-cluster-pod">⎈ Kubernetes namespaces bypass</a> |
 | Application credentials in configuration files | |
 | Writable hostPath mount | <a class="scenario-button" href="/docs/scenarios/scenario-4/container-escape-to-the-host-system-in-kubernetes-containers">⎈ Container escape to the host system</a> |
 | CoreDNS poisoning | |
