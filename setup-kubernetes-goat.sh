@@ -9,7 +9,7 @@ if [ $? -eq 0 ];
 then
     echo "kubectl setup looks good."
 else 
-    echo "Error: Could not find kubectl or an other error happend, please check kubectl setup."
+    echo "Error: Could not find kubectl or an other error happened, please check kubectl setup."
     exit;
 fi
 
