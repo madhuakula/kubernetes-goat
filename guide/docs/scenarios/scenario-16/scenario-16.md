@@ -168,3 +168,4 @@ echo "azhzLWdvYXQtODUwNTc4NDZhODA0NmEyNWIzNWYzOGYzYTI2NDlkY2U=" | base64 -d
 
 - [RBAC Authorization Kubernetes](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 - [Accessing the Kubernetes API from a Pod](https://kubernetes.io/docs/tasks/run-application/access-api-from-pod/)
+- [More misconfigurations in Kubernetes? check OWASP WrongSecrets](https://github.com/OWASP/wrongsecrets)
