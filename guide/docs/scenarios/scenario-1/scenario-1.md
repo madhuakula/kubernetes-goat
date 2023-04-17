@@ -161,3 +161,4 @@ trufflehog .
 
 - [Why we shouldn’t commit secrets into source code repositories](https://littlemaninmyhead.wordpress.com/2021/04/05/why-we-shouldnt-commit-secrets-into-source-code-repositories/)
 - [Hunting for secrets in Docker Hub: what we’ve found](https://blog.gitguardian.com/hunting-for-secrets-in-docker-hub/)
+- [More secrets hunting exercises in OWASP WrongSecrets](https://github.com/OWASP/wrongsecrets)
