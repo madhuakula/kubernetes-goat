@@ -7,4 +7,4 @@ title: 📢 Kubernetes Goat Sponsors
 
 # 📢 Kubernetes Goat Sponsors
 
-**TBD: WORK IN PROGRESS**
+Checkout here [if you want to sponsor this project](https://github.com/sponsors/madhuakula) 🙏
