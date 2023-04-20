@@ -6,9 +6,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - uses: kubescape/github-action@main
-      frameworks: AllControls
       continue-on-error: true
       with:
+        frameworks: AllControls
         format: sarif
         outputFile: results.sarif
     - name: Upload Kubescape scan results to Github Code Scanning
