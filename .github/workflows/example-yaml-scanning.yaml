@@ -6,6 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - uses: kubescape/github-action@main
+      framework: AllControls
       continue-on-error: true
       with:
         format: sarif
