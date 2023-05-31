@@ -1,7 +1,7 @@
 #!/bin/bash
 # Author: Madhu Akula
-# This program has been created as part of Kuberentes Goat
-# Teardown Kuberentes Goat setup
+# This program has been created as part of Kubernetes Goat
+# Teardown Kubernetes Goat setup
 
 # Removing the superadmin cluster role/binding
 kubectl delete clusterrolebindings superadmin

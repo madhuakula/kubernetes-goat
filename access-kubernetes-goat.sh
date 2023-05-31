@@ -1,7 +1,7 @@
 #!/bin/bash
 # Author: Madhu Akula
-# This program has been created as part of Kuberentes Goat
-# Kuberentes Goat Access vulnerable infrastrcuture
+# This program has been created as part of Kubernetes Goat
+# Kubernetes Goat Access vulnerable infrastructure
 
 # Checking kubectl setup
 kubectl version --short > /dev/null 2>&1
@@ -44,4 +44,4 @@ export POD_NAME=$(kubectl get pods --namespace big-monolith -l "app=hunger-check
 kubectl --namespace big-monolith port-forward $POD_NAME --address 0.0.0.0 1236:8080 > /dev/null 2>&1 &
 
 
-echo "Visit http://127.0.0.1:1234 to get started with your Kuberenetes Goat hacking!"
+echo "Visit http://127.0.0.1:1234 to get started with your Kubernetes Goat hacking!"
