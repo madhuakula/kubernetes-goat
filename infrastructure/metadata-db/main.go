@@ -1,5 +1,5 @@
 // Author: Madhu Akula
-// This program has been created as part of Kuberentes Goat
+// This program has been created as part of Kubernetes Goat
 // Static metadata database
 package main
 

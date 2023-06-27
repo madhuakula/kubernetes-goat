@@ -120,7 +120,7 @@ kubectl get pods -n vault
 kubectl --namespace vault exec -it kubernetes-goat-secrets -- sh
 ```
 
-![exec working to kuberenetes-goat secrets pod](../images/sc-22-4.png)
+![exec working to kubernetes-goat secrets pod](../images/sc-22-4.png)
 
 - As you can clearly see that we can `exec` into the `kubernetes-goat-secrets` pod in `vault` namespace
 
