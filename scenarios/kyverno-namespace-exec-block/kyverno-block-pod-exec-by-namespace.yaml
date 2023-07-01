@@ -12,7 +12,7 @@ metadata:
       be useful for troubleshooting purposes, it could represent an attack vector and is discouraged to use in the
       `vault` namespace. This policy blocks Pod exec commands to Pods in a Namespace called `vault`.
 spec:
-  validationFailureAction: enforce
+  validationFailureAction: Enforce
   background: false
   rules:
   - name: deny-exec-ns-vault
@@ -20,7 +20,7 @@ spec:
       any:
       - resources:
           kinds:
-          - PodExecOptions
+          - Pod/exec
     preconditions:
       all:
       - key: "{{ request.operation || 'BACKGROUND' }}"
