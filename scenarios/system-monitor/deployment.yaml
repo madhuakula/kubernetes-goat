@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Secret
 metadata:
   name: goatvault
+  namespace: default
 type: Opaque
 data:
   k8sgoatvaultkey: azhzLWdvYXQtY2QyZGEyNzIyNDU5MWRhMmI0OGVmODM4MjZhOGE2YzM=
@@ -11,6 +12,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: system-monitor-deployment
+  namespace: default
 spec:
   selector:
     matchLabels:
@@ -53,6 +55,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: system-monitor-service
+  namespace: default
 spec:
   ports:
   - protocol: TCP
