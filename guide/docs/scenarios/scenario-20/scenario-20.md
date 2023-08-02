@@ -45,7 +45,7 @@ Create a Network Policy to drop the access to the `website` service to complete 
   <div>
     <div>Let's look at official docs <a href="https://kubernetes.io/docs/concepts/services-networking/network-policies/">Network Policies</a>. 
       
-  Also there is a detailed explaination of NSP with examples by Ahmet Alp Balkan <a href="https://github.com/ahmetb/kubernetes-network-policy-recipes">here</a>🙌</div>
+  Also there is a detailed explanation of NSP with examples by Ahmet Alp Balkan <a href="https://github.com/ahmetb/kubernetes-network-policy-recipes">here</a>🙌</div>
   </div>
 </details>
 
