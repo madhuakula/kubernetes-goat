@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: build-code-deployment
+  namespace: default
 spec:
   selector:
     matchLabels:
@@ -25,6 +26,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: build-code-service
+  namespace: default
 spec:
   ports:
   - protocol: TCP

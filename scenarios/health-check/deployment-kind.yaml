@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: health-check-deployment
+  namespace: default
 spec:
   selector:
     matchLabels:
@@ -35,6 +36,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: health-check-service
+  namespace: default
 spec:
   ports:
   - protocol: TCP
