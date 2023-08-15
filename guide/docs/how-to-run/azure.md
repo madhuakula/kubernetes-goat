@@ -75,7 +75,7 @@ bash setup-kubernetes-goat.sh
 
 ::caution
 
-Once AKS uses []`containerd` as runtime](https://learn.microsoft.com/en-us/azure/aks/cluster-configuration#container-runtime-configuration) instead of `docker`, not all scenarios may be available as expected. For example, the health check scenario may not work as expected.
+Once AKS uses [`containerd` as runtime](https://learn.microsoft.com/en-us/azure/aks/cluster-configuration#container-runtime-configuration) instead of `docker`, not all scenarios may be available as expected. For example, the health check scenario may not work as expected.
 
 :::
 
