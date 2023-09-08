@@ -8,7 +8,7 @@ slug: kubernetes-goat-on-microsoft-azure-kubernetes-cluster
 
 [Azure Kubernetes Services (AKS)](https://azure.microsoft.com/en-us/products/kubernetes-service) is Microsoft's managed kubernetes offering running on Azure.
 
-::info
+:::info
 
 You can find additional information about other methods for deploying AKS cluster in the [official quickstart guides](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-cli) from where the following steps were taken.
 
@@ -40,7 +40,7 @@ You can find additional information about other methods for deploying AKS cluste
 az aks create --resource-group k8s-goat-eastus-rg --name k8s-goat-cluster --enable-managed-identity --node-count 2 --enable-addons monitoring --generate-ssh-keys
 ```
 
-::info
+:::info
 
 When you create a new cluster, AKS automatically creates a second resource group to store the AKS managed resources. For more information, see [Why are two resource groups created with AKS?](https://learn.microsoft.com/en-us/azure/aks/faq#why-are-two-resource-groups-created-with-aks)
 
@@ -73,7 +73,7 @@ cd kubernetes-goat/
 bash setup-kubernetes-goat.sh
 ```
 
-::caution
+:::caution
 
 Once AKS uses [`containerd` as runtime](https://learn.microsoft.com/en-us/azure/aks/cluster-configuration#container-runtime-configuration) instead of `docker`, not all scenarios may be available as expected. For example, the health check scenario may not work as expected.
 
