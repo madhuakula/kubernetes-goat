@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        app: build-code
+        app: build-code 
     spec:
       containers:
       - name: build-code
