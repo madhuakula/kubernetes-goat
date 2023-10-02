@@ -1,4 +1,4 @@
-FROM alpine as build
+FROM alpine AS build
 LABEL MAINTAINER="Madhu Akula" INFO="Kubernetes Goat"
 
 WORKDIR /build
