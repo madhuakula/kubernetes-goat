@@ -4,7 +4,7 @@
 # Kubernetes Goat setup and manage vulnerable infrastructure
 
 # Checking kubectl setup
-kubectl version --short > /dev/null 2>&1 
+kubectl version > /dev/null 2>&1 
 if [ $? -eq 0 ];
 then
     echo "kubectl setup looks good."
