@@ -1,0 +1,37 @@
+name: Checkov Github action
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  checkov-job:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    name: Prisma Cloud
+    env:
+      PRISMA_API_URL: https://api4.prismacloud.io/
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@master
+      - name: Run Prisma Cloud action
+        id: Checkov
+        uses: bridgecrewio/checkov-action@master
+        with:
+          directory: '.'
+          soft_fail: true
+          api-key: ${{ secrets.BC_API_KEY }}
+      - name: Expose report
+        uses: actions/upload-artifact@v3
+        with:
+          name: SARIF results
+          path: results.sarif
+      - uses: github/codeql-action/upload-sarif@v2
+        with:
+          # Path to SARIF file relative to the root of the repository
+          sarif_file: results.sarif
