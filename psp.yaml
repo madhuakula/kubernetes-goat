@@ -1,0 +1,74 @@
+apiVersion: policy/v1beta1
+kind: PodSecurityPolicy
+metadata:
+  name: baseline
+  annotations:
+    # Optional: Allow the default AppArmor profile, requires setting the default.
+    apparmor.security.beta.kubernetes.io/allowedProfileNames: 'runtime/default'
+    apparmor.security.beta.kubernetes.io/defaultProfileName:  'runtime/default'
+    seccomp.security.alpha.kubernetes.io/allowedProfileNames: '*'
+spec:
+  privileged: false
+  # The moby default capability set, minus NET_RAW
+  allowedCapabilities:
+    - 'CHOWN'
+    - 'DAC_OVERRIDE'
+    - 'FSETID'
+    - 'FOWNER'
+    - 'MKNOD'
+    - 'SETGID'
+    - 'SETUID'
+    - 'SETFCAP'
+    - 'SETPCAP'
+    - 'NET_BIND_SERVICE'
+    - 'SYS_CHROOT'
+    - 'KILL'
+    - 'AUDIT_WRITE'
+  # Allow all volume types except hostpath
+  volumes:
+    # 'core' volume types
+    - 'configMap'
+    - 'emptyDir'
+    - 'projected'
+    - 'secret'
+    - 'downwardAPI'
+    # Assume that ephemeral CSI drivers & persistentVolumes set up by the cluster admin are safe to use.
+    - 'csi'
+    - 'persistentVolumeClaim'
+    - 'ephemeral'
+    # Allow all other non-hostpath volume types.
+    - 'awsElasticBlockStore'
+    - 'azureDisk'
+    - 'azureFile'
+    - 'cephFS'
+    - 'cinder'
+    - 'fc'
+    - 'flexVolume'
+    - 'flocker'
+    - 'gcePersistentDisk'
+    - 'gitRepo'
+    - 'glusterfs'
+    - 'iscsi'
+    - 'nfs'
+    - 'photonPersistentDisk'
+    - 'portworxVolume'
+    - 'quobyte'
+    - 'rbd'
+    - 'scaleIO'
+    - 'storageos'
+    - 'vsphereVolume'
+  hostNetwork: false
+  hostIPC: false
+  hostPID: false
+  readOnlyRootFilesystem: false
+  runAsUser:
+    rule: 'RunAsAny'
+  seLinux:
+    # This policy assumes the nodes are using AppArmor rather than SELinux.
+    # The PSP SELinux API cannot express the SELinux Pod Security Standards,
+    # so if using SELinux, you must choose a more restrictive default.
+    rule: 'RunAsAny'
+  supplementalGroups:
+    rule: 'RunAsAny'
+  fsGroup:
+    rule: 'RunAsAny'
