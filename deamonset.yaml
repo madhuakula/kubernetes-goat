@@ -1,0 +1,122 @@
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: fluentd
+  namespace: kube-system
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: fluentd
+rules:
+- apiGroups:
+  - ""
+  resources:
+  - pods
+  - namespaces
+  verbs:
+  - get
+  - list
+  - watch
+---
+kind: ClusterRoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: fluentd
+roleRef:
+  kind: ClusterRole
+  name: fluentd
+  apiGroup: rbac.authorization.k8s.io
+subjects:
+- kind: ServiceAccount
+  name: fluentd
+  namespace: kube-system
+---
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: fluentd-azureblob
+  namespace: kube-system
+  labels:
+    k8s-app: fluentd-logging
+    version: v1
+spec:
+  selector:
+    matchLabels:
+      k8s-app: fluentd-logging
+      version: v1
+  template:
+    metadata:
+      labels:
+        k8s-app: fluentd-logging
+        version: v1
+    spec:
+      serviceAccount: fluentd
+      serviceAccountName: fluentd
+      tolerations:
+      - key: node-role.kubernetes.io/control-plane
+        effect: NoSchedule
+      - key: node-role.kubernetes.io/master
+        effect: NoSchedule
+      containers:
+      - name: fluentd-azureblob
+        image: fluent/fluentd-kubernetes-daemonset:v1-debian-azureblob
+        imagePullPolicy: Always
+        env:
+          - name: K8S_NODE_NAME
+            valueFrom:
+              fieldRef:
+                fieldPath: spec.nodeName
+          # See https://github.com/elsesiy/fluent-plugin-azure-storage-append-blob-lts#configuration for all configuration options & combinations
+          - name: AZUREBLOB_AZURE_CLOUD
+            value: "AZUREPUBLICCLOUD"
+          - name:  AZUREBLOB_ACCOUNT_NAME
+            value: "mystorageaccount"
+          # Use AZUREBLOB_ACCOUNT_KEY for access key authorization, AZUREBLOB_SAS_TOKEN for shared access signature authorization,
+          # AZUREBLOB_CONNECTION_STRING to use the full connection string generated in the Azure Portal or neither to use Managed Service Identity.
+          - name:  AZUREBLOB_ACCOUNT_KEY
+            value: "mystorageaccountkey"
+          - name:  AZUREBLOB_CONNECTION_STRING
+            value: "mystorageaccountconnstr"
+          - name:  AZUREBLOB_SAS_TOKEN
+            value: "mysastoken"
+          - name:  AZUREBLOB_CONTAINER
+            value: "mycontainer"
+          - name:  AZUREBLOB_LOG_PATH
+            value: "mylogpath"
+          # Optional Managed Identity configuration options
+          - name:  AZUREBLOB_IMDS_API_VERSION
+            value: "2020-12-01"
+          - name:  AZUREBLOB_TOKEN_REFRESH_INTERVAL
+            value: "60"
+        resources:
+          limits:
+            memory: 200Mi
+          requests:
+            cpu: 100m
+            memory: 200Mi
+        volumeMounts:
+        - name: varlog
+          mountPath: /var/log
+        # When actual pod logs in /var/lib/docker/containers, the following lines should be used.
+        # - name: dockercontainerlogdirectory
+        #   mountPath: /var/lib/docker/containers
+        #   readOnly: true
+        # When actual pod logs in /var/log/pods, the following lines should be used.
+        - name: dockercontainerlogdirectory
+          mountPath: /var/log/pods
+          readOnly: true
+      terminationGracePeriodSeconds: 30
+      volumes:
+      - name: varlog
+        hostPath:
+          path: /var/log
+      # When actual pod logs in /var/lib/docker/containers, the following lines should be used.
+      # - name: dockercontainerlogdirectory
+      #   hostPath:
+      #     path: /var/lib/docker/containers
+      # When actual pod logs in /var/log/pods, the following lines should be used.
+      - name: dockercontainerlogdirectory
+        hostPath:
+          path: /var/log/pods
