@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: kubernetes-goat-home-deployment
+  namespace: default
 spec:
   selector:
     matchLabels:
@@ -25,6 +26,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: kubernetes-goat-home-service
+  namespace: default
 spec:
   ports:
   - protocol: TCP
