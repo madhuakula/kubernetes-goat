@@ -61,4 +61,4 @@ cd kubernetes-goat/
 bash setup-kubernetes-goat.sh
 ```
 
-* Now we have the Kubernetes Goat setup up and running, refer to [Getting Started for next steps](../getting-started.md):w
+* Now we have the Kubernetes Goat setup up and running, refer to [Getting Started for next steps](../getting-started.md)
