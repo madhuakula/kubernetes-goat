@@ -38,7 +38,7 @@ The goal of this scenario is to escape out of the running docker container to th
 
 :::tip
 
-If you can able to obtain container images in the host system then you have completed this scenario. But definitely, you can advance beyond this exploitation as well by performing post-exploitation.
+If you are able to obtain container images in the host system then you have completed this scenario. But definitely, you can advance beyond this exploitation as well by performing post-exploitation.
 
 :::
 
