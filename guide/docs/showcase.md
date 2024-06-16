@@ -57,6 +57,7 @@ If you’re using Kubernetes Goat and aren’t on this list, please [submit a pu
 * [Cloud Native Indonesia Meetup - Securing k8s with Kubernetes Goat](https://youtu.be/pf5jOGWoWU0)
 * [Kubernetes Goat - Kubernetes Security Learning - Madhu Akula (DEF CON 29 - Cloud Village)](https://www.youtube.com/watch?v=KqQCvAFW7yA)
 * [LISA21 - Practical Kubernetes Security Learning using Kubernetes Goat](https://www.youtube.com/watch?v=jWiy1Y9cHC8)
+* [Attacking and Defending Amazon EKS - Webinar on cybr.com](https://cybr.com/webinars/attacking-and-defending-amazon-eks/)
 
 ## ✍️ Blogs
 
