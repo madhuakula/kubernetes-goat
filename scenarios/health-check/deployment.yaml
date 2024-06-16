@@ -24,12 +24,12 @@ spec:
         securityContext:
           privileged: true
         volumeMounts:
-          - mountPath: /custom/docker/docker.sock
-            name: docker-sock-volume
+          - mountPath: /custom/containerd/containerd.sock
+            name: containerd-sock-volume
       volumes:
-        - name: docker-sock-volume
+        - name: containerd-sock-volume
           hostPath:
-            path: /var/run/docker.sock
+            path: /run/containerd/containerd.sock
             type: Socket
 ---
 apiVersion: v1
