@@ -15,21 +15,22 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "2.4.0",
-    "@docusaurus/plugin-client-redirects": "^2.4.0",
-    "@docusaurus/plugin-google-tag-manager": "^2.4.0",
-    "@docusaurus/preset-classic": "2.4.0",
-    "@mdx-js/react": "^1.6.21",
+    "@docusaurus/core": "^3.5.2",
+    "@docusaurus/plugin-client-redirects": "^3.5.2",
+    "@docusaurus/plugin-google-tag-manager": "^3.5.2",
+    "@docusaurus/preset-classic": "^3.5.2",
+    "@mdx-js/react": "^3.0.1",
+    "classnames": "^2.5.1",
     "clsx": "^1.1.1",
     "docusaurus-lunr-search": "^2.1.15",
     "docusaurus-plugin-image-zoom": "^0.0.2",
     "iframe-resizer-react": "^1.1.0",
     "prism-react-renderer": "^1.2.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.0.0-beta.15",
+    "@docusaurus/module-type-aliases": "^3.5.2",
     "@tsconfig/docusaurus": "^1.0.4",
     "typescript": "^4.5.2"
   },
@@ -44,5 +45,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }

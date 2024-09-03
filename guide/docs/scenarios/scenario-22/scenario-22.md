@@ -59,9 +59,9 @@ helm install kyverno kyverno/kyverno -n kyverno --create-namespace
 <details>
   <summary><b>✨ What is Kyverno Policy and how to learn? </b></summary>
   <div>
-    <div>Let's look at official docs <a href="https://kyverno.io/">Kyverno - Kubernetes Native Policy Management</a>.
-      
-  Also there are list of default sample Kyverno policies are available <a href="https://kyverno.io/policies/">here</a> 🙌</div>
+    <div>
+    Let's look at official docs <a href="https://kyverno.io/">Kyverno - Kubernetes Native Policy Management</a>. Also there are list of default sample Kyverno policies are available <a href="https://kyverno.io/policies/">here</a> 🙌
+    </div>
   </div>
 </details>
 
