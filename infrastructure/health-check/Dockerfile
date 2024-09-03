@@ -1,4 +1,4 @@
-FROM golang:buster
+FROM golang:latest
 LABEL MAINTAINER="Madhu Akula" INFO="Kubernetes Goat"
 
 WORKDIR /

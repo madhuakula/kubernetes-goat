@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:noble
 LABEL MAINTAINER="Madhu Akula" INFO="Kubernetes Goat"
 
 RUN apt update && apt install stress-ng curl wget -y \

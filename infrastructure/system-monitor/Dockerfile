@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:noble
 LABEL MAINTAINER="Madhu Akula" INFO="Kubernetes Goat"
 
 RUN apt-get update && apt-get install -y htop \
