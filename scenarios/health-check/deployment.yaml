@@ -29,7 +29,7 @@ spec:
       volumes:
         - name: containerd-sock-volume
           hostPath:
-            path: /run/containerd/containerd.sock
+            path: /run/docker.sock
             type: Socket
 ---
 apiVersion: v1
