@@ -148,12 +148,14 @@ Thanks to to these wonderful people: 🎉
         <td align="center"><a href="https://github.com/rewanthtammana"><img alt="rewanthtammana"
                     src="https://avatars.githubusercontent.com/u/22347290?v=4" width="100" /><br />rewanthtammana</a>
         </td>
+        <td align="center"><a href="https://github.com/samriggs"><img alt="samriggs"
+                    src="https://avatars.githubusercontent.com/u/2112396?v=4" width="100" /><br />samriggs</a></td>
         <td align="center"><a href="https://github.com/nayanballa08"><img alt="nayanballa08"
                     src="https://avatars.githubusercontent.com/u/93637007?v=4" width="100" /><br />nayanballa08</a></td>
-        <td align="center"><a href="https://github.com/gvoden"><img alt="gvoden"
-                    src="https://avatars.githubusercontent.com/u/13051959?v=4" width="100" /><br />gvoden</a></td>
     </tr>
     <tr>
+        <td align="center"><a href="https://github.com/gvoden"><img alt="gvoden"
+                    src="https://avatars.githubusercontent.com/u/13051959?v=4" width="100" /><br />gvoden</a></td>
         <td align="center"><a href="https://github.com/avicoder"><img alt="avicoder"
                     src="https://avatars.githubusercontent.com/u/2093260?v=4" width="100" /><br />avicoder</a></td>
         <td align="center"><a href="https://github.com/macagr"><img alt="macagr"
@@ -162,12 +164,14 @@ Thanks to to these wonderful people: 🎉
                     src="https://avatars.githubusercontent.com/u/1457214?v=4" width="100" /><br />commjoen</a></td>
         <td align="center"><a href="https://github.com/ravenium"><img alt="ravenium"
                     src="https://avatars.githubusercontent.com/u/670285?v=4" width="100" /><br />ravenium</a></td>
-        <td align="center"><a href="https://github.com/podjackel"><img alt="podjackel"
-                    src="https://avatars.githubusercontent.com/u/5067183?v=4" width="100" /><br />podjackel</a></td>
-        <td align="center"><a href="https://github.com/hexachordanu"><img alt="hexachordanu"
-                    src="https://avatars.githubusercontent.com/u/19929881?v=4" width="100" /><br />hexachordanu</a></td>
+        <td align="center"><a href="https://github.com/BlaiseOfGlory"><img alt="BlaiseOfGlory"
+                    src="https://avatars.githubusercontent.com/u/5067183?v=4" width="100" /><br />BlaiseOfGlory</a></td>
     </tr>
     <tr>
+        <td align="center"><a href="https://github.com/llaltxll"><img alt="llaltxll"
+                    src="https://avatars.githubusercontent.com/u/11542112?v=4" width="100" /><br />llaltxll</a></td>
+        <td align="center"><a href="https://github.com/hexachordanu"><img alt="hexachordanu"
+                    src="https://avatars.githubusercontent.com/u/19929881?v=4" width="100" /><br />hexachordanu</a></td>
         <td align="center"><a href="https://github.com/bzd111"><img alt="bzd111"
                     src="https://avatars.githubusercontent.com/u/18071885?v=4" width="100" /><br />bzd111</a></td>
         <td align="center"><a href="https://github.com/William-LP"><img alt="William-LP"
@@ -176,12 +180,12 @@ Thanks to to these wonderful people: 🎉
                     src="https://avatars.githubusercontent.com/u/955192?v=4" width="100" /><br />wurstbrot</a></td>
         <td align="center"><a href="https://github.com/suneshgovind"><img alt="suneshgovind"
                     src="https://avatars.githubusercontent.com/u/7311057?v=4" width="100" /><br />suneshgovind</a></td>
+    </tr>
+    <tr>
         <td align="center"><a href="https://github.com/SumoSumir"><img alt="SumoSumir"
                     src="https://avatars.githubusercontent.com/u/75212845?v=4" width="100" /><br />SumoSumir</a></td>
         <td align="center"><a href="https://github.com/smoyer64"><img alt="smoyer64"
                     src="https://avatars.githubusercontent.com/u/328333?v=4" width="100" /><br />smoyer64</a></td>
-    </tr>
-    <tr>
         <td align="center"><a href="https://github.com/pichuang"><img alt="pichuang"
                     src="https://avatars.githubusercontent.com/u/5253671?v=4" width="100" /><br />pichuang</a></td>
         <td align="center"><a href="https://github.com/nmiekley"><img alt="nmiekley"
@@ -190,12 +194,16 @@ Thanks to to these wonderful people: 🎉
                     src="https://avatars.githubusercontent.com/u/23374308?v=4" width="100" /><br />NF997</a></td>
         <td align="center"><a href="https://github.com/Like0x"><img alt="Like0x"
                     src="https://avatars.githubusercontent.com/u/19629138?v=4" width="100" /><br />Like0x</a></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://github.com/Allevon412"><img alt="Allevon412"
+                    src="https://avatars.githubusercontent.com/u/41178870?v=4" width="100" /><br />Allevon412</a></td>
+        <td align="center"><a href="https://github.com/aaaart3m"><img alt="aaaart3m"
+                    src="https://avatars.githubusercontent.com/u/60462779?v=4" width="100" /><br />aaaart3m</a></td>
         <td align="center"><a href="https://github.com/AmeerAssadi"><img alt="AmeerAssadi"
                     src="https://avatars.githubusercontent.com/u/7712804?v=4" width="100" /><br />AmeerAssadi</a></td>
         <td align="center"><a href="https://github.com/apvarun"><img alt="apvarun"
             src="https://avatars.githubusercontent.com/u/8411309?v=4" width="100" /><br />apvarun</a></td>
-    </tr>
-    <tr>
         <td align="center"><a href="https://github.com/ant4g0nist"><img alt="ant4g0nist"
                     src="https://avatars.githubusercontent.com/u/3500559?v=4" width="100" /><br />ant4g0nist</a></td>
     </tr>
