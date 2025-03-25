@@ -1,0 +1,42 @@
+name: CI
+on:
+    pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Mock lint
+        run: echo "Running lint... (mocked)"
+
+      - name: Mock tests
+        run: echo "Running tests... (mocked)"
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Build Dockerfiles in each subdirectory
+        run: |
+          for dir in ./infrastructure/*/; do
+            [ -f "$dir/Dockerfile" ] || continue
+            name=$(basename "$dir")
+            echo "Building $name from $dir"
+            docker build -t "$name:latest" "$dir"
+          done
+        
+      - name: Detect new vulnerabilities
+        uses: AikidoSec/github-actions-workflow@v1.0.13
+        with:
+          secret-key: ${{ secrets.AIKIDO_SECRET_KEY }}
+          fail-on-timeout: true
+          fail-on-dependency-scan: true
+          fail-on-sast-scan: true
+          fail-on-iac-scan: true
+          minimum-severity: 'LOW'
+          timeout-seconds: 180
+          post-scan-status-comment: 'off'
+          post-sast-review-comments: 'off'
