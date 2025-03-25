@@ -6,6 +6,7 @@ WORKDIR /
 COPY views /views
 COPY go.mod /go.mod
 COPY go.sum /go.sum
+
 COPY main.go /main.go
 
 
