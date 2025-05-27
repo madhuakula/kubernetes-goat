@@ -39,7 +39,7 @@ The goal of this scenario is to identify the sensitive keys available in the cod
 
 :::tip
 
-If you obtain the AWS `aws_access_key_id` and `aws_secret_access_key` along with the `k8s-goat-FLAG` flag value then you have completed this scenario.
+If you obtain the AWS `aws_access_key_id` and `aws_secret_access_key` along with the `k8s_goat_flag` flag value then you have completed this scenario.
 
 :::
 
