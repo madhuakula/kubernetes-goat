@@ -63,3 +63,17 @@ bash setup-kubernetes-goat.sh
 ```
 
 * Now we have the Kubernetes Goat setup up and running, refer to [Getting Started for next steps](../getting-started.md)
+
+
+### Teardown Kubernetes
+
+```bash
+bash teardown-kubernetes-goat.sh
+```
+
+
+### Delete Cluster
+
+```bash
+eksctl delete cluster --name k8s-goat-cluster --region us-east-1
+```
