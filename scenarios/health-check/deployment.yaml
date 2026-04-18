@@ -65,8 +65,7 @@ spec:
         volumeMounts:
           # Legacy mount path for backward compatibility
           - mountPath: /custom/containerd/containerd.sock
-            name: container-socket-unified
-            subPath: container.sock
+            name: containerd-sock-volume-fallback
           # Alternative mount path
           - mountPath: /var/run/docker.sock
             name: container-socket-unified
@@ -91,7 +90,7 @@ spec:
         - name: containerd-sock-volume-fallback
           hostPath:
             path: /run/containerd/containerd.sock
-            type: DirectoryOrCreate
+            type: Socket
         - name: docker-sock-volume-fallback
           hostPath:
             path: /var/run/docker.sock
